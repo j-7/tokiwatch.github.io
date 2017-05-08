@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="https://tokiwatch.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tokiwatch.github.io/" rel="alternate" type="text/html" /><updated>2017-05-08T22:09:33+09:00</updated><id>https://tokiwatch.github.io/</id><title type="html">URAの博物誌</title><subtitle>大学での研究開発マネジメントや産学連携、PURなどについて書いています。
+</subtitle><entry><title type="html">マネジメントはクリエイティブな仕事か？</title><link href="https://tokiwatch.github.io/2016/12/30/management-is-creative.html" rel="alternate" type="text/html" title="マネジメントはクリエイティブな仕事か？" /><published>2016-12-30T20:05:24+09:00</published><updated>2016-12-30T20:05:24+09:00</updated><id>https://tokiwatch.github.io/2016/12/30/management-is-creative</id><content type="html" xml:base="https://tokiwatch.github.io/2016/12/30/management-is-creative.html">&lt;p&gt;この世の中のあらゆるマネジメントが、とは言えないけれども、少なくとも、研究開発のマネジメントにはかなりのクリエイティブさが求められると思う。&lt;/p&gt;
+
+&lt;p&gt;マネジメントは、当然その対象となる仕事についての業務知識（必ずしも深い必要はなく、むしろ広く浅いほうがいい）は必要だが、それに加えて、「判断」と「コミュニケーション」の力が求められる。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;判断というのは、ものごとを理解して意思決定することだ。判断の前提には理解があり、そのためには分析したり必要な情報を集めたり、推察したり、予測したりしなければいけない。
+当たり前のことだが、全ての情報が与えられることはない。
+これらの作業は、定型化することは難しい。判断の対象やそれを囲む状況は、毎回変わる。だから同じ分析手順が毎回通用するとは限らない。同じ分析手順が通用しても結果は毎回変わるから、そこから得られる洞察も変わる。そして予測も変わる。&lt;/p&gt;
+
+&lt;p&gt;また、マネジメントはその対象が人であるならば、コミュニケーションしなければならない。
+特に研究開発では、対象はチームのメンバーだけではなく、クライアントや出資元、共同研究者、フィールドワークが伴う場合は、調査の対象者など多岐に及ぶ。
+様々な人に対して、マネジメントは、ただ話せばいい、文章を渡せばいいということはない。
+伝わらなければならないことが確実に伝わり、相手が理解するということが求められる。そのためにはありとあらゆる工夫が必要になる。
+図解、プレゼン、小芝居など、確実に伝えて理解してもらうための方法ならば、もちろんTPOはあるだろうがなんでも良い。
+伝わらなければならないことは都度変わるので、毎回のように工夫しなければいけない。&lt;/p&gt;
+
+&lt;p&gt;判断するための準備やコミュニケーションのための工夫には、必ず時間が必要になる。
+パレートの法則（80:20の法則）に照らし合わせると、ほとんどの仕事の8割は必要だけど重要ではない。個人的な感覚では8割の仕事の価値は全体の2割、2割の仕事が8割の価値を占めている。
+だから、理想的には、8割を占めるの2割分の価値の仕事を2割の時間で終わらせる必要がある。4倍の効率だ。そして8割の時間で2割の8割文の価値のある仕事に時間を割くべきだ。
+これは簡単なことではない。徹底的な効率化、工夫が必要になる。これもまた、チャレンジしがいがあり、クリエイティブさが求められるのだ。&lt;/p&gt;
+
+&lt;p&gt;研究開発のマネジメントの場合、先行事例やライバルとなる他の研究プロジェクト（競争的資金の場合、研究テーマは違っていても予算を取り合うのだから、他はライバルなのだ）や社会状況などを常に意識して必要な判断を下さなければいけない。
+また、様々な人とのコミュニケーションにも常に工夫が必要になる。抽象的な概念や複雑な研究スキームのような理解してもらわなければいけないことや、予算配分のエビデンスのような現実の問題など枚挙にいとまはない。
+それにマネジメントは、基本的にはコスト部門なので、常にコストパフォーマンスが求められ、人は不足する。その中で、最大の効率を出さなければいけない。そのためには常に工夫、業務改善が必要になる。&lt;/p&gt;
+
+&lt;p&gt;繰り返すと、研究開発のマネジメントは、かなりクリエイティブだと僕個人としては、考えている。&lt;/p&gt;</content><author><name></name></author><summary type="html">この世の中のあらゆるマネジメントが、とは言えないけれども、少なくとも、研究開発のマネジメントにはかなりのクリエイティブさが求められると思う。</summary></entry><entry><title type="html">SSHパスフレーズがKeychainに保存されなくなったら</title><link href="https://tokiwatch.github.io/2016/12/29/save-ssh-keyphrase-on-macosx.html" rel="alternate" type="text/html" title="SSHパスフレーズがKeychainに保存されなくなったら" /><published>2016-12-29T13:55:12+09:00</published><updated>2016-12-29T13:55:12+09:00</updated><id>https://tokiwatch.github.io/2016/12/29/save-ssh-keyphrase-on-macosx</id><content type="html" xml:base="https://tokiwatch.github.io/2016/12/29/save-ssh-keyphrase-on-macosx.html">&lt;p&gt;先日、MacOS10.12.2にアップデートしたところ、ターミナルで入力したSSHのパスフレーズがKeychainに保存されなくなった。&lt;/p&gt;
+
+&lt;p&gt;以下に解決方法手順を書いておく。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;~/.ssh/config を開く（なかったら作成する）&lt;/li&gt;
+  &lt;li&gt;以下を記述
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;IdentityFile ~/.ssh/id_rsa
+AddKeysToAgent yes
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+    &lt;p&gt;以上&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">先日、MacOS10.12.2にアップデートしたところ、ターミナルで入力したSSHのパスフレーズがKeychainに保存されなくなった。</summary></entry><entry><title type="html">私達の理論的アプローチ（再掲）</title><link href="https://tokiwatch.github.io/2016/12/15/design-method.html" rel="alternate" type="text/html" title="私達の理論的アプローチ（再掲）" /><published>2016-12-15T21:19:58+09:00</published><updated>2016-12-15T21:19:58+09:00</updated><id>https://tokiwatch.github.io/2016/12/15/design-method</id><content type="html" xml:base="https://tokiwatch.github.io/2016/12/15/design-method.html">&lt;p&gt;2015年2月9日に前の会社のブログで公開した記事が読めなくなっているようなので、一時的にこちらで掲示することにした。
+元記事のURLは&lt;a href=&quot;http://blog.allianceport.jp/aptv/2015/02/post-27.html&quot;&gt;http://blog.allianceport.jp/aptv/2015/02/post-27.html&lt;/a&gt;で公開されていた。本家のブログが再開されたらこの記事は消す。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;こんにちは。エンジニアの常盤です。&lt;/p&gt;
+
+&lt;p&gt;先日、当社の若いデザイナーが「うちはデザインするとき○○とか××とか使わないですね」(⚪︎⚪︎、××にはデザインアプローチなどの名前が入る)という話をしていました。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;振り返ってみると、確かに私達は冊子（上手くいく！みんなでつくるウェブサイト）を制作・公開したり、セミナーで講演したりという形で、各論的には紹介してきたのですが、土台をなしている総論（理論）的な部分は、社内外に十分に紹介できていなかったのかもしれません。ですから、先の若者のような発言が出てくるのも仕方のないことなのかなぁと思います。&lt;/p&gt;
+
+&lt;p&gt;そこで、私たちのアプローチの土台となっている論考をそろそろ公開したほうがいいだろうと判断し、オープンアクセスにすることにしました。&lt;/p&gt;
+
+&lt;p&gt;https://github.com/allianceportorg/documents&lt;/p&gt;
+
+&lt;p&gt;この論考はもともとは論文としてまとめたものなのですが、リジェクトされり、機会を逃してしまったりということで、お蔵入りになってしまっていたものです。&lt;/p&gt;
+
+&lt;p&gt;公開する論考自体は、2011年にまとめたもので、私たちの最新の理論的アプローチと比べると少し古いものとなっているので、いずれバージョンアップしなければならないでしょう。&lt;/p&gt;
+
+&lt;p&gt;しかし、この論考の要所要所は徳久悟さんとの共著論文&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;になったり先の冊子になったりと、派生的に展開されています。それぞれ素晴らしいものになっていると思います。特に徳久さんは、方法論を拡張し、それについてとてもわかりやすい記事をブログ&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;に公開してくれています。&lt;/p&gt;
+
+&lt;p&gt;人や組織を越えて、理論が展開していくことは、この理論の根底の一部をなしています。論考は最終的には論文にはなりませんでしたが、多様性を理論的に担保し、かつ基礎として利用できる方法論としての役割は多少果したと思います。&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.jstage.jst.go.jp/article/jcss/17/3/17_3_536/_article/-char/ja/&quot;&gt;https://www.jstage.jst.go.jp/article/jcss/17/3/17_3_536/_article/-char/ja/&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://designthinking.dangkang.com&quot;&gt;http://designthinking.dangkang.com&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">2015年2月9日に前の会社のブログで公開した記事が読めなくなっているようなので、一時的にこちらで掲示することにした。 元記事のURLはhttp://blog.allianceport.jp/aptv/2015/02/post-27.htmlで公開されていた。本家のブログが再開されたらこの記事は消す。</summary></entry><entry><title type="html">リュックサック選びの基準</title><link href="https://tokiwatch.github.io/2016/12/04/rucksack.html" rel="alternate" type="text/html" title="リュックサック選びの基準" /><published>2016-12-04T21:42:53+09:00</published><updated>2016-12-04T21:42:53+09:00</updated><id>https://tokiwatch.github.io/2016/12/04/rucksack</id><content type="html" xml:base="https://tokiwatch.github.io/2016/12/04/rucksack.html">&lt;p&gt;最近、僕の鉄板ネタが、リュックサックとMacについてだということを周囲から指摘され、あー確かにそうかも、と思う。&lt;/p&gt;
+
+&lt;p&gt;リュックサックは、腰椎を折ったり、ぎっくり腰になったりしたので、その予防のためには欠かせないものなので、毎回新しいものを買うときには真剣にならざるを得ないというのが真相なのだが。。。&lt;/p&gt;
+
+&lt;p&gt;これまでいろいろなメーカーのものを使ってきて、それぞれに一長一短はあるのだけど、押さえておいたほうがいい点はなんとなく固まってきているように思うので、この際なのでまとめておきたい。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;背面のパッド&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;登山用のリュックサックでは、背面にパッドやフレームが入っている。十分な硬さのあるパッドやフレームは、リュックサックの中で荷物が荷崩れしても、リュックサック全体の形をキープしてくれる。
+リュックサックの形の崩れは、荷重の左右バランスに影響を与える。左右バランスの崩れは姿勢の崩れにつながり、疲労や背骨への悪影響につながる。
+しかし、硬いパッドやフレームは重量物になる。リュックサックは軽いに越したことはない。トータルバランスという観点から考えると常に悩ましい問題となる。&lt;/p&gt;
+
+&lt;p&gt;以前は、重さよりもパッドの硬さを重視していたので、NorthFaceのBigShotを選んでいた。日常生活用のリュックサックの中では、とりわけパッドが硬い部類だ。最近は、軽いほうが体への負担が小さいので、もう少しパッドが柔らかいもの選んでいる。ノートパソコンが入ると、結果として硬くなるということもある。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;布の材質&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;防水性を考えると、ターボリンや、PU塗布のものがよいのだが、僕は両方嫌いだ。どちらも劣化した時に見た目が美しくない。色が劣化するだけならまだ良いが、粉を吹いたり、ボロボロと破片が落ちてきたりもする。&lt;/p&gt;
+
+&lt;p&gt;また、最近は特に洗濯機で洗えるかという観点も入ってきている。リュックサックは洗濯機で洗うようなものではないのだが。。。意外に見落としがちなのは、革のラベルやちょっとした部品だ。こういう部品ができるだけない方が良い。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;気室&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;一時期はノートpc用の独立したコンパートメントがあるものを使っていたのだが、最近はメイン一気室で、キャメルバッグを入れるスペースとノートパソコン収納スペースが兼用になっているものを選ぶことが多い。PCスペースが独立しているものは、なんだかんだとノートや書類も一緒に入れてしまって、結局膨らんでしまって、バランスが崩れるということがあったことによる。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;容量&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;昔は、30リットル以上のリュックサックを選んでいたのだが、最近は25〜27リットルくらいのもので十分だということに気づいた。体の大きさに合うものが良いとも思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;色&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;とりあえず黒。
+スーツにリュックサックは行けてないのだが、仕方ないので、とりあえず、無難な色を選んでいるのだが。。。&lt;/p&gt;
+
+&lt;p&gt;以上、ざっくりと書き出しておく。&lt;/p&gt;</content><author><name></name></author><summary type="html">最近、僕の鉄板ネタが、リュックサックとMacについてだということを周囲から指摘され、あー確かにそうかも、と思う。</summary></entry><entry><title type="html">Octopressでサイトをsftpで公開</title><link href="https://tokiwatch.github.io/2016/12/03/publish-via-sftp.html" rel="alternate" type="text/html" title="Octopressでサイトをsftpで公開" /><published>2016-12-03T22:01:55+09:00</published><updated>2016-12-03T22:01:55+09:00</updated><id>https://tokiwatch.github.io/2016/12/03/publish-via-sftp</id><content type="html" xml:base="https://tokiwatch.github.io/2016/12/03/publish-via-sftp.html">&lt;p&gt;このblogをgithub pagesからレンタルサーバに移行したので、手順を下記にまとめておく&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Rakefileに以下を記入&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;## --  SFTP Configs -- ##
+
+lftp_command = &quot;lftpコマンドの絶対パス&quot;
+lftp_method = &quot;sftp&quot;
+lftp_user = &quot;ユーザ名&quot;
+lftp_target = &quot;アップロードしたいサーバ&quot;
+upload_dir = &quot;blogのコンテンツを格納するディレクトリ&quot;
+deploy_default = &quot;lftp&quot;
+
+desc &quot;Deploy website via LFTP&quot;
+task :lftp do
+        puts &quot;## Deploying website via LFTP&quot;
+        lftp_command_str = &quot;#{lftp_command} -c '&quot; + &quot;open #{lftp_method}://#{lftp_user}@#{lftp_target}; lcd #{public_dir}; cd #{upload_dir}; mirror -R --only-newer . ;&quot; + &quot;'&quot;
+        ok_failed system(lftp_command_str)
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;解説&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;sftpだとログインした後にディレクトリを移動したりするのが面倒なので、lftpを使う&lt;/li&gt;
+  &lt;li&gt;コマンドに食わせるオプションを文字列で作って、system関数で処理&lt;/li&gt;
+  &lt;li&gt;rake deployする際、SSH鍵にパスフレーズを設定している場合は、パスフレーズが聞かれるので都度入力する&lt;/li&gt;
+  &lt;li&gt;例えば、sftpではなく、ftpにしたい場合などは、lftpのブックマークにしておくなどすれば便利かもしれない&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">このblogをgithub pagesからレンタルサーバに移行したので、手順を下記にまとめておく</summary></entry><entry><title type="html">「助成という仕事」を読んで</title><link href="https://tokiwatch.github.io/%E8%AA%AD%E6%9B%B8/2016/12/03/the-insiders-guide-to-grantmaking.html" rel="alternate" type="text/html" title="「助成という仕事」を読んで" /><published>2016-12-03T15:52:38+09:00</published><updated>2016-12-03T15:52:38+09:00</updated><id>https://tokiwatch.github.io/%E8%AA%AD%E6%9B%B8/2016/12/03/the-insiders-guide-to-grantmaking</id><content type="html" xml:base="https://tokiwatch.github.io/%E8%AA%AD%E6%9B%B8/2016/12/03/the-insiders-guide-to-grantmaking.html">&lt;p&gt;「助成という仕事」という本を読んだのでちょっとだけまとめておく。&lt;/p&gt;
+
+&lt;p&gt;著者は、ケロッグ財団のディレクタを務めた、ジョエル・J・オロズ氏。ケロッグ財団は、全米でも屈指の規模の財団の一つで、様々なプログラムを助成している。
+この書籍で、著者は、助成金を出す側が、何をしなければならないか、どういうことを考えなければならないのかを率直に語っている。&lt;/p&gt;
+
+&lt;p&gt;特に重要なのは、プログラムオフィサーは助成金を出す相手を選ぶだけではなく、その運営のサポートもしなければならないこと、問題がある場合は、介入すべきだということを述べている。
+また、財団のあり方や目的は、時代とともに変化するのだということも。&lt;/p&gt;
+
+&lt;p&gt;僕は普段は、助成金を「受け取る」側の仕事をしているのだけれども、渡す側の行動の後ろにある視点や価値観などは、改めて読んでみて、大いに参考になるものだった。&lt;/p&gt;
+
+&lt;p&gt;この本を読めば、（昨今話題になっていた）科研費の採択率が上がるとは思わないけど、助成金をもらう側は一度は読んで置く方が良いだろう。自分の見えている景色から逆の景色が見えるはずだ。&lt;/p&gt;</content><author><name></name></author><summary type="html">「助成という仕事」という本を読んだのでちょっとだけまとめておく。</summary></entry><entry><title type="html">MTDDC2016 CMS座談会のモデレータをしました</title><link href="https://tokiwatch.github.io/2016/11/16/mtddc-cms-zadankai.html" rel="alternate" type="text/html" title="MTDDC2016 CMS座談会のモデレータをしました" /><published>2016-11-16T15:16:02+09:00</published><updated>2016-11-16T15:16:02+09:00</updated><id>https://tokiwatch.github.io/2016/11/16/mtddc-cms-zadankai</id><content type="html" xml:base="https://tokiwatch.github.io/2016/11/16/mtddc-cms-zadankai.html">&lt;p&gt;毎年恒例となってきている MTDDCですが、今年もCMS座談会の座長を担当させていただきました。&lt;/p&gt;
+
+&lt;p&gt;毎年、MTを筆頭（MTDDCですから）に各CMSのユーザ会から人をお招きして、僕が設定した無茶なお題に順番に答えて行っていただくという、全くもって無茶なイベントなのですが、毎度のことながら、各氏の回答が上手で、毎度のことですが、頭が下がります。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;ちなみに今年は、WordPress、concrete5、Drupalのユーザグループからご参加いただきました。当初a-blogからもご参加いただく予定でしたが、当日のお仕事の都合で、ご参加いただけませんでした。&lt;/p&gt;
+
+&lt;p&gt;座談会を重ねる毎に、「適材適所」ということが、制作会社側の意識として高まってきているように思います。これはとても健全なことで、なんでもこれで大丈夫ということではなく、顧客の実現したいことに対して技術や解決策を提供する側がしっかりと最適な解決策を示す、CMSはそのための道具で、選択が可能なものであること、そのためには、得意なCMSはあるには越したことはないですが、いろいろなCMSを知っていることが大事だということです。&lt;/p&gt;
+
+&lt;p&gt;CMSを使うということは、コンテンツという財産の価値を最大化するための手段で、その価値は、コンテンツを提供する側だけにあるのではなく、コンテンツを利用するあらゆる人々に共有されるものでなければいけません。&lt;/p&gt;
+
+&lt;p&gt;MTDDCに参加している方々にとっては当たり前のことかもしれないのですが、CMS座談会を通じて、共通するこの価値観を改めて重要なこととして思い返しました。&lt;/p&gt;
+
+&lt;p&gt;登壇していただいた皆様、ありがとうございました。
+ご覧いただいた皆様、ありがとございました。&lt;/p&gt;
+
+&lt;p&gt;MTDDC2016の詳細は &lt;a href=&quot;http://mtddc2016.mt-tokyo.net/news/20161116265.html&quot;&gt;http://mtddc2016.mt-tokyo.net/news/20161116265.html&lt;/a&gt; にてご覧下さい。&lt;/p&gt;</content><author><name></name></author><summary type="html">毎年恒例となってきている MTDDCですが、今年もCMS座談会の座長を担当させていただきました。</summary></entry><entry><title type="html">「科学の発見」を読んで</title><link href="https://tokiwatch.github.io/%E8%AA%AD%E6%9B%B8/2016/10/15/book-review.html" rel="alternate" type="text/html" title="「科学の発見」を読んで" /><published>2016-10-15T15:56:49+09:00</published><updated>2016-10-15T15:56:49+09:00</updated><id>https://tokiwatch.github.io/%E8%AA%AD%E6%9B%B8/2016/10/15/book-review</id><content type="html" xml:base="https://tokiwatch.github.io/%E8%AA%AD%E6%9B%B8/2016/10/15/book-review.html">&lt;p&gt;ワインバーグの「科学の発見」を先日読んだ。&lt;/p&gt;
+
+&lt;p&gt;各時代の「科学的な営み」を現代の科学の視点で評しているのだが、とどのつまりは、科学の内側での常識（スタンダードな知識）は、変化していくし、その変化は、科学的な発見だけで生じうるものではなくて、良い方向にも悪い方向にも、その時代の社会通念が影響を与える（というか評価の背景に存在してる）ということかと思った。もう少し読み込んで考えてみたいところではあるが。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;で、親として考えてみると、このことはやっぱり見落としがちなことだと思う。世の中の常識は常に変わるし、科学の常識も常に更新される。としたら、今の知識を詰め込んでもあんまり意味はなくて、むしろ重要なのは、論理的に考える、科学的に考える、常識に縛られず考える、「考える」力であるように思う。&lt;/p&gt;
+
+&lt;p&gt;体力や知力というのがあるけれども、知力はちょっと失敗すると知ってるかどうか（知識）、ということになりがちだけれども、あくまで、知識は考えるための道具や素材なので、それをどう使うか（考える力）ということに、知力という言葉の中身が置き換わってくれるとよいなと思う。（コンピテンシとか、（日本的に）新しい言葉で迂回しようとするのはやっぱりよくないと思うんだなぁ。常識の側を変化させないから）&lt;/p&gt;
+
+&lt;p&gt;と、偉そうなことを書いているが、僕は、子供たちの教育は妻に任せっぱなしなので、お恥ずかしい限りである。これも悪しき常識のなすことか。&lt;/p&gt;</content><author><name></name></author><summary type="html">ワインバーグの「科学の発見」を先日読んだ。</summary></entry><entry><title type="html">リスクをとるのも練習</title><link href="https://tokiwatch.github.io/2016/09/24/risk_take.html" rel="alternate" type="text/html" title="リスクをとるのも練習" /><published>2016-09-24T15:53:50+09:00</published><updated>2016-09-24T15:53:50+09:00</updated><id>https://tokiwatch.github.io/2016/09/24/risk_take</id><content type="html" xml:base="https://tokiwatch.github.io/2016/09/24/risk_take.html">&lt;p&gt;しばらく前に、論文の書き方を教えてくれと言われて、いろいろ話したのだけど、結局は、書かないと書けるようにはならないよ。というのが結論であった。自転車の類と同じで、頭でわかったとしてもできるようにはならない。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;とまあ、書くと普通の話で終わるんだけど、書き方わかんないものを書けといわれても、できないのは当たり前で、当然うまくはいかないし、出来栄えも普段読んでる論文には到底及ばないから不満足になる。そうなるのがわかっていて、時間と労力をそれに割くのは徒労だし、リスクだ。それを選ぶには、それなりの勇気が必要である。&lt;/p&gt;
+
+&lt;p&gt;この勇気が実は結構重要で、勇気を出したことがないと勇気は出せないのではないか、言い換えると、リスクをとった経験がなければ、リスクは取れないのではないかと思う。そして、これは、論文の書き方の話のメタのところにあって、この練習ができてないと、結局は、論文を書き始められないのではないか、あるいは、書き始めても止まってしまうのではないかと思う。&lt;/p&gt;</content><author><name></name></author><summary type="html">しばらく前に、論文の書き方を教えてくれと言われて、いろいろ話したのだけど、結局は、書かないと書けるようにはならないよ。というのが結論であった。自転車の類と同じで、頭でわかったとしてもできるようにはならない。</summary></entry><entry><title type="html">自分に嘘をつく</title><link href="https://tokiwatch.github.io/2016/09/23/lyer.html" rel="alternate" type="text/html" title="自分に嘘をつく" /><published>2016-09-23T15:51:19+09:00</published><updated>2016-09-23T15:51:19+09:00</updated><id>https://tokiwatch.github.io/2016/09/23/lyer</id><content type="html" xml:base="https://tokiwatch.github.io/2016/09/23/lyer.html">&lt;p&gt;【批判的に】&lt;/p&gt;
+
+&lt;p&gt;自分にうそをつく、というのは本人がそうならないように気を付けていても発生することであるように思われる。「＊＊が好きだ」とか「＊＊になりたい」とかいったある種のポジティブな思い込みとそれに基づく努力（および努力しているという自己評価）は決して悪いことじゃない。でもなぜか、自分にうそをついているな。と感じさせる何かがにじみ出ていることがある。それは意固地だったり、プライドだったり、いろいろな歴史的な、その人の人生的な経緯や積み重なりが生み出してしまうのかもしれない。&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;一方で、自分で自分をだましている人もいる。自分の本音（本音がない時もある）はおいておいて、とりあえず、そう思ってみる、ということができる人だ。こういう人は、そのうそをわざと信じて、行動することができる。そして、「嘘から出た真」的に何かをつかんでいくように思う。&lt;/p&gt;
+
+&lt;p&gt;また、自分にうそをついて、なおかつそのうそを、受け入れられていない人というのもいる。なんだか矛盾しているようにも思うが、そういう人はいる。やりたくない仕事、自信のない仕事、実は全く持って苦手な仕事、というのに対して、意欲的なふりをしているような場合が、思い当たる。（僕もかつてそういう時期があったし、そのときのことを大変に反省しながら仕事をしている。）たいていは、仕事を託しても手が動かなかったり、何か他の事を優先させてそれを口実に逃げているように思う。&lt;/p&gt;
+
+&lt;p&gt;一番良いのは、自分に対して正直であることなのだが、残念ながらこの世界は、そんなには甘くない。&lt;/p&gt;
+
+&lt;p&gt;ただ、自分が何をどう考えているのか、そして今考えていることや思っていることは正直なのか、うそをついているのか、そのうそはつこうと思ってついているのか、結果的についてしまっているのか、しっかりと意識をすることはできるだろう。&lt;/p&gt;
+
+&lt;p&gt;じゃあお前はどうなのかといわれると思うが、僕は自分にうそをつくときは自覚しているし、割と選択的であるように思う。もちろん年を取って、少し分別がつくようになったからなのかもしれない。まだまだ、知識も経験も不足しているけどね。&lt;/p&gt;</content><author><name></name></author><summary type="html">【批判的に】</summary></entry></feed>
