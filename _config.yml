@@ -21,7 +21,6 @@ url: "https://tokiwatch.github.io" # the base hostname & protocol for your site,
 email: tokiwatch@gmail.com
 timezone: Asia/Tokyo
 encoding: utf-8
-destination: ./docs
 twitter_username: tokiwatch
 github_username:  tokiwatch
 
