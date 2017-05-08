@@ -1,0 +1,10 @@
+---
+layout: post
+title: "macportsにgauche0.90が反映された"
+date: 2009-12-24 22:40:00 +0900
+comments: false
+categories: ['MacPorts', 'Mac', 'unix', 'Gauche']
+---
+表題の通り。
+
+これまで、buildを通すのに一苦労だったのだが、これで安心。

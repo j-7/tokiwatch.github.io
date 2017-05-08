@@ -1,0 +1,9 @@
+---
+layout: post
+title: ""
+date: 2009-11-18 21:38:00 +0900
+comments: false
+categories: 
+---
+Typepad Microというのができたそうなので、とりあえず、テストをしてみます。ダッシュボードから簡単に投稿できるというのはこれはこれで便利ですね。
+

@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記"
+date: 2009-10-24 20:06:00 +0900
+comments: false
+categories: ['Mac', 'unix', 'Gauche']
+---
+追記(2009/12/24)
+
+MacOSX Snow Leopardでのコンパイルエラーが解決されたver.0.9がMacPortsに反映されました。
+
+追記あり。
+
+[Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記][1]
+
+実は僕もはまっていたので、非常に大きな指摘。
+
+考えてみれば、まだMacPortsはSnowLeopardへの移行の途中だ。たしかに被依存度の高いライブラリは+universalしておくほうが無難だ。
+
+ちなみに、いちいち+universalをvariantとして設定するのが面倒くさい場合は、/port/local/etc/macports/variants.confを修正し、常にvariantとして設定されるようにしておくと便利。
+
+手順は、variants.confをchmodして読み書き可能にし、必要な+variantを追記する。
+
+僕の場合は以下のような感じで処理した。
+
+追記：
+
++universalをオプションとして設定するとコンパイルできないアプリが複数あることと、+universalでコンパイルしたライブラリに依存するアプリの一部がコンパイル中にエラーを吐くことがわかったので、この"手抜き"はかえって手間を増やす可能性があることがわかった。
+
+	`
+
+	cd /opt/local/etc/macports/
+
+	sudo chmod 744 variants.conf
+
+	sudo echo "+no_x11 +universal" | tee -a ./variants.conf
+
+	`
+
+\*僕は、基本的にx-windowsを使わないので、+no\_x11を加えている。
+
+  [1]: http://d.hatena.ne.jp/Ehren/20091003/1254587223

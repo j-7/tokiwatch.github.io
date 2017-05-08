@@ -1,0 +1,136 @@
+---
+layout: post
+title: "muttとGmailとのimapでの連携をofflineimapをつかって便利にする"
+date: 2011-01-27 12:07:00 +0900
+comments: false
+categories: ['unix']
+---
+内容はタイトルの通り。
+
+かなりニッチなのだけど、まとめておく。
+
+従来からの問題としてMuttのimapでの使いがってには課題がある。
+
+imapのServerと常にコネクションが成立していないといけないのだ。
+
+だから、手元のコンピュータにメールを溜めておいて、あとで読むということができない。
+
+そこで解決する方法としてimapによるメールの受信をmutt自体の仕組みではやらずに、offlineimapというソフトを利用する方法があるのでそれをまとめておく。
+
+具体的な手順
+
+1 offlineimapのインストール
+
+大体のunixのパッケージ管理に含まれているので、適当に (hogehoge) install offlineimapとかしてください。
+
+2 muttのインストール
+
+これも無いとはじまらないので、インストールしてください。
+
+いや、この記事を読んでいる時点で、インストールはしてるよね。。。
+
+3 offlineimapの設定
+
+offlineimapは.offlineimaprcというファイルに各種の設定を書くようになっている。
+
+僕の場合の設定は以下のようにしている。
+
+面倒なので、muttのheader\_cacheとか、色々なファイルは全てIMAPというフォルダにつっこんでしまっている。アカウトが増えたりすると面倒になるが、それは今回は気にしない。
+
+また、
+
+(複数のサーバINBOXフォルダ問題というのは考慮すべき問題なのだけど、フォルダ構成の設計とか好みもあるから自分で考えてください。ということで)
+
+--ここから--
+
+[general]
+
+metadata = ~/IMAP/offlineimap
+
+accounts = GmailMain
+
+ui = Noninteractive.Basic
+
+[mbnames]
+
+enabled = yes
+
+filename = ~/IMAP/mailboxes
+
+header = "mailboxes "
+
+peritem = =%(foldername)s
+
+sep = " "
+
+footer = "\\n"
+
+maxsyncaccounts = 2
+
+maxconnections = 2
+
+[Account GmailMain]
+
+localrepository = GmailLocal
+
+remoterepository = GmailRemote
+
+[Repository GmailLocal]
+
+type = Maildir
+
+localfolders = ~/IMAP
+
+[Repository GmailRemote]
+
+type = Gmail
+
+remotehost = imap.gmail.com
+
+remoteuser = example@gmail.com
+
+remotepass = exampleexample
+
+ssl = yes
+
+realdelete = no
+
+--ここまで--
+
+4 muttの設定
+
+muttは大体の人がいろいろ設定をしていると思うので、ここではofflineimap関係のところだけ。
+
+基本的にmailが格納されるフォルダofflineimapでスプールするフォルダにすれば良い。
+
+でちょっとした工夫として、muttのfetch-mailコマンドへのキーバインドを書き換えて、offlineimapを呼び出すようにした。
+
+--ここから--
+
+\# GMAIL+OFFLINEIMAP settings
+
+set folder=$HOME/IMAP
+
+set spoolfile=+/INBOX
+
+set postponed="+[Gmail].Drafts"
+
+set record="+[Gmail].Sent Mail"
+
+\# Mailboxes via offlineimap
+
+source $HOME/IMAP/mailboxes
+
+\# Send mail
+
+set smtp\_url="smtp://example@gmail.com@smtp.gmail.com:587"
+
+\# KeyBind
+
+macro index G "! offlineimap&lt;enter&gt;" "run offlineimap command"
+
+--ここまで--
+
+これで、標準の設定のままだとGmailのINBOXとかが最新1000通くらい受信されるようになる。最新の1000件までしか同期しないのはGmail側の問題らしい。少なくとも僕の環境では再現している。
+
+おすすめの設定上記のままでやると人によっては数万通のメールをいきなり受信するはめに陥ることがある。この場合は、Gmail Labのfolder imapでラベル毎にimapの同期対象にするかどうかを選択できるようになるので、必要なものだけ同期するようにすれば良い。なお、All Mailはoffにしておくことは強くおすすめする。

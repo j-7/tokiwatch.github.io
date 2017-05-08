@@ -1,0 +1,35 @@
+---
+layout: post
+title: "curlによるtumblrへのアクセス"
+date: 2009-08-08 17:41:00 +0900
+comments: false
+categories: ['unix']
+---
+
+
+表題の手続きについて調査をしたのでまとめておく。
+
+cURLは、unixのコマンドラインツールで、ホームページをフェッチする。詳細はman curl。もしインストールされていないならば、aptでもyamlでもrpmでもportでもなんでも良いので、適当に探せばある。
+
+tumblrは、公式のAPIは、各自の公開されているblogに対するものと、情報をアップロードする際のものがある。それぞれは、http://"your name".tumblr.com/api/\{read|write\}という感じで定義され、xmlかmetaformでダウンロードできる。
+
+各種のオプションは、POSTメソッドでパラメータを送信する必要がある。
+
+パラメータ等の詳細、<http://www.tumblr.com/docs/api> において公開されている。
+
+しかし、上記のURLに記載されている方法だと、dashboard(tumblrの真の醍醐味)へのアクセス方法は記載されていない。
+
+ということで、ここで公開。
+
+tumblrのdashboardへのアクセスにはcookieが必要となる。このcookieを取得するためには、<http://www.tumblr.com/login> にアクセスし、ログインをしなければならない。下記のようなコマンドでできる。
+
+curl -d email="your\_email\_adress" -d password="your\_password" -c cookie.txt <http://www.tumblr.com/login>
+
+一応解説すると、-dオプションは、POSTでその次に記載された情報をサーバに送信する。-cはcookieをその後につづくファイル名で保存する。ここではcookie.txtという名称で保存した。
+
+次にこのcookie情報を利用してdashboardにアクセスする。
+
+curl -b cookie.txt <http://www.tumblr.com/dashboard>
+
+以上。
+

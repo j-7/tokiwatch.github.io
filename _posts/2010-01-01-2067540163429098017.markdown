@@ -1,0 +1,22 @@
+---
+layout: post
+title: "MTからBloggerへの移行手順"
+date: 2010-01-01 22:01:00 +0900
+comments: false
+categories: ['python', 'MovableType5']
+---
+正確にはTypepadだが、今回の移行に際して、若干面倒だったので手順をまとめておく。
+
+TypepadおよびMovableTypeで、blogのデータをexportする場合、いわゆるMTフォーマットと呼ばれるテキストデータが標準になっている。
+
+一方で、Bloggerは、xmlにのみ対応している。このxmlは勿論テキストデータなのだが、Atomフォーマットのテキストデータである。まあ、とどのつまり、変換する必要があるのだ。
+
+今回の変換には、[google-blog-converter(http://code.google.com/p/google-blog-converters-appengine/)][1]を利用した。
+
+このプログラムは、ターミナル上で利用するものだ。詳細はダウンロードしてReadme.txtを読んでもらうのが早いのでここでは割愛する。
+
+このプログラムでMTフォーマットで保存されたTypepadでのエントリは一発で変換することができた。
+
+良い世の中になったものだ。。。
+
+  [1]: http://code.google.com/p/google-blog-converters-appengine/

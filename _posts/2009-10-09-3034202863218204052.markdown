@@ -1,0 +1,21 @@
+---
+layout: post
+title: "MacPortsのpTeXは全部入り"
+date: 2009-10-09 04:47:00 +0900
+comments: false
+categories: ['Mac', 'unix', '研究生活']
+---
+ちょっと大きな失敗をしたので、ここで晒しておく。
+
+数日前に、プレゼン資料の作成環境を、Latex-Beamerに移そうと思い、MacPortsのPackageを眺めたら、latex-beamerクラスが無いことに気づいた。
+
+そこで、finkに移行しようと思い、macportsのパスを.profileから落して、えいやとインストール祭を敢行。
+
+ところが、djvu関係のパッケージがコンパイル時にエラーを吐いて止まるため、作業が中断してしまっていた。djvu関係のパッケージは、latex-beamerが依存するimagemagickが依存するlibdjvulibra\*が依存しているため、ここが解決しないと、latex-beamerがインストールできない。あれこれ調べてみたのだが、残念ながら解決できないでいた。
+
+らちがあかないので、なんとなくMacPortsのディレクトリをほじくってみたところ、なんと、すでにlatex-beamerクラスがインストール済み。
+
+ということで、大失敗でした。
+
+教訓：よく調べましょう。&gt;オレ
+

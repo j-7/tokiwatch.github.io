@@ -1,0 +1,36 @@
+---
+layout: post
+title: "bloggerでProcessing.js"
+date: 2010-01-02 23:17:00 +0900
+comments: false
+categories: 
+---
+表題の通りで、手順は、全く難しくない。
+
+下準備として、外部のサイトにjsファイルを保管し、bloggerから呼び出せるようにする必要がある。
+
+今回は、無料で解決しようという魂胆があるので、googleサイトを利用した。
+
+jsの準備
+
+Googleサイトbloggerのユーザはgoogleのユーザなので、googleサイト上でページを作成することは容易だ。
+
+http://site.google.comにアクセスし、新規のページをファイルキャビネットのテンプレートで作成し、必要なファイルをアップロードすれば良い。
+
+僕の場合は、processing.js,processing.min.js,excampas.js,init.jsをfilesという名称のサイトにアップロードした。
+
+jsの埋め込み
+
+次にblogのテンプレートに、これらのアップロードしたファイルが読み込まれるようにする。
+
+今回は、テンプレート本体に埋め込むといろいろと面倒なので、ガジェットとして埋め込む。
+
+レイアウトからページ要素の設定画面にいき、埋め込みたい場所の「ガジェットを追加」をクリックする。
+
+ガジェットの選択ページで、「HTML/JavaScript」を選択し、下記のコードをコンテンツのテキストボックスにコピーする。
+
+`&lt;script src='http://sites.google.com/site/tokiwatch/files/processing.js'&gt;&lt;/script&gt;&lt;script src='http://sites.google.com/site/tokiwatch/files/init.js'/&gt;&lt;/script&gt;&lt;!--[if IE]&gt;&lt;script src="http://sites.google.com/site/tokiwatch/files/excanvas.js"&gt;&lt;/script&gt;&lt;![endif]--&gt;`プログラムの記述
+
+blogのエントリの中でプログラムを記述する場合は、エントリの記事の入力方式を「HTMLの編集」モードにし、表示したいところに、下記の要領でcodeを記述する。
+
+`&lt;script type='application/processing'&gt;表示したいProcessing.jsのコード&lt;/script&gt;&lt;canvas&gt;&lt;/canvas&gt;`うまくいくと、こんな風になる。

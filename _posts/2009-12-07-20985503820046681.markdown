@@ -1,0 +1,11 @@
+---
+layout: post
+title: "twitter研究会 ハッシュタグ"
+date: 2009-12-07 10:40:00 +0900
+comments: false
+categories: 
+---
+先日、慶應義塾大学SFCで開催されたTwitter研究会でのtsudaりじゃなくてtwitterのハッシュタグのまとめが以下のURLで公開されているのでとりあえずメモ。
+
+<http://kiwofusi.sakura.ne.jp/hashtag/logs/20091205twitterconf.html>
+

@@ -1,0 +1,32 @@
+---
+layout: post
+title: "東京応援少女"
+date: 2009-09-04 22:08:00 +0900
+comments: false
+categories: ['雑感', '東京オリンピック', '小池里奈', '東京応援少女']
+---
+昨日から当blogでも貼っていますが、東京オリンピック・パラリンピック招致委員会のキャンペーンとして「[東京応援少女][1]」ブログパーツがスタートしました。
+
+このキャンペーンは「[みたいもん!][2]」さんの企画で、かつ僕の前職（某国立系博物館）でお世話になっていた[合同会社アライアンス・ポート][3]さんがクリエイティブを担われた、ということでスタートそうそう登録をさせてもらうことにしました。
+
+「[東京応援少女][4]」のサイトで自分のblogのURLとタイトルを登録するとブログパーツ用の情報（Javascript）が得られる。それをblogに貼ることで、当blogのように表示されます。
+
+このブログパーツは、昔でいうところの、webring（本当に懐しい）になっていて、ボタンをクリックすることで、他の応援しているblogに飛ぶことができます。
+
+皆さんもぜひ登録して、色々なblogに設置された「[東京応援少女][5]」を探してみると良いのではないでしょうか。
+
+追記：
+
+いやぁー、[小池里奈][6]ちゃん、本当、可愛い（かわいいじゃなくて"可愛い"、ここ重要）。
+
+  [1]: http://ouen.tokyo2016.or.jp/blogparts/blogs/register/
+
+  [2]: http://mitaimon.cocolog-nifty.com/blog/2009/09/tokyo-olympic20.html
+
+  [3]: http://www.allianceport.jp/
+
+  [4]: http://ouen.tokyo2016.or.jp/blogparts/blogs/register/
+
+  [5]: http://ouen.tokyo2016.or.jp/blogparts/blogs/register/
+
+  [6]: http://ameblo.jp/koikerina/ "小池里奈オフィシャルブログ"

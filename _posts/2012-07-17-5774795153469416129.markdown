@@ -1,0 +1,12 @@
+---
+layout: post
+title: "wgetの小技"
+date: 2012-07-17 22:04:00 +0900
+comments: false
+categories: 
+---
+ファイル名に日本語文字列が含まれてしまっている場合のwgetでのミラーリングは下記のコマンドでOK
+
+	
+
+	wget -m --restrict-file-names=nocontrol -k http://hogehoge.example.com

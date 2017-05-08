@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Macosx上のVirtualBoxのゲストOSへのssh接続"
+date: 2008-10-22 10:20:00 +0900
+comments: false
+categories: 
+---
+ちょっとてこづったので、記録を残しておく。
+
+接続のための手順は、実はVirtualBoxのマニュアルに記載されているのだが、意外と見つけるまでに時間がかかった。
+
+なお、僕の作業環境は以下のような感じ。
+
+MacosX 10.5 (Leopard)
+
+VIrtualBox 2.02
+
+(Guest OS) UbuntuLinux8.04 (sshdとapache2がインストール済み)
+
+結局、なにをしなければならないのかというと、ホストの使用していないportとゲストのそれぞれの予約されているポート番号を接続するということ。
+
+接続には、VirtualBoxのインストール時に同時にインストールされるコマンドをつかう。
+
+	sshの設定は以下のようなコマンドを打ち込む(ゲストOSの名前は""で囲むほうがいいらしい)	&gt; VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/Protocol" TCP	&gt; VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/GuestPort" 22	&gt; VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guestssh/HostPort" 50022 	httpの設定は以下のようなコマンドを打ち込む(ゲストOSの名前は""で囲むほうがいいらしい)	&gt; VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guesthttp/Protocol" TCP 	&gt; VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guesthttp/GuestPort" 80	&gt; VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/guesthttp/HostPort" 50080
+
+他にもいろいろ設定できるっぽいのだが、とりあえず動いたからここまで。

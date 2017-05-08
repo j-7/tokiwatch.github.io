@@ -1,0 +1,13 @@
+---
+layout: post
+title: "typepad.jp"
+date: 2009-12-22 00:58:00 +0900
+comments: false
+categories: ['報告']
+---
+typepad.jpが新typepadへの移行が進んでいるのだが、この移行は、typepad.comへの統合という手続きが含まれている。
+
+今日、僕のところにtypepad.jpからメールが、届いて、typepad.comに統合するためには、現在typepad.comのアカウントのメールアドレスを変更しろとの指示がきた。
+
+おなじサービスに2つもアカウントがあっても意味がないのので、さっくりとtypepad.jpのアカウントを削除した。
+

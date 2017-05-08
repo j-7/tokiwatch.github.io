@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Ubuntu Server for VirtualBox"
+date: 2009-04-18 15:59:00 +0900
+comments: false
+categories: 
+---
+
+
+僕は開発環境として、VirtualBox上でUbuntuのサーバエディションを使用している。
+
+UbuntuはLinuxのメジャーなディストリビューションで、、、といったことは、他所で過分に語られているのでここでは割愛するが、サーバエディションをVirtualBox上の仮想マシンにインストールするする際に注意すべき点があるので報告しておく。
+
+Ubuntuで使用するLinux Kernelは、PAEがONの状態でコンパイルされている。そのため、仮想マシンの設定も同様にしておく必要がある。これを忘れると、インストールまではできるのだが、その後、起動しないという問題に遭遇する。
+
+また、VT-x/AMD-Vはオフにする。実は、理由はちゃんと調べていないのだが、少くともMac版のVirtualBoxではインストール時に画面の描画が正しく行なわれなくなる。(インストール後は問題が無いようだ。)
+
+インストール後は、本blogで以前にまとめたように、クライアントのポートを仮想マシンのポートに接続する。コマンドは以下のようなものになる。これをターミナルで入力すれば良い。
+
+VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/任意の接続名称/Protocol" TCP
+
+VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/任意の接続名称/GuestPort" ポート番号(SSHならば、22)
+
+VBoxManage setextradata "ゲストOSの名前" "VBoxInternal/Devices/pcnet/0/LUN#0/Config/任意の接続名称/HostPort" ポート番号(他のサービスと衝突しない番号、例えば50022)
+
