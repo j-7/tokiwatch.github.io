@@ -22,7 +22,7 @@ published: true
 
 そこで、私たちのアプローチの土台となっている論考をそろそろ公開したほうがいいだろうと判断し、オープンアクセスにすることにしました。
 
-https://github.com/allianceportorg/documents
+[https://github.com/tokiwatch/documents](https://github.com/tokiwatch/documents)
 
 この論考はもともとは論文としてまとめたものなのですが、リジェクトされり、機会を逃してしまったりということで、お蔵入りになってしまっていたものです。
 
