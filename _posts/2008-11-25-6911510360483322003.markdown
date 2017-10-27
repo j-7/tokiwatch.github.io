@@ -1,8 +1,0 @@
----
-layout: post
-title: "test"
-date: 2008-11-25 00:30:00 +0900
-comments: false
-categories: 
----
-sorry this is test.

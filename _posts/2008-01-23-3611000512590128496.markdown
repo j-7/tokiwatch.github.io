@@ -1,8 +1,0 @@
----
-layout: post
-title: "Open ID"
-date: 2008-01-23 13:40:00 +0900
-comments: false
-categories: 
----
-bloggerがOpen IDに対応したので，早速設定．TypeKeyサービスも使っているで，どちらをメインにするのかは検討が必要だが，全部Googleのアカウントで解決できるというメリットはすごく魅力的だ．悩む．
