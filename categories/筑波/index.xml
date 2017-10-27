@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>筑波 on 博物誌</title>
-    <link>/categories/%E7%AD%91%E6%B3%A2/</link>
+    <link>https://tokiwatch.github.io/categories/%E7%AD%91%E6%B3%A2/</link>
     <description>Recent content in 筑波 on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Fri, 25 Sep 2009 06:35:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/%E7%AD%91%E6%B3%A2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/%E7%AD%91%E6%B3%A2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>つくばチャレンジ2009の傾向と対策（取材用メモ）（追記）</title>
-      <link>/post/2009-09-25-3305806815624183782/</link>
+      <link>https://tokiwatch.github.io/post/2009-09-25-3305806815624183782/</link>
       <pubDate>Fri, 25 Sep 2009 06:35:00 +0900</pubDate>
       
-      <guid>/post/2009-09-25-3305806815624183782/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-09-25-3305806815624183782/</guid>
       <description>&lt;p&gt;追記しました。（2009年9月27日）&lt;/p&gt;
 
 &lt;p&gt;つくばチャレンジは、つくば駅そばのエキスポセンター周辺の一般道を利用した特設コースでの、自律ロボットの走行会である。&lt;/p&gt;

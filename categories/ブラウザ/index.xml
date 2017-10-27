@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ブラウザ on 博物誌</title>
-    <link>/categories/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6/</link>
+    <link>https://tokiwatch.github.io/categories/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6/</link>
     <description>Recent content in ブラウザ on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 23 Jan 2010 21:33:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Chrome for MacのExtensions</title>
-      <link>/post/2010-01-23-1162776185564400148/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-23-1162776185564400148/</link>
       <pubDate>Sat, 23 Jan 2010 21:33:00 +0900</pubDate>
       
-      <guid>/post/2010-01-23-1162776185564400148/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-23-1162776185564400148/</guid>
       <description>&lt;p&gt;Googleのブラウザ Chromeを少し前から使っているのだが、非常に快適で、もう、SafariにもFFにも戻れそうにない。&lt;/p&gt;
 
 &lt;p&gt;快適さの原因は、FFのようにExtensionで拡張ができ、なおかつSafariのようにWebKitで描画、さらには、V8Engineが早い。ということによるのと、そもそも、URL入力のところで検索できたりすることだろう。&lt;/p&gt;

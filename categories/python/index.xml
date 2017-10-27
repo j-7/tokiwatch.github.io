@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on 博物誌</title>
-    <link>/categories/python/</link>
+    <link>https://tokiwatch.github.io/categories/python/</link>
     <description>Recent content in Python on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 03 Jan 2011 23:49:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>install googlecl (without MacPorts, Fink etc)</title>
-      <link>/post/2011-01-03-143240425536943628/</link>
+      <link>https://tokiwatch.github.io/post/2011-01-03-143240425536943628/</link>
       <pubDate>Mon, 03 Jan 2011 23:49:00 +0900</pubDate>
       
-      <guid>/post/2011-01-03-143240425536943628/</guid>
+      <guid>https://tokiwatch.github.io/post/2011-01-03-143240425536943628/</guid>
       <description>&lt;p&gt;MacOSXでgoogleclをインストールしようとした際にちょっとはまったのでメモをとして残しておく。&lt;/p&gt;
 
 &lt;p&gt;Googleclはgoogleの各種のサービスをターミナルから利用するためのpythonScript集だ。&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>MTからBloggerへの移行手順</title>
-      <link>/post/2010-01-01-2067540163429098017/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-01-2067540163429098017/</link>
       <pubDate>Fri, 01 Jan 2010 22:01:00 +0900</pubDate>
       
-      <guid>/post/2010-01-01-2067540163429098017/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-01-2067540163429098017/</guid>
       <description>&lt;p&gt;正確にはTypepadだが、今回の移行に際して、若干面倒だったので手順をまとめておく。&lt;/p&gt;
 
 &lt;p&gt;TypepadおよびMovableTypeで、blogのデータをexportする場合、いわゆるMTフォーマットと呼ばれるテキストデータが標準になっている。&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on 博物誌</title>
-    <link>/categories/design/</link>
+    <link>https://tokiwatch.github.io/categories/design/</link>
     <description>Recent content in Design on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sun, 03 Jan 2010 21:50:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>(訂正)BloggerでProcessing.js</title>
-      <link>/post/2010-01-03-2591761322288816438/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-03-2591761322288816438/</link>
       <pubDate>Sun, 03 Jan 2010 21:50:00 +0900</pubDate>
       
-      <guid>/post/2010-01-03-2591761322288816438/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-03-2591761322288816438/</guid>
       <description>&lt;p&gt;昨日ポストしたエントリ(&lt;a href=&#34;http://www.tokiwatch.com/2010/01/bloggerprocessingjs_02.html#links&#34;&gt;bloggerでProcessing.js&lt;/a&gt;)に不備があった。&lt;/p&gt;
 
 &lt;p&gt;googleサイトでjsファイルをホストするという方法は、どうも色々な設定が複雑に絡むのと、googleドメインにログインしているときとしていないときで挙動がかわる(まああたりまえ)のとで、あまり適切ではない。&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>デザインの流儀についてのメモ</title>
-      <link>/post/2010-01-03-1985571439169363609/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-03-1985571439169363609/</link>
       <pubDate>Sun, 03 Jan 2010 15:47:00 +0900</pubDate>
       
-      <guid>/post/2010-01-03-1985571439169363609/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-03-1985571439169363609/</guid>
       <description>&lt;p&gt;デザインの方法論としてペルソナを利用する方法が提案されている。&lt;/p&gt;
 
 &lt;p&gt;ペルソナは、サービスやコンテンツ、プロダクトなどをデザインする際に、具体的に利用者を想定し、その利用者に対して最適化する方法である。もともとの提案者は、VisualBasicのデザイナ・プログラマとして有名なアラン・クーパー氏である。手法の概要は氏の著書「このコンピュータは使えない!」に詳しいのでそちらを参照してもらいたい。&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>stencil</title>
-      <link>/post/2009-12-09-7618578051128069796/</link>
+      <link>https://tokiwatch.github.io/post/2009-12-09-7618578051128069796/</link>
       <pubDate>Wed, 09 Dec 2009 09:06:00 +0900</pubDate>
       
-      <guid>/post/2009-12-09-7618578051128069796/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-12-09-7618578051128069796/</guid>
       <description>&lt;p&gt;僕は基本的にグラフィカルなものを作成するのが不得手だ。&lt;/p&gt;
 
 &lt;p&gt;これは持って生まれた特質の一つと言ってしまうしかないほどのもので、本当に苦手なのだ。&lt;/p&gt;

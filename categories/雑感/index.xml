@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>雑感 on 博物誌</title>
-    <link>/categories/%E9%9B%91%E6%84%9F/</link>
+    <link>https://tokiwatch.github.io/categories/%E9%9B%91%E6%84%9F/</link>
     <description>Recent content in 雑感 on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 19 Mar 2011 15:29:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/%E9%9B%91%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/%E9%9B%91%E6%84%9F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>地震以降の1週間のまとめ(備忘録として)</title>
-      <link>/post/2011-03-19-1825018063762437730/</link>
+      <link>https://tokiwatch.github.io/post/2011-03-19-1825018063762437730/</link>
       <pubDate>Sat, 19 Mar 2011 15:29:00 +0900</pubDate>
       
-      <guid>/post/2011-03-19-1825018063762437730/</guid>
+      <guid>https://tokiwatch.github.io/post/2011-03-19-1825018063762437730/</guid>
       <description>&lt;p&gt;この度の地震で被害にあわれた皆様に心よりお見舞い申し上げます。&lt;/p&gt;
 
 &lt;p&gt;僕が地震に出くわしたのは、ちょうど、仕事をお願いしているデザイン会社で打ち合わせがおわってコーヒーでものみに行こうかと立ち上がって準備をしている時だった。&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>僕がTeXを使い始めた理由</title>
-      <link>/post/2010-02-22-195897258733982163/</link>
+      <link>https://tokiwatch.github.io/post/2010-02-22-195897258733982163/</link>
       <pubDate>Mon, 22 Feb 2010 14:14:00 +0900</pubDate>
       
-      <guid>/post/2010-02-22-195897258733982163/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-02-22-195897258733982163/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ufcpp/20100216/1266337507&#34;&gt;僕が TeX を使うのを辞めた3つの理由&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ufcpp/20100219/1266594885&#34;&gt;僕が TeX を使うのを辞めた 10 の理由&lt;/a&gt;&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>デザインの流儀についてのメモ</title>
-      <link>/post/2010-01-03-1985571439169363609/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-03-1985571439169363609/</link>
       <pubDate>Sun, 03 Jan 2010 15:47:00 +0900</pubDate>
       
-      <guid>/post/2010-01-03-1985571439169363609/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-03-1985571439169363609/</guid>
       <description>&lt;p&gt;デザインの方法論としてペルソナを利用する方法が提案されている。&lt;/p&gt;
 
 &lt;p&gt;ペルソナは、サービスやコンテンツ、プロダクトなどをデザインする際に、具体的に利用者を想定し、その利用者に対して最適化する方法である。もともとの提案者は、VisualBasicのデザイナ・プログラマとして有名なアラン・クーパー氏である。手法の概要は氏の著書「このコンピュータは使えない!」に詳しいのでそちらを参照してもらいたい。&lt;/p&gt;
@@ -56,10 +56,10 @@
     
     <item>
       <title>日経Web刊</title>
-      <link>/post/2010-01-03-7384574773149787457/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-03-7384574773149787457/</link>
       <pubDate>Sun, 03 Jan 2010 15:13:00 +0900</pubDate>
       
-      <guid>/post/2010-01-03-7384574773149787457/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-03-7384574773149787457/</guid>
       <description>&lt;p&gt;この春から日経新聞がWeb刊を発行するそうだ。&lt;/p&gt;
 
 &lt;p&gt;朝刊の一面に出ていたのだが、現行の日経のWebにはくわしい記載が無かったので、google様にお尋ねしてみたら、下記のプレスリリースが出てきた。webで新聞やるっていっているはなから、情報発信戦略ができてないのが、笑えない。&lt;/p&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>ScanSnap大作戦</title>
-      <link>/post/2010-01-02-4564439038235075071/</link>
+      <link>https://tokiwatch.github.io/post/2010-01-02-4564439038235075071/</link>
       <pubDate>Sat, 02 Jan 2010 13:50:00 +0900</pubDate>
       
-      <guid>/post/2010-01-02-4564439038235075071/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-01-02-4564439038235075071/</guid>
       <description>&lt;p&gt;僕は一応研究者と呼ばれるカテゴリに属している。&lt;/p&gt;
 
 &lt;p&gt;研究者の仕事の形は様々で、研究室の机にかじりついてガリガリ読み書きしているというのもあれば、実験室で機器を操作しなにやらやっているのもある。野山で観察しているような人もいるだろう。もちろん他の形もある。実践型の研究者にとっては、様々な現場が研究室そのものだったりする。&lt;/p&gt;
@@ -82,10 +82,10 @@
     
     <item>
       <title>grayscale</title>
-      <link>/post/2009-12-14-7290352937289559640/</link>
+      <link>https://tokiwatch.github.io/post/2009-12-14-7290352937289559640/</link>
       <pubDate>Mon, 14 Dec 2009 06:12:00 +0900</pubDate>
       
-      <guid>/post/2009-12-14-7290352937289559640/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-12-14-7290352937289559640/</guid>
       <description>&lt;p&gt;最近、コンピュータ上で作業をするとき、自分のmacの表示は、グレイスケールにすることがある。&lt;/p&gt;
 
 &lt;p&gt;こう書くと、なんだか変に思われるかもしれないのだが、実はけっこう快適なのだ。&lt;/p&gt;
@@ -95,10 +95,10 @@
     
     <item>
       <title>シンプルライフ</title>
-      <link>/post/2009-12-07-6491114482075359903/</link>
+      <link>https://tokiwatch.github.io/post/2009-12-07-6491114482075359903/</link>
       <pubDate>Mon, 07 Dec 2009 09:29:00 +0900</pubDate>
       
-      <guid>/post/2009-12-07-6491114482075359903/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-12-07-6491114482075359903/</guid>
       <description>&lt;p&gt;我が家にはいくつかのこだわりがある。&lt;/p&gt;
 
 &lt;p&gt;その一つに道具を増やしすぎないというのがある。&lt;/p&gt;
@@ -108,10 +108,10 @@
     
     <item>
       <title>近況</title>
-      <link>/post/2009-12-06-3116873327555138174/</link>
+      <link>https://tokiwatch.github.io/post/2009-12-06-3116873327555138174/</link>
       <pubDate>Sun, 06 Dec 2009 01:48:00 +0900</pubDate>
       
-      <guid>/post/2009-12-06-3116873327555138174/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-12-06-3116873327555138174/</guid>
       <description>&lt;p&gt;特段記事になるようなことが無いので、近況を報告しておく。&lt;/p&gt;
 
 &lt;p&gt;この2週間ほど、抱えているプロジェクトのドキュメントや依頼原稿の執筆などで、ほとんどblogの記事を更新できていない。&lt;/p&gt;
@@ -121,10 +121,10 @@
     
     <item>
       <title>ノートパソコンを置いてみた</title>
-      <link>/post/2009-11-19-9219821421150836703/</link>
+      <link>https://tokiwatch.github.io/post/2009-11-19-9219821421150836703/</link>
       <pubDate>Thu, 19 Nov 2009 18:45:00 +0900</pubDate>
       
-      <guid>/post/2009-11-19-9219821421150836703/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-11-19-9219821421150836703/</guid>
       <description>&lt;p&gt;昨日から試しにノートパソコンを通勤で持ち歩く事をやめてみた。&lt;/p&gt;
 
 &lt;p&gt;やめてみて気付いたことがあったのでメモをしておきたい。&lt;/p&gt;
@@ -134,10 +134,10 @@
     
     <item>
       <title>事業仕分けについて、あるいは科学技術者として、</title>
-      <link>/post/2009-11-15-1324786377079319275/</link>
+      <link>https://tokiwatch.github.io/post/2009-11-15-1324786377079319275/</link>
       <pubDate>Sun, 15 Nov 2009 07:05:00 +0900</pubDate>
       
-      <guid>/post/2009-11-15-1324786377079319275/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-11-15-1324786377079319275/</guid>
       <description>&lt;p&gt;事業仕分けが進んでいる。&lt;/p&gt;
 
 &lt;p&gt;僕が以前勤めていた組織も対象になり、また今勤めている仕事の母体となっている研究開発事業も対象になっている。&lt;/p&gt;
@@ -147,10 +147,10 @@
     
     <item>
       <title>幼稚園の選び方、あるいはここしばらくのアクセス傾向</title>
-      <link>/post/2009-11-05-5395691746104036520/</link>
+      <link>https://tokiwatch.github.io/post/2009-11-05-5395691746104036520/</link>
       <pubDate>Thu, 05 Nov 2009 08:30:00 +0900</pubDate>
       
-      <guid>/post/2009-11-05-5395691746104036520/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-11-05-5395691746104036520/</guid>
       <description>&lt;p&gt;11月1日は、大半の幼稚園の入園願書提出日だった。そしてこの日をさかいとして、このblogのアクセス傾向はがらりと変り、幼稚園選びについて書いたこの記事は全く読まれなくなった。&lt;/p&gt;
 
 &lt;p&gt;おそらくこのアクセスの向うには、子どもを入れる幼稚園をどう選ぶか、ということについて悩んでいる多くの親がいるのだろうと思う。&lt;/p&gt;
@@ -160,10 +160,10 @@
     
     <item>
       <title>wikimediaへの提言の続き</title>
-      <link>/post/2009-10-13-3403768399308568496/</link>
+      <link>https://tokiwatch.github.io/post/2009-10-13-3403768399308568496/</link>
       <pubDate>Tue, 13 Oct 2009 08:33:00 +0900</pubDate>
       
-      <guid>/post/2009-10-13-3403768399308568496/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-10-13-3403768399308568496/</guid>
       <description>&lt;p&gt;以前に書いた&lt;a href=&#34;http://tokiwatch.com/blog/2009/09/a-proposal-for-wikimedia.html&#34;&gt;wikimediaへの提言&lt;/a&gt;について加筆というか補足をする。&lt;/p&gt;
 
 &lt;p&gt;提言の骨子は、wikimediaが研究ノートから論文の発行までをサポートし、投稿→査読→再録→発行という流れではなく、発行→検証というシンプルな流れにすることで知的財産のインセンティブと情報の出力までの手戻りを最短にするということだ。&lt;/p&gt;
@@ -173,10 +173,10 @@
     
     <item>
       <title>幼稚園選び</title>
-      <link>/post/2009-10-05-82535332915717588/</link>
+      <link>https://tokiwatch.github.io/post/2009-10-05-82535332915717588/</link>
       <pubDate>Mon, 05 Oct 2009 07:17:00 +0900</pubDate>
       
-      <guid>/post/2009-10-05-82535332915717588/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-10-05-82535332915717588/</guid>
       <description>&lt;p&gt;普段技術的なことや&amp;rdquo;学術的&amp;rdquo;風の話を書いているので唐突だが、ちょっと子育てのことについて書きたい。&lt;/p&gt;
 
 &lt;p&gt;僕の息子は来年から幼稚園に入る。&lt;/p&gt;
@@ -186,10 +186,10 @@
     
     <item>
       <title>wikimediaへの提案</title>
-      <link>/post/2009-09-24-7058929899132025281/</link>
+      <link>https://tokiwatch.github.io/post/2009-09-24-7058929899132025281/</link>
       <pubDate>Thu, 24 Sep 2009 06:59:00 +0900</pubDate>
       
-      <guid>/post/2009-09-24-7058929899132025281/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-09-24-7058929899132025281/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://volunteer.wikimedia.org/&#34;&gt;Wikimedia財団が新しい取り組みの提案や新たなボランティアシップの募集をしている。&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;wikipediaのタイトルバナーに各国語に翻訳されたそれが表示されているそれはおそらく世界で最も多く読まれているボランティア募集の広告だろう。WHOやWWFなんて目じゃない。&lt;/p&gt;
@@ -201,10 +201,10 @@
     
     <item>
       <title>東京応援少女</title>
-      <link>/post/2009-09-04-1746004179686636605/</link>
+      <link>https://tokiwatch.github.io/post/2009-09-04-1746004179686636605/</link>
       <pubDate>Fri, 04 Sep 2009 22:08:00 +0900</pubDate>
       
-      <guid>/post/2009-09-04-1746004179686636605/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-09-04-1746004179686636605/</guid>
       <description>&lt;p&gt;昨日から当blogでも貼っていますが、東京オリンピック・パラリンピック招致委員会のキャンペーンとして「&lt;a href=&#34;http://ouen.tokyo2016.or.jp/blogparts/blogs/register/&#34;&gt;東京応援少女&lt;/a&gt;」ブログパーツがスタートしました。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -212,10 +212,10 @@
     
     <item>
       <title>しつけ</title>
-      <link>/post/2009-03-07-1865734670600735003/</link>
+      <link>https://tokiwatch.github.io/post/2009-03-07-1865734670600735003/</link>
       <pubDate>Sat, 07 Mar 2009 15:45:00 +0900</pubDate>
       
-      <guid>/post/2009-03-07-1865734670600735003/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-03-07-1865734670600735003/</guid>
       <description>&lt;p&gt;技術的な話題よりも子育てについて書いたほうが、読んでいただけることが多いようなので、久し振りに子育てについて書く。&lt;/p&gt;
 
 &lt;p&gt;我が家では、子どもは自由であるべきだという考えに基づき、可能なかぎり&amp;rdquo;禁止&amp;rdquo;しないという方針を取っている。&lt;/p&gt;
@@ -229,10 +229,10 @@
     
     <item>
       <title>個性と人格</title>
-      <link>/post/2009-03-01-5183607177427201009/</link>
+      <link>https://tokiwatch.github.io/post/2009-03-01-5183607177427201009/</link>
       <pubDate>Sun, 01 Mar 2009 08:03:00 +0900</pubDate>
       
-      <guid>/post/2009-03-01-5183607177427201009/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-03-01-5183607177427201009/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/p_shirokuma/20090226/p1&#34; title=&#34;『使えない個性は、要らない個性。』 - シロクマの屑籠(汎適所属)&#34;&gt;http://d.hatena.ne.jp/p_shirokuma/20090226/p1&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;個性を根本的に履き違えているということでしょう。&lt;/p&gt;
@@ -244,10 +244,10 @@
     
     <item>
       <title>もうぐったり</title>
-      <link>/post/2009-02-28-4091487683735601419/</link>
+      <link>https://tokiwatch.github.io/post/2009-02-28-4091487683735601419/</link>
       <pubDate>Sat, 28 Feb 2009 08:23:00 +0900</pubDate>
       
-      <guid>/post/2009-02-28-4091487683735601419/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-02-28-4091487683735601419/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://mainichi.jp/select/wadai/news/20090226mog00m010043000c.html&#34;&gt;http://mainichi.jp/select/wadai/news/20090226mog00m010043000c.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;えっと、今さらなにをおっしゃっておられるのでしょう。&lt;/p&gt;
@@ -257,10 +257,10 @@
     
     <item>
       <title>教育方針</title>
-      <link>/post/2009-02-09-3001922104747234721/</link>
+      <link>https://tokiwatch.github.io/post/2009-02-09-3001922104747234721/</link>
       <pubDate>Mon, 09 Feb 2009 08:46:00 +0900</pubDate>
       
-      <guid>/post/2009-02-09-3001922104747234721/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-02-09-3001922104747234721/</guid>
       <description>&lt;p&gt;僕は、一児の父である。&lt;/p&gt;
 
 &lt;p&gt;最近、子育ての方針について、見聞きしたり、話したりする機会が増えてきた。これは研究室のもうすぐ修了する学生たちが社会に巣立つにあたり、(相手がいるのかどうかは知らないが)結婚とか、その先にあるかもしれない育児とかということについて、ちょっとだけ妄想するようになったことによるのかもしれない。いずれにせよ、ちょうど良い機会なのですこしまとめておこうと思う。&lt;/p&gt;
@@ -270,10 +270,10 @@
     
     <item>
       <title>数学的思考</title>
-      <link>/post/2009-01-02-219134350656215536/</link>
+      <link>https://tokiwatch.github.io/post/2009-01-02-219134350656215536/</link>
       <pubDate>Fri, 02 Jan 2009 05:39:00 +0900</pubDate>
       
-      <guid>/post/2009-01-02-219134350656215536/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-01-02-219134350656215536/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/rikunora/20081228/p1&#34;&gt;http://d.hatena.ne.jp/rikunora/20081228/p1&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;通説的な理解にとどまるのではなく、数学的に理由付けていくということは普段から癖にしておく必要があると痛感した。&lt;/p&gt;
@@ -283,10 +283,10 @@
     
     <item>
       <title>skk</title>
-      <link>/post/2008-09-13-3617664017656858366/</link>
+      <link>https://tokiwatch.github.io/post/2008-09-13-3617664017656858366/</link>
       <pubDate>Sat, 13 Sep 2008 09:38:00 +0900</pubDate>
       
-      <guid>/post/2008-09-13-3617664017656858366/</guid>
+      <guid>https://tokiwatch.github.io/post/2008-09-13-3617664017656858366/</guid>
       <description>&lt;p&gt;僕は普段skkという漢字変換システムを使用している。 skkは非常にシンプルな仮名ー漢字変換システムで、連文節変換やそれに類する仕組みを持たない。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

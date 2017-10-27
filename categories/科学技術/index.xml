@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>科学技術 on 博物誌</title>
-    <link>/categories/%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93/</link>
+    <link>https://tokiwatch.github.io/categories/%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93/</link>
     <description>Recent content in 科学技術 on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 22 Feb 2010 14:14:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>僕がTeXを使い始めた理由</title>
-      <link>/post/2010-02-22-195897258733982163/</link>
+      <link>https://tokiwatch.github.io/post/2010-02-22-195897258733982163/</link>
       <pubDate>Mon, 22 Feb 2010 14:14:00 +0900</pubDate>
       
-      <guid>/post/2010-02-22-195897258733982163/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-02-22-195897258733982163/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ufcpp/20100216/1266337507&#34;&gt;僕が TeX を使うのを辞めた3つの理由&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ufcpp/20100219/1266594885&#34;&gt;僕が TeX を使うのを辞めた 10 の理由&lt;/a&gt;&lt;/p&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>つくばチャレンジ(その1)</title>
-      <link>/post/2008-09-07-4298546351553494187/</link>
+      <link>https://tokiwatch.github.io/post/2008-09-07-4298546351553494187/</link>
       <pubDate>Sun, 07 Sep 2008 23:55:00 +0900</pubDate>
       
-      <guid>/post/2008-09-07-4298546351553494187/</guid>
+      <guid>https://tokiwatch.github.io/post/2008-09-07-4298546351553494187/</guid>
       <description>&lt;p&gt;今日、ニュー・テクノロジー財団主催の、「つくばチャレンジ」というイベントを見学させてもらった。&lt;/p&gt;
 
 &lt;p&gt;このイベントは、一般の人が行き来する公道で、自律型ロボット(車両型)を実際に走らせ、課題(約1kmの規定コースの往復)に挑戦するというユニークなイベントである。&lt;/p&gt;

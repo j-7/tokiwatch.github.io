@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Omni Graffle on 博物誌</title>
-    <link>/categories/omni-graffle/</link>
+    <link>https://tokiwatch.github.io/categories/omni-graffle/</link>
     <description>Recent content in Omni Graffle on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Wed, 09 Dec 2009 09:06:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/omni-graffle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/omni-graffle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>stencil</title>
-      <link>/post/2009-12-09-7618578051128069796/</link>
+      <link>https://tokiwatch.github.io/post/2009-12-09-7618578051128069796/</link>
       <pubDate>Wed, 09 Dec 2009 09:06:00 +0900</pubDate>
       
-      <guid>/post/2009-12-09-7618578051128069796/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-12-09-7618578051128069796/</guid>
       <description>&lt;p&gt;僕は基本的にグラフィカルなものを作成するのが不得手だ。&lt;/p&gt;
 
 &lt;p&gt;これは持って生まれた特質の一つと言ってしまうしかないほどのもので、本当に苦手なのだ。&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Management on 博物誌</title>
-    <link>/categories/management/</link>
+    <link>https://tokiwatch.github.io/categories/management/</link>
     <description>Recent content in Management on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 10 Sep 2016 15:42:18 +0900</lastBuildDate>
     
-	<atom:link href="/categories/management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>優先順位をどうつけるのか？</title>
-      <link>/post/2016-09-10-how-manage-priority/</link>
+      <link>https://tokiwatch.github.io/post/2016-09-10-how-manage-priority/</link>
       <pubDate>Sat, 10 Sep 2016 15:42:18 +0900</pubDate>
       
-      <guid>/post/2016-09-10-how-manage-priority/</guid>
+      <guid>https://tokiwatch.github.io/post/2016-09-10-how-manage-priority/</guid>
       <description>&lt;p&gt;自分への確認を兼ねて。&lt;/p&gt;
 
 &lt;p&gt;研究開発に限らずのマネジメントに含まれる仕事は多岐に及び、基本的に、時間は常に細切れになる。ミンツバーグのマネージャ論では、この「細切れの時間」は普遍的なことだと指摘されている。&lt;/p&gt;

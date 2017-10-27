@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unix on 博物誌</title>
-    <link>/categories/unix/</link>
+    <link>https://tokiwatch.github.io/categories/unix/</link>
     <description>Recent content in Unix on 博物誌</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Sat, 12 Feb 2011 21:11:00 +0900</lastBuildDate>
     
-	<atom:link href="/categories/unix/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tokiwatch.github.io/categories/unix/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>homebrewのgnuplotでAquatermを使う</title>
-      <link>/post/2011-02-12-8542365196640098223/</link>
+      <link>https://tokiwatch.github.io/post/2011-02-12-8542365196640098223/</link>
       <pubDate>Sat, 12 Feb 2011 21:11:00 +0900</pubDate>
       
-      <guid>/post/2011-02-12-8542365196640098223/</guid>
+      <guid>https://tokiwatch.github.io/post/2011-02-12-8542365196640098223/</guid>
       <description>&lt;p&gt;内容はいつものとおり、表題のまま。&lt;/p&gt;
 
 &lt;p&gt;とあるデータ解析で、色々面倒なので、gnuplotをHomebrewでインストールしようとしたのだが、入るには入るのだがいろいろ面倒なことがあったので、まとめておく。&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>muttとGmailとのimapでの連携をofflineimapをつかって便利にする</title>
-      <link>/post/2011-01-27-5967701692953888939/</link>
+      <link>https://tokiwatch.github.io/post/2011-01-27-5967701692953888939/</link>
       <pubDate>Thu, 27 Jan 2011 12:07:00 +0900</pubDate>
       
-      <guid>/post/2011-01-27-5967701692953888939/</guid>
+      <guid>https://tokiwatch.github.io/post/2011-01-27-5967701692953888939/</guid>
       <description>&lt;p&gt;内容はタイトルの通り。&lt;/p&gt;
 
 &lt;p&gt;かなりニッチなのだけど、まとめておく。&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>install googlecl (without MacPorts, Fink etc)</title>
-      <link>/post/2011-01-03-143240425536943628/</link>
+      <link>https://tokiwatch.github.io/post/2011-01-03-143240425536943628/</link>
       <pubDate>Mon, 03 Jan 2011 23:49:00 +0900</pubDate>
       
-      <guid>/post/2011-01-03-143240425536943628/</guid>
+      <guid>https://tokiwatch.github.io/post/2011-01-03-143240425536943628/</guid>
       <description>&lt;p&gt;MacOSXでgoogleclをインストールしようとした際にちょっとはまったのでメモをとして残しておく。&lt;/p&gt;
 
 &lt;p&gt;Googleclはgoogleの各種のサービスをターミナルから利用するためのpythonScript集だ。&lt;/p&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>Homebrewがすごい</title>
-      <link>/post/2010-12-21-7435420019475004765/</link>
+      <link>https://tokiwatch.github.io/post/2010-12-21-7435420019475004765/</link>
       <pubDate>Tue, 21 Dec 2010 11:06:00 +0900</pubDate>
       
-      <guid>/post/2010-12-21-7435420019475004765/</guid>
+      <guid>https://tokiwatch.github.io/post/2010-12-21-7435420019475004765/</guid>
       <description>&lt;p&gt;少し前から、おもいつきでHomebrewを使っている。&lt;/p&gt;
 
 &lt;p&gt;Homebrewというのは、MacOSX用のパッケージ管理システムの一つだ。&lt;/p&gt;
@@ -65,20 +65,20 @@
     
     <item>
       <title>macportsにgauche0.90が反映された</title>
-      <link>/post/2009-12-24-1220245978161138279/</link>
+      <link>https://tokiwatch.github.io/post/2009-12-24-1220245978161138279/</link>
       <pubDate>Thu, 24 Dec 2009 22:40:00 +0900</pubDate>
       
-      <guid>/post/2009-12-24-1220245978161138279/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-12-24-1220245978161138279/</guid>
       <description>表題の通り。
 これまで、buildを通すのに一苦労だったのだが、これで安心。</description>
     </item>
     
     <item>
       <title>Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記</title>
-      <link>/post/2009-10-24-1407540347283808873/</link>
+      <link>https://tokiwatch.github.io/post/2009-10-24-1407540347283808873/</link>
       <pubDate>Sat, 24 Oct 2009 20:06:00 +0900</pubDate>
       
-      <guid>/post/2009-10-24-1407540347283808873/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-10-24-1407540347283808873/</guid>
       <description>&lt;p&gt;追記(2009/12/24)&lt;/p&gt;
 
 &lt;p&gt;MacOSX Snow Leopardでのコンパイルエラーが解決されたver.0.9がMacPortsに反映されました。&lt;/p&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>MovableType5(beta)のMAMPへのインストール</title>
-      <link>/post/2009-10-18-3978979844428448922/</link>
+      <link>https://tokiwatch.github.io/post/2009-10-18-3978979844428448922/</link>
       <pubDate>Sun, 18 Oct 2009 07:55:00 +0900</pubDate>
       
-      <guid>/post/2009-10-18-3978979844428448922/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-10-18-3978979844428448922/</guid>
       <description>&lt;p&gt;#周囲から読み難いからなんとかしろ、とかいろいろ指摘を頂戴したので、修正します。ごめんなさい。&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -105,10 +105,10 @@
     
     <item>
       <title>MacPortsのpTeXは全部入り</title>
-      <link>/post/2009-10-09-3034202863218204052/</link>
+      <link>https://tokiwatch.github.io/post/2009-10-09-3034202863218204052/</link>
       <pubDate>Fri, 09 Oct 2009 04:47:00 +0900</pubDate>
       
-      <guid>/post/2009-10-09-3034202863218204052/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-10-09-3034202863218204052/</guid>
       <description>&lt;p&gt;ちょっと大きな失敗をしたので、ここで晒しておく。&lt;/p&gt;
 
 &lt;p&gt;数日前に、プレゼン資料の作成環境を、Latex-Beamerに移そうと思い、MacPortsのPackageを眺めたら、latex-beamerクラスが無いことに気づいた。&lt;/p&gt;
@@ -118,10 +118,10 @@
     
     <item>
       <title>curlによるtumblrへのアクセス</title>
-      <link>/post/2009-08-08-3597248648833998380/</link>
+      <link>https://tokiwatch.github.io/post/2009-08-08-3597248648833998380/</link>
       <pubDate>Sat, 08 Aug 2009 17:41:00 +0900</pubDate>
       
-      <guid>/post/2009-08-08-3597248648833998380/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-08-08-3597248648833998380/</guid>
       <description>&lt;p&gt;表題の手続きについて調査をしたのでまとめておく。&lt;/p&gt;
 
 &lt;p&gt;cURLは、unixのコマンドラインツールで、ホームページをフェッチする。詳細はman curl。もしインストールされていないならば、aptでもyamlでもrpmでもportでもなんでも良いので、適当に探せばある。&lt;/p&gt;
@@ -131,10 +131,10 @@
     
     <item>
       <title>VirtualBox LVM</title>
-      <link>/post/2009-04-26-4550005134965084210/</link>
+      <link>https://tokiwatch.github.io/post/2009-04-26-4550005134965084210/</link>
       <pubDate>Sun, 26 Apr 2009 15:31:00 +0900</pubDate>
       
-      <guid>/post/2009-04-26-4550005134965084210/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-04-26-4550005134965084210/</guid>
       <description>&lt;p&gt;とある案件で、実験用にVirtuallBox上でubuntuのサーバの設定をしている。&lt;/p&gt;
 
 &lt;p&gt;もともとは他の研究チームの学生さんが悪戦苦闘していた作業で、僕は見るにみかねて介入し、とりあえず実験用の環境の構築だけ手伝うことにした。&lt;/p&gt;
@@ -144,10 +144,10 @@
     
     <item>
       <title>Perlのインタラクティブ環境</title>
-      <link>/post/2009-04-02-2288892323619887658/</link>
+      <link>https://tokiwatch.github.io/post/2009-04-02-2288892323619887658/</link>
       <pubDate>Thu, 02 Apr 2009 08:01:00 +0900</pubDate>
       
-      <guid>/post/2009-04-02-2288892323619887658/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-04-02-2288892323619887658/</guid>
       <description>&lt;p&gt;Perlの開発環境についてちょっと実験をしようとしているのだが、ターミナルでインタラクティブにちょこちょこっと処理をしたい際などに、Perlのデバッグモードだと使い勝手がよくないことに気付いた。&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -155,10 +155,10 @@
     
     <item>
       <title>Why VIM?</title>
-      <link>/post/2009-02-21-1413999313551349458/</link>
+      <link>https://tokiwatch.github.io/post/2009-02-21-1413999313551349458/</link>
       <pubDate>Sat, 21 Feb 2009 12:28:00 +0900</pubDate>
       
-      <guid>/post/2009-02-21-1413999313551349458/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-02-21-1413999313551349458/</guid>
       <description>&lt;p&gt;研究者の仕事は論文を書くことである。&lt;/p&gt;
 
 &lt;p&gt;これは、研究者の評価は論文の数によって決まるためである。&lt;/p&gt;
@@ -170,10 +170,10 @@
     
     <item>
       <title>論文の数式</title>
-      <link>/post/2009-02-21-5561043144090822059/</link>
+      <link>https://tokiwatch.github.io/post/2009-02-21-5561043144090822059/</link>
       <pubDate>Sat, 21 Feb 2009 10:39:00 +0900</pubDate>
       
-      <guid>/post/2009-02-21-5561043144090822059/</guid>
+      <guid>https://tokiwatch.github.io/post/2009-02-21-5561043144090822059/</guid>
       <description>&lt;p&gt;とある学会に提出するための論文を書いている。&lt;/p&gt;
 
 &lt;p&gt;査読はパスしているので、この作成した論文の原稿は最終版になる。&lt;/p&gt;
