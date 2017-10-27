@@ -856,12 +856,6 @@
   </url>
   
   <url>
-    <loc>https://tokiwatch.github.io/</loc>
-    <lastmod>2017-06-21T16:57:00+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://tokiwatch.github.io/categories/%E5%A0%B1%E5%91%8A/</loc>
     <lastmod>2011-03-19T15:29:00+09:00</lastmod>
     <priority>0</priority>
@@ -892,6 +886,12 @@
   <url>
     <loc>https://tokiwatch.github.io/categories/%E6%8F%90%E6%A1%88/</loc>
     <lastmod>2009-09-24T06:59:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tokiwatch.github.io/</loc>
+    <lastmod>2017-06-21T16:57:00+09:00</lastmod>
     <priority>0</priority>
   </url>
   
