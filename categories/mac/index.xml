@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on 博物誌</title>
+    <link>/categories/mac/</link>
+    <description>Recent content in Mac on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 12 Feb 2011 21:11:00 +0900</lastBuildDate>
+    
+	<atom:link href="/categories/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>homebrewのgnuplotでAquatermを使う</title>
+      <link>/post/2011-02-12-8542365196640098223/</link>
+      <pubDate>Sat, 12 Feb 2011 21:11:00 +0900</pubDate>
+      
+      <guid>/post/2011-02-12-8542365196640098223/</guid>
+      <description>&lt;p&gt;内容はいつものとおり、表題のまま。&lt;/p&gt;
+
+&lt;p&gt;とあるデータ解析で、色々面倒なので、gnuplotをHomebrewでインストールしようとしたのだが、入るには入るのだがいろいろ面倒なことがあったので、まとめておく。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>install googlecl (without MacPorts, Fink etc)</title>
+      <link>/post/2011-01-03-143240425536943628/</link>
+      <pubDate>Mon, 03 Jan 2011 23:49:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-03-143240425536943628/</guid>
+      <description>&lt;p&gt;MacOSXでgoogleclをインストールしようとした際にちょっとはまったのでメモをとして残しておく。&lt;/p&gt;
+
+&lt;p&gt;Googleclはgoogleの各種のサービスをターミナルから利用するためのpythonScript集だ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MacBookAirのちいさいほう</title>
+      <link>/post/2010-12-27-8535878018635868146/</link>
+      <pubDate>Mon, 27 Dec 2010 00:29:00 +0900</pubDate>
+      
+      <guid>/post/2010-12-27-8535878018635868146/</guid>
+      <description>&lt;p&gt;研究プロジェクトの予算とは別で、私物としてMacBookAir11inchを購入してしまった。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Homebrewがすごい</title>
+      <link>/post/2010-12-21-7435420019475004765/</link>
+      <pubDate>Tue, 21 Dec 2010 11:06:00 +0900</pubDate>
+      
+      <guid>/post/2010-12-21-7435420019475004765/</guid>
+      <description>&lt;p&gt;少し前から、おもいつきでHomebrewを使っている。&lt;/p&gt;
+
+&lt;p&gt;Homebrewというのは、MacOSX用のパッケージ管理システムの一つだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macportsにgauche0.90が反映された</title>
+      <link>/post/2009-12-24-1220245978161138279/</link>
+      <pubDate>Thu, 24 Dec 2009 22:40:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-24-1220245978161138279/</guid>
+      <description>表題の通り。
+これまで、buildを通すのに一苦労だったのだが、これで安心。</description>
+    </item>
+    
+    <item>
+      <title>grayscale</title>
+      <link>/post/2009-12-14-7290352937289559640/</link>
+      <pubDate>Mon, 14 Dec 2009 06:12:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-14-7290352937289559640/</guid>
+      <description>&lt;p&gt;最近、コンピュータ上で作業をするとき、自分のmacの表示は、グレイスケールにすることがある。&lt;/p&gt;
+
+&lt;p&gt;こう書くと、なんだか変に思われるかもしれないのだが、実はけっこう快適なのだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>stencil</title>
+      <link>/post/2009-12-09-7618578051128069796/</link>
+      <pubDate>Wed, 09 Dec 2009 09:06:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-09-7618578051128069796/</guid>
+      <description>&lt;p&gt;僕は基本的にグラフィカルなものを作成するのが不得手だ。&lt;/p&gt;
+
+&lt;p&gt;これは持って生まれた特質の一つと言ってしまうしかないほどのもので、本当に苦手なのだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記</title>
+      <link>/post/2009-10-24-1407540347283808873/</link>
+      <pubDate>Sat, 24 Oct 2009 20:06:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-24-1407540347283808873/</guid>
+      <description>&lt;p&gt;追記(2009/12/24)&lt;/p&gt;
+
+&lt;p&gt;MacOSX Snow Leopardでのコンパイルエラーが解決されたver.0.9がMacPortsに反映されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MovableType5(beta)のMAMPへのインストール</title>
+      <link>/post/2009-10-18-3978979844428448922/</link>
+      <pubDate>Sun, 18 Oct 2009 07:55:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-18-3978979844428448922/</guid>
+      <description>&lt;p&gt;#周囲から読み難いからなんとかしろ、とかいろいろ指摘を頂戴したので、修正します。ごめんなさい。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mac上でMT5betaのテスト環境を構築する必要が生じたので、構築するついでに手順をまとめておく。めずらしく丁寧めに書くので、長い。&lt;/p&gt;
+
+&lt;p&gt;なお、この手順通りやって失敗しても責任は持ちません。ご自身の責任でお願いしたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MacPortsのpTeXは全部入り</title>
+      <link>/post/2009-10-09-3034202863218204052/</link>
+      <pubDate>Fri, 09 Oct 2009 04:47:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-09-3034202863218204052/</guid>
+      <description>&lt;p&gt;ちょっと大きな失敗をしたので、ここで晒しておく。&lt;/p&gt;
+
+&lt;p&gt;数日前に、プレゼン資料の作成環境を、Latex-Beamerに移そうと思い、MacPortsのPackageを眺めたら、latex-beamerクラスが無いことに気づいた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iworksのライセンス購入の手続きについて</title>
+      <link>/post/2009-04-10-5786723340503020999/</link>
+      <pubDate>Fri, 10 Apr 2009 06:58:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-10-5786723340503020999/</guid>
+      <description>&lt;p&gt;MacBookAirのようなDVDドライブが搭載されていないMacのユーザにとって、CD-ROMやDVD-ROMのような物理ディスクでのソフトウェアのインストールは面倒くさいものである。&lt;/p&gt;
+
+&lt;p&gt;しかし、iworksのようなアップル純正のソフトの大半は、パッケージでの販売になっており、インストールにはディスクドライブが必要となる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>D21HWの設定ではまる(MacOSX)</title>
+      <link>/post/2009-03-04-5112851465791859806/</link>
+      <pubDate>Wed, 04 Mar 2009 05:04:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-04-5112851465791859806/</guid>
+      <description>&lt;p&gt;出張が続くのと、来年度長距離通勤になるため、イーモバイルのD21HWを導入した。&lt;/p&gt;
+
+&lt;p&gt;ソフトバンクのイーモバイル回線網を利用したMVNOに期待していたのだが、SIMカードを入れ替えなければならないとか、契約が面倒そうとか、従量制と固定制の仕分けがややこしそうなどなどの理由で、若干幻滅したというのが理由である。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>StarSuite</title>
+      <link>/post/2009-02-07-7123259775220696403/</link>
+      <pubDate>Sat, 07 Feb 2009 18:30:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-07-7123259775220696403/</guid>
+      <description>&lt;p&gt;#本業の研究関連の業務で、Gauche-twitterについては開発が中断しています。&lt;/p&gt;
+
+&lt;p&gt;#論文の原稿執筆と追加実験のため、モジュール化する時間が取れていません。&lt;/p&gt;
+
+&lt;p&gt;#ちょっと情けない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mamp on 博物誌</title>
+    <link>/categories/mamp/</link>
+    <description>Recent content in Mamp on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 18 Oct 2009 07:55:00 +0900</lastBuildDate>
+    
+	<atom:link href="/categories/mamp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MovableType5(beta)のMAMPへのインストール</title>
+      <link>/post/2009-10-18-3978979844428448922/</link>
+      <pubDate>Sun, 18 Oct 2009 07:55:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-18-3978979844428448922/</guid>
+      <description>&lt;p&gt;#周囲から読み難いからなんとかしろ、とかいろいろ指摘を頂戴したので、修正します。ごめんなさい。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mac上でMT5betaのテスト環境を構築する必要が生じたので、構築するついでに手順をまとめておく。めずらしく丁寧めに書くので、長い。&lt;/p&gt;
+
+&lt;p&gt;なお、この手順通りやって失敗しても責任は持ちません。ご自身の責任でお願いしたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

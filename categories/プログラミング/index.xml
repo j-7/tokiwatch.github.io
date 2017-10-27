@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>プログラミング on 博物誌</title>
+    <link>/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/</link>
+    <description>Recent content in プログラミング on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 03 Jan 2010 21:50:00 +0900</lastBuildDate>
+    
+	<atom:link href="/categories/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>(訂正)BloggerでProcessing.js</title>
+      <link>/post/2010-01-03-2591761322288816438/</link>
+      <pubDate>Sun, 03 Jan 2010 21:50:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-03-2591761322288816438/</guid>
+      <description>&lt;p&gt;昨日ポストしたエントリ(&lt;a href=&#34;http://www.tokiwatch.com/2010/01/bloggerprocessingjs_02.html#links&#34;&gt;bloggerでProcessing.js&lt;/a&gt;)に不備があった。&lt;/p&gt;
+
+&lt;p&gt;googleサイトでjsファイルをホストするという方法は、どうも色々な設定が複雑に絡むのと、googleドメインにログインしているときとしていないときで挙動がかわる(まああたりまえ)のとで、あまり適切ではない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Perlのインタラクティブ環境</title>
+      <link>/post/2009-04-02-2288892323619887658/</link>
+      <pubDate>Thu, 02 Apr 2009 08:01:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-02-2288892323619887658/</guid>
+      <description>&lt;p&gt;Perlの開発環境についてちょっと実験をしようとしているのだが、ターミナルでインタラクティブにちょこちょこっと処理をしたい際などに、Perlのデバッグモードだと使い勝手がよくないことに気付いた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Max/MSPによる計測(追記あり)</title>
+      <link>/post/2009-02-12-2443380055388419830/</link>
+      <pubDate>Thu, 12 Feb 2009 16:50:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-12-2443380055388419830/</guid>
+      <description>&lt;p&gt;#一部の方からtumblr経由で内容の不足が指摘されたので、加筆しておく。&lt;/p&gt;
+
+&lt;p&gt;Max/MSPは音楽や音響処理に対して最適化されたマルチメディアプログラミング言語である。&lt;/p&gt;
+
+&lt;p&gt;コンピュータ音楽やエレクトロ、ノイズなどの先鋭的な音楽の制作や、メディアアート作品の制作などで頻繁に使用されている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gauche-twitter 0.1 RC1公開準備</title>
+      <link>/post/2009-01-02-5850486531128881190/</link>
+      <pubDate>Fri, 02 Jan 2009 18:25:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-02-5850486531128881190/</guid>
+      <description>&lt;p&gt;表題のGauche-moduleを冬休みの宿題として作っている。&lt;/p&gt;
+
+&lt;p&gt;twitterAPIをたたくだけならば、Python, Ruby, Perl, .NET言語などのライブラリが整備されている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>goshでreadline</title>
+      <link>/post/2008-12-31-2173314637199867810/</link>
+      <pubDate>Wed, 31 Dec 2008 13:42:00 +0900</pubDate>
+      
+      <guid>/post/2008-12-31-2173314637199867810/</guid>
+      <description>&lt;p&gt;最近、ほとんどのプログラムをGaucheで作成している。&lt;/p&gt;
+
+&lt;p&gt;Gaucheがなにかについては、以下のサイトに詳しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gauche on 博物誌</title>
+    <link>/categories/gauche/</link>
+    <description>Recent content in Gauche on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 24 Dec 2009 22:40:00 +0900</lastBuildDate>
+    
+	<atom:link href="/categories/gauche/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>macportsにgauche0.90が反映された</title>
+      <link>/post/2009-12-24-1220245978161138279/</link>
+      <pubDate>Thu, 24 Dec 2009 22:40:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-24-1220245978161138279/</guid>
+      <description>表題の通り。
+これまで、buildを通すのに一苦労だったのだが、これで安心。</description>
+    </item>
+    
+    <item>
+      <title>Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記</title>
+      <link>/post/2009-10-24-1407540347283808873/</link>
+      <pubDate>Sat, 24 Oct 2009 20:06:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-24-1407540347283808873/</guid>
+      <description>&lt;p&gt;追記(2009/12/24)&lt;/p&gt;
+
+&lt;p&gt;MacOSX Snow Leopardでのコンパイルエラーが解決されたver.0.9がMacPortsに反映されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gauche-twitter 0.1 RC1公開準備</title>
+      <link>/post/2009-01-02-5850486531128881190/</link>
+      <pubDate>Fri, 02 Jan 2009 18:25:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-02-5850486531128881190/</guid>
+      <description>&lt;p&gt;表題のGauche-moduleを冬休みの宿題として作っている。&lt;/p&gt;
+
+&lt;p&gt;twitterAPIをたたくだけならば、Python, Ruby, Perl, .NET言語などのライブラリが整備されている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>goshでreadline</title>
+      <link>/post/2008-12-31-2173314637199867810/</link>
+      <pubDate>Wed, 31 Dec 2008 13:42:00 +0900</pubDate>
+      
+      <guid>/post/2008-12-31-2173314637199867810/</guid>
+      <description>&lt;p&gt;最近、ほとんどのプログラムをGaucheで作成している。&lt;/p&gt;
+
+&lt;p&gt;Gaucheがなにかについては、以下のサイトに詳しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

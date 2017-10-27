@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 博物誌</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 21 Jun 2017 16:57:00 +0900</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>リュックサックを買い直しました。</title>
+      <link>/post/2017-06-21-backpack/</link>
+      <pubDate>Wed, 21 Jun 2017 16:57:00 +0900</pubDate>
+      
+      <guid>/post/2017-06-21-backpack/</guid>
+      <description>以前のポストで、僕のバックパックを購入するときの基準をまとめたのだが、結局２週くらい回って、The North FaceのBigshot CLに戻ることになった。
+もともと2003年ごろにPowerBookの17inchを使っていた頃、このリュックサックくらいしか17inchのノートパソコンが入らないということで、購入して使い始めたのだが、その後、デザインが大幅に変わったりしたので、長く離れていた。
+このリュックサックは、1気室のもので、その１気室が32リットルほどある。簡単に言えば、肩紐と背中側にパッドのついた、大きな袋である。 雨蓋のついた登山用のリュックサックだとそれほど大きなものではないのだが、雨蓋のない水滴型のリュックサックでこのサイズに匹敵するものはそれほど多くはない。
+このリュックサックの良いところは、ウエストベルトは使わないときには収納できるとか、色々細かくはあるのだが、結局は、一番昔から使ってきたので、なんとなく、背中に馴染むということなのかもしれない。
+ところで、大型のリュックサックを使うとき、中に収容するものが少ないと、リュックサックの中で荷物があちらこちらと動いて、また、変なところに荷重がかかって、荷物が少ないはずなのになんだか重く感じるということがある。
+僕は、こういう場合は、袋を活用する。小袋に入ったにもつを中くらいの袋でまとめて、リュックサックに入れるのだ。ものを取り出す際に手間がかかるのではないかと思われるかもしれないが、あちらこちらに勝手に移動しないので、結局は探しやすい。目的別でまとめておくと、サッと取り出して、準備ができるなど、メリットはそれはそれであるように思っている。
+こういうノウハウは意外とどこにも載っていないのだが、何故なのだろう。</description>
+    </item>
+    
+    <item>
+      <title>github pageに再度移行</title>
+      <link>/post/2017-05-09-move-to-github-page/</link>
+      <pubDate>Tue, 09 May 2017 00:42:00 +0900</pubDate>
+      
+      <guid>/post/2017-05-09-move-to-github-page/</guid>
+      <description>タイトルだけなのですが、github pagesに再度ブログを戻しました。
+戻すにあたって、これまで使っていた静的サイトジェネレータをOctopressからjekyllに移行しました。
+Octopressは結構便利だったのですが、長い間メンテナンスされておらず、最新のRuby2.4では動作しないため、長期的にあまり良くないだろうと判断したためです。
+また、HUGOなども候補にはしたのですが、正直Rubyの方が慣れているし、Github Pagesの標準に合わせておく方が良いだろうという判断もありました。
+追記：
+あと、プロフィールをちゃんと書きました。</description>
+    </item>
+    
+    <item>
+      <title>マネジメントはクリエイティブな仕事か？</title>
+      <link>/post/2016-12-30-management-is-creative/</link>
+      <pubDate>Fri, 30 Dec 2016 20:05:24 +0900</pubDate>
+      
+      <guid>/post/2016-12-30-management-is-creative/</guid>
+      <description>&lt;p&gt;この世の中のあらゆるマネジメントが、とは言えないけれども、少なくとも、研究開発のマネジメントにはかなりのクリエイティブさが求められると思う。&lt;/p&gt;
+
+&lt;p&gt;マネジメントは、当然その対象となる仕事についての業務知識（必ずしも深い必要はなく、むしろ広く浅いほうがいい）は必要だが、それに加えて、「判断」と「コミュニケーション」の力が求められる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SSHパスフレーズがKeychainに保存されなくなったら</title>
+      <link>/post/2016-12-29-save-ssh-keyphrase-on-macosx/</link>
+      <pubDate>Thu, 29 Dec 2016 13:55:12 +0900</pubDate>
+      
+      <guid>/post/2016-12-29-save-ssh-keyphrase-on-macosx/</guid>
+      <description>先日、MacOS10.12.2にアップデートしたところ、ターミナルで入力したSSHのパスフレーズがKeychainに保存されなくなった。
+以下に解決方法手順を書いておく。
+ ~/.ssh/config を開く（なかったら作成する） 以下を記述  IdentityFile ~/.ssh/id_rsa AddKeysToAgent yes  以上  </description>
+    </item>
+    
+    <item>
+      <title>私達の理論的アプローチ（再掲）</title>
+      <link>/post/2016-12-15-design-method/</link>
+      <pubDate>Thu, 15 Dec 2016 21:19:58 +0900</pubDate>
+      
+      <guid>/post/2016-12-15-design-method/</guid>
+      <description>&lt;p&gt;2015年2月9日に前の会社のブログで公開した記事が読めなくなっているようなので、一時的にこちらで掲示することにした。
+元記事のURLは&lt;a href=&#34;http://blog.allianceport.jp/aptv/2015/02/post-27.html&#34;&gt;http://blog.allianceport.jp/aptv/2015/02/post-27.html&lt;/a&gt;で公開されていた。本家のブログが再開されたらこの記事は消す。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;こんにちは。エンジニアの常盤です。&lt;/p&gt;
+
+&lt;p&gt;先日、当社の若いデザイナーが「うちはデザインするとき○○とか××とか使わないですね」(⚪︎⚪︎、××にはデザインアプローチなどの名前が入る)という話をしていました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>リュックサック選びの基準</title>
+      <link>/post/2016-12-04-rucksack/</link>
+      <pubDate>Sun, 04 Dec 2016 21:42:53 +0900</pubDate>
+      
+      <guid>/post/2016-12-04-rucksack/</guid>
+      <description>&lt;p&gt;最近、僕の鉄板ネタが、リュックサックとMacについてだということを周囲から指摘され、あー確かにそうかも、と思う。&lt;/p&gt;
+
+&lt;p&gt;リュックサックは、腰椎を折ったり、ぎっくり腰になったりしたので、その予防のためには欠かせないものなので、毎回新しいものを買うときには真剣にならざるを得ないというのが真相なのだが。。。&lt;/p&gt;
+
+&lt;p&gt;これまでいろいろなメーカーのものを使ってきて、それぞれに一長一短はあるのだけど、押さえておいたほうがいい点はなんとなく固まってきているように思うので、この際なのでまとめておきたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Octopressでサイトをsftpで公開</title>
+      <link>/post/2016-12-03-publish-via-sftp/</link>
+      <pubDate>Sat, 03 Dec 2016 22:01:55 +0900</pubDate>
+      
+      <guid>/post/2016-12-03-publish-via-sftp/</guid>
+      <description>&lt;p&gt;このblogをgithub pagesからレンタルサーバに移行したので、手順を下記にまとめておく&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>「助成という仕事」を読んで</title>
+      <link>/post/2016-12-03-the-insiders-guide-to-grantmaking/</link>
+      <pubDate>Sat, 03 Dec 2016 15:52:38 +0900</pubDate>
+      
+      <guid>/post/2016-12-03-the-insiders-guide-to-grantmaking/</guid>
+      <description>&lt;p&gt;「助成という仕事」という本を読んだのでちょっとだけまとめておく。&lt;/p&gt;
+
+&lt;p&gt;著者は、ケロッグ財団のディレクタを務めた、ジョエル・J・オロズ氏。ケロッグ財団は、全米でも屈指の規模の財団の一つで、様々なプログラムを助成している。
+この書籍で、著者は、助成金を出す側が、何をしなければならないか、どういうことを考えなければならないのかを率直に語っている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MTDDC2016 CMS座談会のモデレータをしました</title>
+      <link>/post/2016-11-16-mtddc-cms-zadankai/</link>
+      <pubDate>Wed, 16 Nov 2016 15:16:02 +0900</pubDate>
+      
+      <guid>/post/2016-11-16-mtddc-cms-zadankai/</guid>
+      <description>&lt;p&gt;毎年恒例となってきている MTDDCですが、今年もCMS座談会の座長を担当させていただきました。&lt;/p&gt;
+
+&lt;p&gt;毎年、MTを筆頭（MTDDCですから）に各CMSのユーザ会から人をお招きして、僕が設定した無茶なお題に順番に答えて行っていただくという、全くもって無茶なイベントなのですが、毎度のことながら、各氏の回答が上手で、毎度のことですが、頭が下がります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>「科学の発見」を読んで</title>
+      <link>/post/2016-10-15-book-review/</link>
+      <pubDate>Sat, 15 Oct 2016 15:56:49 +0900</pubDate>
+      
+      <guid>/post/2016-10-15-book-review/</guid>
+      <description>&lt;p&gt;ワインバーグの「科学の発見」を先日読んだ。&lt;/p&gt;
+
+&lt;p&gt;各時代の「科学的な営み」を現代の科学の視点で評しているのだが、とどのつまりは、科学の内側での常識（スタンダードな知識）は、変化していくし、その変化は、科学的な発見だけで生じうるものではなくて、良い方向にも悪い方向にも、その時代の社会通念が影響を与える（というか評価の背景に存在してる）ということかと思った。もう少し読み込んで考えてみたいところではあるが。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>リスクをとるのも練習</title>
+      <link>/post/2016-09-24-risk_take/</link>
+      <pubDate>Sat, 24 Sep 2016 15:53:50 +0900</pubDate>
+      
+      <guid>/post/2016-09-24-risk_take/</guid>
+      <description>&lt;p&gt;しばらく前に、論文の書き方を教えてくれと言われて、いろいろ話したのだけど、結局は、書かないと書けるようにはならないよ。というのが結論であった。自転車の類と同じで、頭でわかったとしてもできるようにはならない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>自分に嘘をつく</title>
+      <link>/post/2016-09-23-lyer/</link>
+      <pubDate>Fri, 23 Sep 2016 15:51:19 +0900</pubDate>
+      
+      <guid>/post/2016-09-23-lyer/</guid>
+      <description>&lt;p&gt;【批判的に】&lt;/p&gt;
+
+&lt;p&gt;自分にうそをつく、というのは本人がそうならないように気を付けていても発生することであるように思われる。「＊＊が好きだ」とか「＊＊になりたい」とかいったある種のポジティブな思い込みとそれに基づく努力（および努力しているという自己評価）は決して悪いことじゃない。でもなぜか、自分にうそをついているな。と感じさせる何かがにじみ出ていることがある。それは意固地だったり、プライドだったり、いろいろな歴史的な、その人の人生的な経緯や積み重なりが生み出してしまうのかもしれない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>優先順位をどうつけるのか？</title>
+      <link>/post/2016-09-10-how-manage-priority/</link>
+      <pubDate>Sat, 10 Sep 2016 15:42:18 +0900</pubDate>
+      
+      <guid>/post/2016-09-10-how-manage-priority/</guid>
+      <description>&lt;p&gt;自分への確認を兼ねて。&lt;/p&gt;
+
+&lt;p&gt;研究開発に限らずのマネジメントに含まれる仕事は多岐に及び、基本的に、時間は常に細切れになる。ミンツバーグのマネージャ論では、この「細切れの時間」は普遍的なことだと指摘されている。&lt;/p&gt;
+
+&lt;p&gt;とはいえ、仕事には優先順位が必ずある。それはその都度決めていると、そのオーバーヘッドは馬鹿にならない。なので、僕は基本的には以下のように定めている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>予定納税減額申請書</title>
+      <link>/post/2016-07-04-prepaid-tax/</link>
+      <pubDate>Mon, 04 Jul 2016 16:20:48 +0900</pubDate>
+      
+      <guid>/post/2016-07-04-prepaid-tax/</guid>
+      <description>&lt;p&gt;タイトルが堅苦しくなってしまった。。。。&lt;/p&gt;
+
+&lt;p&gt;昨年度の転職で、確定申告での追加支払いが若干大きくなってしまったため、初めて予定納税の通知がきた。基本的に税金はちゃんと払うのが当然と考えているのですが、額としては大きく、昨年度限りの現象なので、後で還付金を請求するのもちょっと面倒でもある。そこで、&lt;strong&gt;減額申請&lt;/strong&gt;というのをすることにした。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>リモートワーク、在宅勤務について思ったこと</title>
+      <link>/post/2016-06-23-remote-work/</link>
+      <pubDate>Thu, 23 Jun 2016 14:01:41 +0900</pubDate>
+      
+      <guid>/post/2016-06-23-remote-work/</guid>
+      <description>&lt;p&gt;某社のリモートワークが話題になっているのですが、場に集う事自体が重要な仕事の要素になることがあります。これはもしかしたら、両方体験して初めて分かることなのかもしれません。&lt;/p&gt;
+
+&lt;p&gt;米Yahoo! ではリモートワークにするとけっこうサボったので戻したという話がありますが、こういうのは、そもそも、「監視されてないとダメな人」だったからなのであって、話になりません。&lt;/p&gt;
+
+&lt;p&gt;じゃあ、「自律的に仕事ができる人」であればリモートワークは大丈夫なのか、というと、役割分担が明確で、その日その日の（あるいはその週の、その月の、その年の）やるべきことが明確で、それができればOKという仕事であれば、おそらく大丈夫でしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>blogをデプロイするまでの作業手順</title>
+      <link>/post/2015-12-12-deploy-memo/</link>
+      <pubDate>Sat, 12 Dec 2015 08:56:50 +0900</pubDate>
+      
+      <guid>/post/2015-12-12-deploy-memo/</guid>
+      <description>&lt;p&gt;Octopressでghithub.comにブログを公開するまでの手順を以下にざっくりまとめます。
+(主に自分用)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>移動</title>
+      <link>/post/2015-12-12-hello-world/</link>
+      <pubDate>Sat, 12 Dec 2015 07:49:54 +0900</pubDate>
+      
+      <guid>/post/2015-12-12-hello-world/</guid>
+      <description>ブログをこちらに移しました。</description>
+    </item>
+    
+    <item>
+      <title>wgetの小技</title>
+      <link>/post/2012-07-17-5774795153469416129/</link>
+      <pubDate>Tue, 17 Jul 2012 22:04:00 +0900</pubDate>
+      
+      <guid>/post/2012-07-17-5774795153469416129/</guid>
+      <description>ファイル名に日本語文字列が含まれてしまっている場合のwgetでのミラーリングは下記のコマンドでOK
+wget -m --restrict-file-names=nocontrol -k http://hogehoge.example.  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2012-07-09-6235933008739113590/</link>
+      <pubDate>Mon, 09 Jul 2012 09:07:00 +0900</pubDate>
+      
+      <guid>/post/2012-07-09-6235933008739113590/</guid>
+      <description>文章を書くことは</description>
+    </item>
+    
+    <item>
+      <title>デザイン会社の営業</title>
+      <link>/post/2011-09-22-8554084637569397755/</link>
+      <pubDate>Thu, 22 Sep 2011 09:54:00 +0900</pubDate>
+      
+      <guid>/post/2011-09-22-8554084637569397755/</guid>
+      <description>&lt;p&gt;今、参加している会社では、僕の肩書は研究開発担当ディレクターとなっている。その主な仕事は、技術や技法の開発、案件に関連した調査は当然として、新規顧客との初期段階での打ち合わせや提案の基本構想を検討することなどが含まれている。前半は肩書と直結しているが、後半は、いわゆる営業と言っても違和感はないものだろう。実際、僕の仕事の大部分は顧客との打ち合わせや顧客に対しての提案の類を作るための作業になっている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>blogの再開</title>
+      <link>/post/2011-09-18-7683475601622562706/</link>
+      <pubDate>Sun, 18 Sep 2011 00:26:00 +0900</pubDate>
+      
+      <guid>/post/2011-09-18-7683475601622562706/</guid>
+      <description>&lt;p&gt;Blogを再開することにした。&lt;/p&gt;
+
+&lt;p&gt;震災以降、抱えていたプロジェクトの完了や転職などがあり、なかなか原稿を書く時間が確保できていなかったのだが、ようやく少し書くことに意識を向けられるようになったからだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>地震以降の1週間のまとめ(備忘録として)</title>
+      <link>/post/2011-03-19-1825018063762437730/</link>
+      <pubDate>Sat, 19 Mar 2011 15:29:00 +0900</pubDate>
+      
+      <guid>/post/2011-03-19-1825018063762437730/</guid>
+      <description>&lt;p&gt;この度の地震で被害にあわれた皆様に心よりお見舞い申し上げます。&lt;/p&gt;
+
+&lt;p&gt;僕が地震に出くわしたのは、ちょうど、仕事をお願いしているデザイン会社で打ち合わせがおわってコーヒーでものみに行こうかと立ち上がって準備をしている時だった。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>コンテンツでできる支援</title>
+      <link>/post/2011-03-13-2802032191509887958/</link>
+      <pubDate>Sun, 13 Mar 2011 11:10:00 +0900</pubDate>
+      
+      <guid>/post/2011-03-13-2802032191509887958/</guid>
+      <description>&lt;p&gt;子ども向け、子育て向けの情報を以下にまとめます。&lt;/p&gt;
+
+&lt;p&gt;コンテンツでできる支援もある。エンタテインメントでできる支援もある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>homebrewのgnuplotでAquatermを使う</title>
+      <link>/post/2011-02-12-8542365196640098223/</link>
+      <pubDate>Sat, 12 Feb 2011 21:11:00 +0900</pubDate>
+      
+      <guid>/post/2011-02-12-8542365196640098223/</guid>
+      <description>&lt;p&gt;内容はいつものとおり、表題のまま。&lt;/p&gt;
+
+&lt;p&gt;とあるデータ解析で、色々面倒なので、gnuplotをHomebrewでインストールしようとしたのだが、入るには入るのだがいろいろ面倒なことがあったので、まとめておく。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>研究のイメージ</title>
+      <link>/post/2011-01-27-1142649260875921718/</link>
+      <pubDate>Thu, 27 Jan 2011 18:44:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-27-1142649260875921718/</guid>
+      <description>&lt;p&gt;質的研究法関連のことを学生に話していてたまに、「研究」ということについてのイメージできていない学生に出会うことがある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>つくばチャレンジ2010(番外編)</title>
+      <link>/post/2011-01-27-8250412059838484800/</link>
+      <pubDate>Thu, 27 Jan 2011 18:43:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-27-8250412059838484800/</guid>
+      <description>&lt;p&gt;つくばチャレンジ(番外編)&lt;/p&gt;
+
+&lt;p&gt;2010年(今年)の1月9日に、バンダイナムコ未来研究所において、2009年度のつくばチャレンジのしめくくりとして、シンポジウムが開催された。そこで、僕の本年度のつくばチャレンジへの取材のしめくくりとして、ここに番外編としてまとめたいと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Digital Oil Painting</title>
+      <link>/post/2011-01-27-55139456380201450/</link>
+      <pubDate>Thu, 27 Jan 2011 18:42:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-27-55139456380201450/</guid>
+      <description>&lt;p&gt;科学技術進行機構CRESTデジタルメディア領域の研究テーマの一つとして藤端まさきを代表として取り組まれてきた研究が、油絵シミュレータである。このシンポジウムは展覧会として研究成果を世に問うにあたって開催された。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ipadは紙</title>
+      <link>/post/2011-01-27-2041683400655520057/</link>
+      <pubDate>Thu, 27 Jan 2011 18:41:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-27-2041683400655520057/</guid>
+      <description>&lt;p&gt;iPadは紙&lt;/p&gt;
+
+&lt;p&gt;Kindleが本という形で流通してきた整えられた情報に新しい形を与え、流通できるようにした。&lt;/p&gt;
+
+&lt;p&gt;それに対してiPadは新しい紙なのだ。とあえて言いたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ipad</title>
+      <link>/post/2011-01-27-2102097749464898557/</link>
+      <pubDate>Thu, 27 Jan 2011 18:40:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-27-2102097749464898557/</guid>
+      <description>&lt;p&gt;友人の会社のご好意で、ipadを触らせてもらった。&lt;/p&gt;
+
+&lt;p&gt;触る前の先入観として以下のようなことを思っていた。&lt;/p&gt;
+
+&lt;p&gt;1、重いだろう。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>muttとGmailとのimapでの連携をofflineimapをつかって便利にする</title>
+      <link>/post/2011-01-27-5967701692953888939/</link>
+      <pubDate>Thu, 27 Jan 2011 12:07:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-27-5967701692953888939/</guid>
+      <description>&lt;p&gt;内容はタイトルの通り。&lt;/p&gt;
+
+&lt;p&gt;かなりニッチなのだけど、まとめておく。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>install googlecl (without MacPorts, Fink etc)</title>
+      <link>/post/2011-01-03-143240425536943628/</link>
+      <pubDate>Mon, 03 Jan 2011 23:49:00 +0900</pubDate>
+      
+      <guid>/post/2011-01-03-143240425536943628/</guid>
+      <description>&lt;p&gt;MacOSXでgoogleclをインストールしようとした際にちょっとはまったのでメモをとして残しておく。&lt;/p&gt;
+
+&lt;p&gt;Googleclはgoogleの各種のサービスをターミナルから利用するためのpythonScript集だ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MacBookAirのちいさいほう</title>
+      <link>/post/2010-12-27-8535878018635868146/</link>
+      <pubDate>Mon, 27 Dec 2010 00:29:00 +0900</pubDate>
+      
+      <guid>/post/2010-12-27-8535878018635868146/</guid>
+      <description>&lt;p&gt;研究プロジェクトの予算とは別で、私物としてMacBookAir11inchを購入してしまった。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>質的研究法の入門ガイド</title>
+      <link>/post/2010-12-21-3821618277905712205/</link>
+      <pubDate>Tue, 21 Dec 2010 22:20:00 +0900</pubDate>
+      
+      <guid>/post/2010-12-21-3821618277905712205/</guid>
+      <description>&lt;p&gt;質的研究法というのがある。&lt;/p&gt;
+
+&lt;p&gt;僕が研究のお手伝いをさせていただいている大学院ではこの質的研究法が重要な方法論になっている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Homebrewがすごい</title>
+      <link>/post/2010-12-21-7435420019475004765/</link>
+      <pubDate>Tue, 21 Dec 2010 11:06:00 +0900</pubDate>
+      
+      <guid>/post/2010-12-21-7435420019475004765/</guid>
+      <description>&lt;p&gt;少し前から、おもいつきでHomebrewを使っている。&lt;/p&gt;
+
+&lt;p&gt;Homebrewというのは、MacOSX用のパッケージ管理システムの一つだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>僕がTeXを使い始めた理由</title>
+      <link>/post/2010-02-22-195897258733982163/</link>
+      <pubDate>Mon, 22 Feb 2010 14:14:00 +0900</pubDate>
+      
+      <guid>/post/2010-02-22-195897258733982163/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ufcpp/20100216/1266337507&#34;&gt;僕が TeX を使うのを辞めた3つの理由&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/ufcpp/20100219/1266594885&#34;&gt;僕が TeX を使うのを辞めた 10 の理由&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/kururu_goedel/20100220/1266648484&#34;&gt;[雑談] 私がTeXを使い続ける理由&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;とりあえず、数日前の@masui 先生のtwittrのコメントをきっかけにつられてみることにした。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chrome for MacのExtensions</title>
+      <link>/post/2010-01-23-1162776185564400148/</link>
+      <pubDate>Sat, 23 Jan 2010 21:33:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-23-1162776185564400148/</guid>
+      <description>&lt;p&gt;Googleのブラウザ Chromeを少し前から使っているのだが、非常に快適で、もう、SafariにもFFにも戻れそうにない。&lt;/p&gt;
+
+&lt;p&gt;快適さの原因は、FFのようにExtensionで拡張ができ、なおかつSafariのようにWebKitで描画、さらには、V8Engineが早い。ということによるのと、そもそも、URL入力のところで検索できたりすることだろう。&lt;/p&gt;
+
+&lt;p&gt;今のところ、大体使用しているExtensionは固まり、下記のものが残っている。どれも無ければこまるという種類になっているので、ほぼこれで僕のデフォルトだろう。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>論文の書き方</title>
+      <link>/post/2010-01-04-7666932205598003727/</link>
+      <pubDate>Mon, 04 Jan 2010 23:56:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-04-7666932205598003727/</guid>
+      <description>&lt;p&gt;少し前に、立て続けに2件ほど論文の構成の考え方を話す機会があったので、ここで少しまとめておきたい。&lt;/p&gt;
+
+&lt;p&gt;てにおはや語尾など様式的な問題はあるのだが、論文を書く上で理解をしておいたほうが良いことがある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>(訂正)BloggerでProcessing.js</title>
+      <link>/post/2010-01-03-2591761322288816438/</link>
+      <pubDate>Sun, 03 Jan 2010 21:50:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-03-2591761322288816438/</guid>
+      <description>&lt;p&gt;昨日ポストしたエントリ(&lt;a href=&#34;http://www.tokiwatch.com/2010/01/bloggerprocessingjs_02.html#links&#34;&gt;bloggerでProcessing.js&lt;/a&gt;)に不備があった。&lt;/p&gt;
+
+&lt;p&gt;googleサイトでjsファイルをホストするという方法は、どうも色々な設定が複雑に絡むのと、googleドメインにログインしているときとしていないときで挙動がかわる(まああたりまえ)のとで、あまり適切ではない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>デザインの流儀についてのメモ</title>
+      <link>/post/2010-01-03-1985571439169363609/</link>
+      <pubDate>Sun, 03 Jan 2010 15:47:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-03-1985571439169363609/</guid>
+      <description>&lt;p&gt;デザインの方法論としてペルソナを利用する方法が提案されている。&lt;/p&gt;
+
+&lt;p&gt;ペルソナは、サービスやコンテンツ、プロダクトなどをデザインする際に、具体的に利用者を想定し、その利用者に対して最適化する方法である。もともとの提案者は、VisualBasicのデザイナ・プログラマとして有名なアラン・クーパー氏である。手法の概要は氏の著書「このコンピュータは使えない!」に詳しいのでそちらを参照してもらいたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日経Web刊</title>
+      <link>/post/2010-01-03-7384574773149787457/</link>
+      <pubDate>Sun, 03 Jan 2010 15:13:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-03-7384574773149787457/</guid>
+      <description>&lt;p&gt;この春から日経新聞がWeb刊を発行するそうだ。&lt;/p&gt;
+
+&lt;p&gt;朝刊の一面に出ていたのだが、現行の日経のWebにはくわしい記載が無かったので、google様にお尋ねしてみたら、下記のプレスリリースが出てきた。webで新聞やるっていっているはなから、情報発信戦略ができてないのが、笑えない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>bloggerでProcessing.js</title>
+      <link>/post/2010-01-02-630616795923893552/</link>
+      <pubDate>Sat, 02 Jan 2010 23:17:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-02-630616795923893552/</guid>
+      <description>&lt;p&gt;表題の通りで、手順は、全く難しくない。&lt;/p&gt;
+
+&lt;p&gt;下準備として、外部のサイトにjsファイルを保管し、bloggerから呼び出せるようにする必要がある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>bloggerでjquery</title>
+      <link>/post/2010-01-02-2902937220399134647/</link>
+      <pubDate>Sat, 02 Jan 2010 15:09:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-02-2902937220399134647/</guid>
+      <description>&lt;p&gt;BloggerでjQueryを利用する場合、googleがAPIを通じて提供しているjQueryを利用するのが早い。&lt;/p&gt;
+
+&lt;p&gt;手順は、下記のようになる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ScanSnap大作戦</title>
+      <link>/post/2010-01-02-4564439038235075071/</link>
+      <pubDate>Sat, 02 Jan 2010 13:50:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-02-4564439038235075071/</guid>
+      <description>&lt;p&gt;僕は一応研究者と呼ばれるカテゴリに属している。&lt;/p&gt;
+
+&lt;p&gt;研究者の仕事の形は様々で、研究室の机にかじりついてガリガリ読み書きしているというのもあれば、実験室で機器を操作しなにやらやっているのもある。野山で観察しているような人もいるだろう。もちろん他の形もある。実践型の研究者にとっては、様々な現場が研究室そのものだったりする。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>万年筆</title>
+      <link>/post/2010-01-02-1602843733233598205/</link>
+      <pubDate>Sat, 02 Jan 2010 01:25:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-02-1602843733233598205/</guid>
+      <description>&lt;p&gt;昨年の秋から万年筆を使うようになった。&lt;/p&gt;
+
+&lt;p&gt;使い始めたのは低価格万年筆の定番中の定番、LamyのSafari。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MTからBloggerへの移行手順</title>
+      <link>/post/2010-01-01-2067540163429098017/</link>
+      <pubDate>Fri, 01 Jan 2010 22:01:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-01-2067540163429098017/</guid>
+      <description>&lt;p&gt;正確にはTypepadだが、今回の移行に際して、若干面倒だったので手順をまとめておく。&lt;/p&gt;
+
+&lt;p&gt;TypepadおよびMovableTypeで、blogのデータをexportする場合、いわゆるMTフォーマットと呼ばれるテキストデータが標準になっている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>謹賀新年とblogの移行</title>
+      <link>/post/2010-01-01-835004888776402565/</link>
+      <pubDate>Fri, 01 Jan 2010 18:23:00 +0900</pubDate>
+      
+      <guid>/post/2010-01-01-835004888776402565/</guid>
+      <description>&lt;p&gt;新年あけましておめでとうございます。&lt;/p&gt;
+
+&lt;p&gt;blogを書き始めてから、ほぼ2年が経過しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>macportsにgauche0.90が反映された</title>
+      <link>/post/2009-12-24-1220245978161138279/</link>
+      <pubDate>Thu, 24 Dec 2009 22:40:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-24-1220245978161138279/</guid>
+      <description>表題の通り。
+これまで、buildを通すのに一苦労だったのだが、これで安心。</description>
+    </item>
+    
+    <item>
+      <title>typepad.jp</title>
+      <link>/post/2009-12-22-161021824052952367/</link>
+      <pubDate>Tue, 22 Dec 2009 00:58:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-22-161021824052952367/</guid>
+      <description>&lt;p&gt;typepad.jpが新typepadへの移行が進んでいるのだが、この移行は、typepad.comへの統合という手続きが含まれている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>grayscale</title>
+      <link>/post/2009-12-14-7290352937289559640/</link>
+      <pubDate>Mon, 14 Dec 2009 06:12:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-14-7290352937289559640/</guid>
+      <description>&lt;p&gt;最近、コンピュータ上で作業をするとき、自分のmacの表示は、グレイスケールにすることがある。&lt;/p&gt;
+
+&lt;p&gt;こう書くと、なんだか変に思われるかもしれないのだが、実はけっこう快適なのだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>鍋には・・・</title>
+      <link>/post/2009-12-13-873766834652452332/</link>
+      <pubDate>Sun, 13 Dec 2009 08:26:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-13-873766834652452332/</guid>
+      <description>&lt;p&gt;冬と言えば鍋料理ということにはこだわらず、僕はいわゆる鍋ものが大好きだ。&lt;/p&gt;
+
+&lt;p&gt;本当な夏でもいけるのだが、さすがに周囲に申し訳無いので、それはしないが、秋も深まったあたりから、休日夕食を作るとなると、第一候補は鍋ものになる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>アスペルガー症候群(幻冬社)</title>
+      <link>/post/2009-12-13-4942851675525972857/</link>
+      <pubDate>Sun, 13 Dec 2009 08:11:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-13-4942851675525972857/</guid>
+      <description>&lt;p&gt;先日、通勤で利用している湘南新宿ラインが人身事故で遅延したりしたため、普段よりも通勤に時間がかかることが明らかだったので、駅の書店で表題の本「アスペルガー症候群」を購入した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>stencil</title>
+      <link>/post/2009-12-09-7618578051128069796/</link>
+      <pubDate>Wed, 09 Dec 2009 09:06:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-09-7618578051128069796/</guid>
+      <description>&lt;p&gt;僕は基本的にグラフィカルなものを作成するのが不得手だ。&lt;/p&gt;
+
+&lt;p&gt;これは持って生まれた特質の一つと言ってしまうしかないほどのもので、本当に苦手なのだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>twitter研究会に行けなかった人のためのまとめ</title>
+      <link>/post/2009-12-07-9131103156876926157/</link>
+      <pubDate>Mon, 07 Dec 2009 21:21:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-07-9131103156876926157/</guid>
+      <description>&lt;p&gt;先週末は体調をくずしたため、認知科学会の冬のシンポジウムにも行けず、慶應義塾大学湘南藤沢キャンパス(SFC)で開催されたtwitter研究会にも行けず。(そもそもバッティングしていたのでどちらかには確実に行けなかったのだが。)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>twitter研究会 ハッシュタグ</title>
+      <link>/post/2009-12-07-20985503820046681/</link>
+      <pubDate>Mon, 07 Dec 2009 10:40:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-07-20985503820046681/</guid>
+      <description>先日、慶應義塾大学SFCで開催されたTwitter研究会でのtsudaりじゃなくてtwitterのハッシュタグのまとめが以下のURLで公開されているのでとりあえずメモ。
+http://kiwofusi.sakura.ne.jp/hashtag/logs/20091205twitterconf.html</description>
+    </item>
+    
+    <item>
+      <title>シンプルライフ</title>
+      <link>/post/2009-12-07-6491114482075359903/</link>
+      <pubDate>Mon, 07 Dec 2009 09:29:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-07-6491114482075359903/</guid>
+      <description>&lt;p&gt;我が家にはいくつかのこだわりがある。&lt;/p&gt;
+
+&lt;p&gt;その一つに道具を増やしすぎないというのがある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>国の政策について考えてみた。</title>
+      <link>/post/2009-12-06-5000076272649511820/</link>
+      <pubDate>Sun, 06 Dec 2009 11:11:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-06-5000076272649511820/</guid>
+      <description>&lt;p&gt;科学技術に対する今回の仕分けは、およそ完了した状況にあるが、最終決着はおそらく年明けまで持ち越すであろう。大臣間での予算確定に向けた折衝の中で全ては決まるのだ。これまでのことが茶番になるのかはの結論は、そこまで待つ必要がある。なお、どれを茶番とするかは個々人の価値観や立場にも依存するので、ここではどれとはあえて指定しない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>近況</title>
+      <link>/post/2009-12-06-3116873327555138174/</link>
+      <pubDate>Sun, 06 Dec 2009 01:48:00 +0900</pubDate>
+      
+      <guid>/post/2009-12-06-3116873327555138174/</guid>
+      <description>&lt;p&gt;特段記事になるようなことが無いので、近況を報告しておく。&lt;/p&gt;
+
+&lt;p&gt;この2週間ほど、抱えているプロジェクトのドキュメントや依頼原稿の執筆などで、ほとんどblogの記事を更新できていない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ノートパソコンを置いてみた</title>
+      <link>/post/2009-11-19-9219821421150836703/</link>
+      <pubDate>Thu, 19 Nov 2009 18:45:00 +0900</pubDate>
+      
+      <guid>/post/2009-11-19-9219821421150836703/</guid>
+      <description>&lt;p&gt;昨日から試しにノートパソコンを通勤で持ち歩く事をやめてみた。&lt;/p&gt;
+
+&lt;p&gt;やめてみて気付いたことがあったのでメモをしておきたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2009-11-18-7029904812094714760/</link>
+      <pubDate>Wed, 18 Nov 2009 21:38:00 +0900</pubDate>
+      
+      <guid>/post/2009-11-18-7029904812094714760/</guid>
+      <description>Typepad Microというのができたそうなので、とりあえず、テストをしてみます。ダッシュボードから簡単に投稿できるというのはこれはこれで便利ですね。</description>
+    </item>
+    
+    <item>
+      <title>子供載せ自転車</title>
+      <link>/post/2009-11-15-5224101162678367739/</link>
+      <pubDate>Sun, 15 Nov 2009 23:12:00 +0900</pubDate>
+      
+      <guid>/post/2009-11-15-5224101162678367739/</guid>
+      <description>&lt;p&gt;我が家は自動車を所有していないので、主たる移動手段は電車と自転車である。&lt;/p&gt;
+
+&lt;p&gt;電車の場合の困難は、子どもが小さい間は、グズられたりすることにあるのだが、これは我が家では、電車を好きになるように教育するとう方法で解決した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>事業仕分けについて、あるいは科学技術者として、</title>
+      <link>/post/2009-11-15-1324786377079319275/</link>
+      <pubDate>Sun, 15 Nov 2009 07:05:00 +0900</pubDate>
+      
+      <guid>/post/2009-11-15-1324786377079319275/</guid>
+      <description>&lt;p&gt;事業仕分けが進んでいる。&lt;/p&gt;
+
+&lt;p&gt;僕が以前勤めていた組織も対象になり、また今勤めている仕事の母体となっている研究開発事業も対象になっている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>公共事業仕分け対象リスト（のこぴぺ）</title>
+      <link>/post/2009-11-10-8517631404033297587/</link>
+      <pubDate>Tue, 10 Nov 2009 21:40:00 +0900</pubDate>
+      
+      <guid>/post/2009-11-10-8517631404033297587/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://sankei.jp.msn.com/economy/finance/091109/fnc0911092103015-n1.htm&#34;&gt;MSN産経ニュース&lt;/a&gt;からのコピー&lt;/p&gt;
+
+&lt;p&gt;　【第１ワーキンググループ（ＷＧ）】&lt;/p&gt;
+
+&lt;p&gt;（内閣府）政府広報▽青少年健全育成に関する普及・啓発▽食育に関する普及・啓発▽少子化社会対策に関する普及・啓発▽高齢化社会対策に関する普及・啓発▽バリア・フリー・ユニバーサルデザイン推進に関する普及・啓発▽障害者施策に関する普及・啓発▽交通安全対策に関する普及・啓発▽犯罪被害者等に関する普及・啓発▽自殺対策に関する普及・啓発▽現場の出番創出モデル調査&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>幼稚園の選び方、あるいはここしばらくのアクセス傾向</title>
+      <link>/post/2009-11-05-5395691746104036520/</link>
+      <pubDate>Thu, 05 Nov 2009 08:30:00 +0900</pubDate>
+      
+      <guid>/post/2009-11-05-5395691746104036520/</guid>
+      <description>&lt;p&gt;11月1日は、大半の幼稚園の入園願書提出日だった。そしてこの日をさかいとして、このblogのアクセス傾向はがらりと変り、幼稚園選びについて書いたこの記事は全く読まれなくなった。&lt;/p&gt;
+
+&lt;p&gt;おそらくこのアクセスの向うには、子どもを入れる幼稚園をどう選ぶか、ということについて悩んでいる多くの親がいるのだろうと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記</title>
+      <link>/post/2009-10-24-1407540347283808873/</link>
+      <pubDate>Sat, 24 Oct 2009 20:06:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-24-1407540347283808873/</guid>
+      <description>&lt;p&gt;追記(2009/12/24)&lt;/p&gt;
+
+&lt;p&gt;MacOSX Snow Leopardでのコンパイルエラーが解決されたver.0.9がMacPortsに反映されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MovableType5(beta)のMAMPへのインストール</title>
+      <link>/post/2009-10-18-3978979844428448922/</link>
+      <pubDate>Sun, 18 Oct 2009 07:55:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-18-3978979844428448922/</guid>
+      <description>&lt;p&gt;#周囲から読み難いからなんとかしろ、とかいろいろ指摘を頂戴したので、修正します。ごめんなさい。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Mac上でMT5betaのテスト環境を構築する必要が生じたので、構築するついでに手順をまとめておく。めずらしく丁寧めに書くので、長い。&lt;/p&gt;
+
+&lt;p&gt;なお、この手順通りやって失敗しても責任は持ちません。ご自身の責任でお願いしたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wikimediaへの提言の続き</title>
+      <link>/post/2009-10-13-3403768399308568496/</link>
+      <pubDate>Tue, 13 Oct 2009 08:33:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-13-3403768399308568496/</guid>
+      <description>&lt;p&gt;以前に書いた&lt;a href=&#34;http://tokiwatch.com/blog/2009/09/a-proposal-for-wikimedia.html&#34;&gt;wikimediaへの提言&lt;/a&gt;について加筆というか補足をする。&lt;/p&gt;
+
+&lt;p&gt;提言の骨子は、wikimediaが研究ノートから論文の発行までをサポートし、投稿→査読→再録→発行という流れではなく、発行→検証というシンプルな流れにすることで知的財産のインセンティブと情報の出力までの手戻りを最短にするということだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>体力指向子育て</title>
+      <link>/post/2009-10-11-8353656669178844087/</link>
+      <pubDate>Sun, 11 Oct 2009 06:43:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-11-8353656669178844087/</guid>
+      <description>&lt;p&gt;このblogでは、育児関連のエントリが良くよまれている。&lt;/p&gt;
+
+&lt;p&gt;特に先日の幼稚園選びの記事は、幼稚園の願書配布が15日前後、入園願書の受付が11月1日あたり、という世の中のスケジュールを鑑みると、みんなが気になることなのだろう。&lt;/p&gt;
+
+&lt;p&gt;そこで、我が家の育児の方針について少しふれておきたい。ってタイトルがそのまま方針なのだが。。。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VAIO Type X</title>
+      <link>/post/2009-10-09-8962624049024667699/</link>
+      <pubDate>Fri, 09 Oct 2009 05:02:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-09-8962624049024667699/</guid>
+      <description>&lt;p&gt;Engadgetなどですでに流れていますが、SonyのVAIOシリーズの新機種として、VAIO Type Xが登場しました。Atomとはいえ最高2GHz、10時間駆動(Lバッテリー)、800g弱というスペックはとても魅力的です。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MacPortsのpTeXは全部入り</title>
+      <link>/post/2009-10-09-3034202863218204052/</link>
+      <pubDate>Fri, 09 Oct 2009 04:47:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-09-3034202863218204052/</guid>
+      <description>&lt;p&gt;ちょっと大きな失敗をしたので、ここで晒しておく。&lt;/p&gt;
+
+&lt;p&gt;数日前に、プレゼン資料の作成環境を、Latex-Beamerに移そうと思い、MacPortsのPackageを眺めたら、latex-beamerクラスが無いことに気づいた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>幼稚園選び</title>
+      <link>/post/2009-10-05-82535332915717588/</link>
+      <pubDate>Mon, 05 Oct 2009 07:17:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-05-82535332915717588/</guid>
+      <description>&lt;p&gt;普段技術的なことや&amp;rdquo;学術的&amp;rdquo;風の話を書いているので唐突だが、ちょっと子育てのことについて書きたい。&lt;/p&gt;
+
+&lt;p&gt;僕の息子は来年から幼稚園に入る。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>オリンピック落選</title>
+      <link>/post/2009-10-04-5189763504271624750/</link>
+      <pubDate>Sun, 04 Oct 2009 02:21:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-04-5189763504271624750/</guid>
+      <description>&lt;p&gt;オリンピックの選考会は残念でした。&lt;/p&gt;
+
+&lt;p&gt;このblogでもオリンピックのブログパーツを貼り、応援をしていたのですが、くやしい限りです。色々うだうだと書くこもできるとは思いますが、負けは負け素直にくやしがりましょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IDEO way (2)</title>
+      <link>/post/2009-10-01-5745082707627010584/</link>
+      <pubDate>Thu, 01 Oct 2009 06:33:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-01-5745082707627010584/</guid>
+      <description>&lt;p&gt;以前に、IDEO way (1)というエントリで、アメリカのデザイン会社IDEOについて若干述べた。今回は、もうすこし踏み込んだことを書きたい。&lt;/p&gt;
+
+&lt;p&gt;前回の記事では、IDEOの力の源が観察とプロトタイピングの2つの方法論の骨格、それらとそれらから派生するさまざまな手技・手法を機能させることに最適化した柔軟な組織構造であると述べた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>つくばチャレンジ2009の傾向と対策（取材用メモ）（追記）</title>
+      <link>/post/2009-09-25-3305806815624183782/</link>
+      <pubDate>Fri, 25 Sep 2009 06:35:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-25-3305806815624183782/</guid>
+      <description>&lt;p&gt;追記しました。（2009年9月27日）&lt;/p&gt;
+
+&lt;p&gt;つくばチャレンジは、つくば駅そばのエキスポセンター周辺の一般道を利用した特設コースでの、自律ロボットの走行会である。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wikimediaへの提案</title>
+      <link>/post/2009-09-24-7058929899132025281/</link>
+      <pubDate>Thu, 24 Sep 2009 06:59:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-24-7058929899132025281/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://volunteer.wikimedia.org/&#34;&gt;Wikimedia財団が新しい取り組みの提案や新たなボランティアシップの募集をしている。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;wikipediaのタイトルバナーに各国語に翻訳されたそれが表示されているそれはおそらく世界で最も多く読まれているボランティア募集の広告だろう。WHOやWWFなんて目じゃない。&lt;/p&gt;
+
+&lt;p&gt;ここではその広告効果を分析することもできるのだが、そういう無粋なことはここではやめて、何か提案をしてみようと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>歴史</title>
+      <link>/post/2009-09-24-5156842157279001037/</link>
+      <pubDate>Thu, 24 Sep 2009 06:20:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-24-5156842157279001037/</guid>
+      <description>&lt;p&gt;我々、人は歴史的な生き物だ。&lt;/p&gt;
+
+&lt;p&gt;歴史的という言葉をここで使うのは、我々の一人一人は歴史的だからである。それぞれが個々に歴史(=人生)を持ち、その中で&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>理解の物語あるいは似非科学の科学性</title>
+      <link>/post/2009-09-24-1615157538856429244/</link>
+      <pubDate>Thu, 24 Sep 2009 06:19:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-24-1615157538856429244/</guid>
+      <description>&lt;p&gt;twitterで議論になっていた話題を少しひっぱって書く。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Sep.11</title>
+      <link>/post/2009-09-12-2408494266147503650/</link>
+      <pubDate>Sat, 12 Sep 2009 10:05:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-12-2408494266147503650/</guid>
+      <description>&lt;p&gt;随分過ぎてしまったが、9月11日があった。&lt;/p&gt;
+
+&lt;p&gt;9月11日という日はとても多くの人にとって、感傷的になる日だ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>東京応援少女</title>
+      <link>/post/2009-09-04-1746004179686636605/</link>
+      <pubDate>Fri, 04 Sep 2009 22:08:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-04-1746004179686636605/</guid>
+      <description>&lt;p&gt;昨日から当blogでも貼っていますが、東京オリンピック・パラリンピック招致委員会のキャンペーンとして「&lt;a href=&#34;http://ouen.tokyo2016.or.jp/blogparts/blogs/register/&#34;&gt;東京応援少女&lt;/a&gt;」ブログパーツがスタートしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IDEO way (1)</title>
+      <link>/post/2009-09-03-4358360978943097112/</link>
+      <pubDate>Thu, 03 Sep 2009 07:23:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-03-4358360978943097112/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.ideo.com/&#34; title=&#34;IDEO&#34;&gt;IDEO&lt;/a&gt;という会社の名前を知らないひとは、デザイン及び、経営の分野に関連する職業の人としてはもぐりと断言してしまって差し支え無いだろう。&lt;/p&gt;
+
+&lt;p&gt;このアメリカのデザイン会社は、デザインを単に綺麗な・魅了する・インパクトを与える形を作るのではなく、ものごとと人との関係性を改善したり、イノベーションを興したりするための手段にとしてのデザインに改変した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>民主党政権下における科学技術政策についての予備知識</title>
+      <link>/post/2009-09-01-4091789062435774760/</link>
+      <pubDate>Tue, 01 Sep 2009 09:16:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-01-4091789062435774760/</guid>
+      <description>&lt;p&gt;一応公的な身分もあることから、選挙中は公式にはこういうことについて一切の言及を避けてきた。&lt;/p&gt;
+
+&lt;p&gt;昨日選挙が終了し、ようやく発言できる状況になってきたので、ここで、これまでの民主党の主張・マニフェストの内、科学技術政策に関連する項目について書き出しておきたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>免責事項等</title>
+      <link>/post/2009-08-31-9206843753116483547/</link>
+      <pubDate>Mon, 31 Aug 2009 09:32:00 +0900</pubDate>
+      
+      <guid>/post/2009-08-31-9206843753116483547/</guid>
+      <description> このblogの記事の著作権の一切を放棄しません。 このblogの記事を引用する場合は、出典のわかる形式で実施されるものについては全て許諾します。 このblogの記事は、特に記載の無い限り、管理者である常盤の個人的な見解に基いています。 このblogの記事のうち、特に技術的な項目に関して、その内容によっていかなる問題が生じても、一切責任を負いません。全て自己責任でご利用ください。  </description>
+    </item>
+    
+    <item>
+      <title>はてな日記インポート完了</title>
+      <link>/post/2009-08-31-3951034907383151794/</link>
+      <pubDate>Mon, 31 Aug 2009 09:11:00 +0900</pubDate>
+      
+      <guid>/post/2009-08-31-3951034907383151794/</guid>
+      <description>はてなダイアリーで書いていた日記のインポートに成功しましたっ!
+よろしくお願いいたします。</description>
+    </item>
+    
+    <item>
+      <title>つくばチャレンジ(その1)</title>
+      <link>/post/2009-08-31-3827518878785093589/</link>
+      <pubDate>Mon, 31 Aug 2009 08:09:00 +0900</pubDate>
+      
+      <guid>/post/2009-08-31-3827518878785093589/</guid>
+      <description>&lt;p&gt;今日、ニュー・テクノロジー財団主催の、「つくばチャレンジ」というイベントを見学させてもらった。&lt;/p&gt;
+
+&lt;p&gt;このイベントは、一般の人が行き来する公道で、自律型ロボット(車両型)を実際に走らせ、課題(約1kmの規定コースの往復)に挑戦するというユニークなイベントである。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>開設</title>
+      <link>/post/2009-08-31-5861314597283414344/</link>
+      <pubDate>Mon, 31 Aug 2009 07:42:00 +0900</pubDate>
+      
+      <guid>/post/2009-08-31-5861314597283414344/</guid>
+      <description>&lt;p&gt;はてなダイアリーで日記という形式で書いてきたのですが、「ちゃんとやろうよ。」という周囲の指摘をいただき、丁度、9月になる直前なので、奮起して、ここに開設することにしました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>curlによるtumblrへのアクセス</title>
+      <link>/post/2009-08-08-3597248648833998380/</link>
+      <pubDate>Sat, 08 Aug 2009 17:41:00 +0900</pubDate>
+      
+      <guid>/post/2009-08-08-3597248648833998380/</guid>
+      <description>&lt;p&gt;表題の手続きについて調査をしたのでまとめておく。&lt;/p&gt;
+
+&lt;p&gt;cURLは、unixのコマンドラインツールで、ホームページをフェッチする。詳細はman curl。もしインストールされていないならば、aptでもyamlでもrpmでもportでもなんでも良いので、適当に探せばある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>天才</title>
+      <link>/post/2009-06-22-4609193517969555887/</link>
+      <pubDate>Mon, 22 Jun 2009 18:49:00 +0900</pubDate>
+      
+      <guid>/post/2009-06-22-4609193517969555887/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://anond.hatelabo.jp/20090622142028&#34;&gt;http://anond.hatelabo.jp/20090622142028&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;増田にトラックバックするべきかは迷うところなのだが、ちょっとだけ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>眼鏡</title>
+      <link>/post/2009-06-19-2058630636526062479/</link>
+      <pubDate>Fri, 19 Jun 2009 18:02:00 +0900</pubDate>
+      
+      <guid>/post/2009-06-19-2058630636526062479/</guid>
+      <description>&lt;p&gt;最近、運転免許の更新があったため、久し振りに眼鏡を新調することにした。&lt;/p&gt;
+
+&lt;p&gt;眼鏡屋で視力を計測し、レンズを合せてみたところ、どうも近くも遠くもあわないという状態だった。どうやら老眼がはじまったということらしい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>スパコン開発は宮大工と同じ</title>
+      <link>/post/2009-05-16-2249968583639184491/</link>
+      <pubDate>Sat, 16 May 2009 16:33:00 +0900</pubDate>
+      
+      <guid>/post/2009-05-16-2249968583639184491/</guid>
+      <description>&lt;p&gt;数日前、理研の進める汎用京速計算機の開発から、NECが離脱する旨の報道があった。&lt;/p&gt;
+
+&lt;p&gt;複数のソースをまとめると、NECの離脱は、計算機(クラスタ)の使用する計算機のうちベクトル型コンピュータの詳細設計が完了したタイミングで、離脱の趣旨は、実際の製造の段階での100億円程度の負担が、昨今の景況から難しいという判断をしたもののようだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VirtualBox LVM</title>
+      <link>/post/2009-04-26-4550005134965084210/</link>
+      <pubDate>Sun, 26 Apr 2009 15:31:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-26-4550005134965084210/</guid>
+      <description>&lt;p&gt;とある案件で、実験用にVirtuallBox上でubuntuのサーバの設定をしている。&lt;/p&gt;
+
+&lt;p&gt;もともとは他の研究チームの学生さんが悪戦苦闘していた作業で、僕は見るにみかねて介入し、とりあえず実験用の環境の構築だけ手伝うことにした。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SUN&#43;ORACLE</title>
+      <link>/post/2009-04-22-2194289868380784997/</link>
+      <pubDate>Wed, 22 Apr 2009 03:13:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-22-2194289868380784997/</guid>
+      <description>&lt;p&gt;SunをORACLEが買収したという一報を，昨夜知った．&lt;/p&gt;
+
+&lt;p&gt;Sunのサーバは大学院での普段の作業環境だったので，一つの時代の区切りとして，なんとなく感傷的になった．&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu Server for VirtualBox</title>
+      <link>/post/2009-04-18-7835760711943558166/</link>
+      <pubDate>Sat, 18 Apr 2009 15:59:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-18-7835760711943558166/</guid>
+      <description>&lt;p&gt;僕は開発環境として、VirtualBox上でUbuntuのサーバエディションを使用している。&lt;/p&gt;
+
+&lt;p&gt;UbuntuはLinuxのメジャーなディストリビューションで、、、といったことは、他所で過分に語られているのでここでは割愛するが、サーバエディションをVirtualBox上の仮想マシンにインストールするする際に注意すべき点があるので報告しておく。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iworksのライセンス購入の手続きについて</title>
+      <link>/post/2009-04-10-5786723340503020999/</link>
+      <pubDate>Fri, 10 Apr 2009 06:58:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-10-5786723340503020999/</guid>
+      <description>&lt;p&gt;MacBookAirのようなDVDドライブが搭載されていないMacのユーザにとって、CD-ROMやDVD-ROMのような物理ディスクでのソフトウェアのインストールは面倒くさいものである。&lt;/p&gt;
+
+&lt;p&gt;しかし、iworksのようなアップル純正のソフトの大半は、パッケージでの販売になっており、インストールにはディスクドライブが必要となる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ちょっと違うんじゃないかな。</title>
+      <link>/post/2009-04-07-2413839767634487181/</link>
+      <pubDate>Tue, 07 Apr 2009 07:59:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-07-2413839767634487181/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/teruyastar/20090406/1238950447&#34;&gt;http://d.hatena.ne.jp/teruyastar/20090406/1238950447&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;僕自身は天才では断じてないのだが、仕事柄、相当な数の天才とやりとりしてきたという自負はある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Perlのインタラクティブ環境</title>
+      <link>/post/2009-04-02-2288892323619887658/</link>
+      <pubDate>Thu, 02 Apr 2009 08:01:00 +0900</pubDate>
+      
+      <guid>/post/2009-04-02-2288892323619887658/</guid>
+      <description>&lt;p&gt;Perlの開発環境についてちょっと実験をしようとしているのだが、ターミナルでインタラクティブにちょこちょこっと処理をしたい際などに、Perlのデバッグモードだと使い勝手がよくないことに気付いた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Scilab5 MacOSX版</title>
+      <link>/post/2009-03-28-254487627607576573/</link>
+      <pubDate>Sat, 28 Mar 2009 07:38:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-28-254487627607576573/</guid>
+      <description>&lt;p&gt;昨日、必要になったので、Scilabをダウンロードしようとしたら、いつの間にか、Mac版のversion5のベータが公開されていた。とりあえずインストールしてみたところ、インタフェースがAqua化されているようだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dropboxへの既存ディレクトリの追加</title>
+      <link>/post/2009-03-20-5329298881946773235/</link>
+      <pubDate>Fri, 20 Mar 2009 18:18:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-20-5329298881946773235/</guid>
+      <description>&lt;p&gt;Dropboxはインストールした段階では、Dropboxフォルダの中のデータのみをシンクする。&lt;/p&gt;
+
+&lt;p&gt;しかし、アプリケーションによってはそれが問題となる場合がある。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dropbox と vim</title>
+      <link>/post/2009-03-14-2719800193439849699/</link>
+      <pubDate>Sat, 14 Mar 2009 11:18:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-14-2719800193439849699/</guid>
+      <description>&lt;p&gt;通常、vimを立ち上げると、そのディレクトリの中でswapファイルが生成される。&lt;/p&gt;
+
+&lt;p&gt;Dropboxのディレクトリ(フォルダ)の中でもそれは同じである。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>イベントのご案内</title>
+      <link>/post/2009-03-13-4356853791426732794/</link>
+      <pubDate>Fri, 13 Mar 2009 04:17:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-13-4356853791426732794/</guid>
+      <description>&lt;p&gt;普段は、技術と子育ての話題ばかりですが、今回はイベントのご案内。&lt;/p&gt;
+
+&lt;p&gt;僕の後輩が企画している下記のイベントがあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>しつけ</title>
+      <link>/post/2009-03-07-1865734670600735003/</link>
+      <pubDate>Sat, 07 Mar 2009 15:45:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-07-1865734670600735003/</guid>
+      <description>&lt;p&gt;技術的な話題よりも子育てについて書いたほうが、読んでいただけることが多いようなので、久し振りに子育てについて書く。&lt;/p&gt;
+
+&lt;p&gt;我が家では、子どもは自由であるべきだという考えに基づき、可能なかぎり&amp;rdquo;禁止&amp;rdquo;しないという方針を取っている。&lt;/p&gt;
+
+&lt;p&gt;しかし、しつけは必要で、特に、他人を怪我させるような危険性のあることは断固とした態度で叱ることにしている。&lt;/p&gt;
+
+&lt;p&gt;この叱るという方針を実施する前に、いくつか仕込みをしていた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>主語と述語</title>
+      <link>/post/2009-03-05-3368950349196507243/</link>
+      <pubDate>Thu, 05 Mar 2009 03:41:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-05-3368950349196507243/</guid>
+      <description>&lt;p&gt;学生の論文を見ていて、また自分で論文を書いていて、モヤモヤとした文章になってしまっていることがある。&lt;/p&gt;
+
+&lt;p&gt;このモヤモヤを発生させる要因を考えてみると多分、以下のようなものに集約できるのではないかと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>D21HWの設定ではまる(MacOSX)</title>
+      <link>/post/2009-03-04-5112851465791859806/</link>
+      <pubDate>Wed, 04 Mar 2009 05:04:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-04-5112851465791859806/</guid>
+      <description>&lt;p&gt;出張が続くのと、来年度長距離通勤になるため、イーモバイルのD21HWを導入した。&lt;/p&gt;
+
+&lt;p&gt;ソフトバンクのイーモバイル回線網を利用したMVNOに期待していたのだが、SIMカードを入れ替えなければならないとか、契約が面倒そうとか、従量制と固定制の仕分けがややこしそうなどなどの理由で、若干幻滅したというのが理由である。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>個性と人格</title>
+      <link>/post/2009-03-01-5183607177427201009/</link>
+      <pubDate>Sun, 01 Mar 2009 08:03:00 +0900</pubDate>
+      
+      <guid>/post/2009-03-01-5183607177427201009/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/p_shirokuma/20090226/p1&#34; title=&#34;『使えない個性は、要らない個性。』 - シロクマの屑籠(汎適所属)&#34;&gt;http://d.hatena.ne.jp/p_shirokuma/20090226/p1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;個性を根本的に履き違えているということでしょう。&lt;/p&gt;
+
+&lt;p&gt;個性とは他者との差分でしかない。つまり、絶対的な個性というのは存在しない。個性というのはそもそもオンリーワンという話とは繋らない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>もうぐったり</title>
+      <link>/post/2009-02-28-4091487683735601419/</link>
+      <pubDate>Sat, 28 Feb 2009 08:23:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-28-4091487683735601419/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://mainichi.jp/select/wadai/news/20090226mog00m010043000c.html&#34;&gt;http://mainichi.jp/select/wadai/news/20090226mog00m010043000c.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;えっと、今さらなにをおっしゃっておられるのでしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>それは大学の先生の仕事か?</title>
+      <link>/post/2009-02-26-2209495227461329424/</link>
+      <pubDate>Thu, 26 Feb 2009 18:30:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-26-2209495227461329424/</guid>
+      <description>&lt;p&gt;価値の判断基準が自分の外にある人間は表現者になれない&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/next49/20090222/p2&#34;&gt;http://d.hatena.ne.jp/next49/20090222/p2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;大学院の教授がクソだと言われる一つの理由&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://anond.hatelabo.jp/20090223034908&#34;&gt;http://anond.hatelabo.jp/20090223034908&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>blogのバックアップ</title>
+      <link>/post/2009-02-21-7454460153349063209/</link>
+      <pubDate>Sat, 21 Feb 2009 17:35:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-21-7454460153349063209/</guid>
+      <description>&lt;p&gt;Doblogのデータ障害が2ちゃんねるやblog圏で話題にのぼっている。&lt;/p&gt;
+
+&lt;p&gt;blogサービスの本質は、何かということを考えると、データを置くためのサーバのディスクスペースと、そのデータへのアクセスのためのインタフェースの提供でしかない。ここで言うインタフェースとは、ユーザが閲覧するwebsiteとしてのblogだったり、blogに記事を入力するための画面だったり、RSSの配信だったりする。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why VIM?</title>
+      <link>/post/2009-02-21-1413999313551349458/</link>
+      <pubDate>Sat, 21 Feb 2009 12:28:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-21-1413999313551349458/</guid>
+      <description>&lt;p&gt;研究者の仕事は論文を書くことである。&lt;/p&gt;
+
+&lt;p&gt;これは、研究者の評価は論文の数によって決まるためである。&lt;/p&gt;
+
+&lt;p&gt;上記の言葉は、少し極端な表現の仕方だ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>論文の数式</title>
+      <link>/post/2009-02-21-5561043144090822059/</link>
+      <pubDate>Sat, 21 Feb 2009 10:39:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-21-5561043144090822059/</guid>
+      <description>&lt;p&gt;とある学会に提出するための論文を書いている。&lt;/p&gt;
+
+&lt;p&gt;査読はパスしているので、この作成した論文の原稿は最終版になる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>身軽さ</title>
+      <link>/post/2009-02-18-1623429990304099237/</link>
+      <pubDate>Wed, 18 Feb 2009 04:16:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-18-1623429990304099237/</guid>
+      <description>&lt;p&gt;最近、表題のことを意識して生活している。&lt;/p&gt;
+
+&lt;p&gt;#別に、独身でいたいとかそういうことではない。&lt;/p&gt;
+
+&lt;p&gt;僕は研究員をしているため、本や論文、資料などを読むことは大切な仕事の一つである。そのため油断すると書籍などの&amp;rdquo;紙物&amp;rdquo;が際限無く増えることになる。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Max/MSPによる計測(追記あり)</title>
+      <link>/post/2009-02-12-2443380055388419830/</link>
+      <pubDate>Thu, 12 Feb 2009 16:50:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-12-2443380055388419830/</guid>
+      <description>&lt;p&gt;#一部の方からtumblr経由で内容の不足が指摘されたので、加筆しておく。&lt;/p&gt;
+
+&lt;p&gt;Max/MSPは音楽や音響処理に対して最適化されたマルチメディアプログラミング言語である。&lt;/p&gt;
+
+&lt;p&gt;コンピュータ音楽やエレクトロ、ノイズなどの先鋭的な音楽の制作や、メディアアート作品の制作などで頻繁に使用されている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>技術者倫理</title>
+      <link>/post/2009-02-11-3251117842935705475/</link>
+      <pubDate>Wed, 11 Feb 2009 18:07:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-11-3251117842935705475/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://app.blog.livedoor.jp/taya/tb.cgi/52165368&#34;&gt;忙中小春日和:読書日記&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;たまにはトラックバックなぞする。&lt;/p&gt;
+
+&lt;p&gt;技術者倫理については、以下の資料も参考にされたい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>教育方針</title>
+      <link>/post/2009-02-09-3001922104747234721/</link>
+      <pubDate>Mon, 09 Feb 2009 08:46:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-09-3001922104747234721/</guid>
+      <description>&lt;p&gt;僕は、一児の父である。&lt;/p&gt;
+
+&lt;p&gt;最近、子育ての方針について、見聞きしたり、話したりする機会が増えてきた。これは研究室のもうすぐ修了する学生たちが社会に巣立つにあたり、(相手がいるのかどうかは知らないが)結婚とか、その先にあるかもしれない育児とかということについて、ちょっとだけ妄想するようになったことによるのかもしれない。いずれにせよ、ちょうど良い機会なのですこしまとめておこうと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>StarSuite</title>
+      <link>/post/2009-02-07-7123259775220696403/</link>
+      <pubDate>Sat, 07 Feb 2009 18:30:00 +0900</pubDate>
+      
+      <guid>/post/2009-02-07-7123259775220696403/</guid>
+      <description>&lt;p&gt;#本業の研究関連の業務で、Gauche-twitterについては開発が中断しています。&lt;/p&gt;
+
+&lt;p&gt;#論文の原稿執筆と追加実験のため、モジュール化する時間が取れていません。&lt;/p&gt;
+
+&lt;p&gt;#ちょっと情けない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>機械翻訳と上手に対話する方法</title>
+      <link>/post/2009-01-31-3367215602680618107/</link>
+      <pubDate>Sat, 31 Jan 2009 17:56:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-31-3367215602680618107/</guid>
+      <description>&lt;p&gt;僕は、某大学の研究員をしているのだが、英語が苦手科目の筆頭で、からっきしである。原因の大半は、某六本木で働いていた元社長の指摘するように、単語力不足である。&lt;/p&gt;
+
+&lt;p&gt;そこで、単語を主に補うための手段として、機械翻訳を使うことがある。(というか正直多い。)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MacPorts上のptex</title>
+      <link>/post/2009-01-27-2438462640437955727/</link>
+      <pubDate>Tue, 27 Jan 2009 11:17:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-27-2438462640437955727/</guid>
+      <description>&lt;p&gt;MacPorts上でpTeXパッケージを利用する際、一部の学会のスタイルファイルが上手くコンパイルされないという問題が僕の手元の環境で数日前に発生した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vim&#43;python</title>
+      <link>/post/2009-01-18-6435110434910549201/</link>
+      <pubDate>Sun, 18 Jan 2009 14:30:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-18-6435110434910549201/</guid>
+      <description>&lt;p&gt;vimsh.vimをfinkパッケージ管理環境下で使用できるようにすることを目的に、fink版のvim(-nox)のコンパイルオプションを変更し、別パッケージ化したので手順を公開する。&lt;/p&gt;
+
+&lt;p&gt;Finkを利用しない方法としては、MacPortsを利用するという方法もある。vimに関する問題だけを解決する場合はMacPortsを利用する方がより適切である。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gauche-twitter 0.1 RC1公開準備</title>
+      <link>/post/2009-01-02-5850486531128881190/</link>
+      <pubDate>Fri, 02 Jan 2009 18:25:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-02-5850486531128881190/</guid>
+      <description>&lt;p&gt;表題のGauche-moduleを冬休みの宿題として作っている。&lt;/p&gt;
+
+&lt;p&gt;twitterAPIをたたくだけならば、Python, Ruby, Perl, .NET言語などのライブラリが整備されている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>数学的思考</title>
+      <link>/post/2009-01-02-219134350656215536/</link>
+      <pubDate>Fri, 02 Jan 2009 05:39:00 +0900</pubDate>
+      
+      <guid>/post/2009-01-02-219134350656215536/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://d.hatena.ne.jp/rikunora/20081228/p1&#34;&gt;http://d.hatena.ne.jp/rikunora/20081228/p1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;通説的な理解にとどまるのではなく、数学的に理由付けていくということは普段から癖にしておく必要があると痛感した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>goshでreadline</title>
+      <link>/post/2008-12-31-2173314637199867810/</link>
+      <pubDate>Wed, 31 Dec 2008 13:42:00 +0900</pubDate>
+      
+      <guid>/post/2008-12-31-2173314637199867810/</guid>
+      <description>&lt;p&gt;最近、ほとんどのプログラムをGaucheで作成している。&lt;/p&gt;
+
+&lt;p&gt;Gaucheがなにかについては、以下のサイトに詳しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2008-12-31-2652174834624844008/</link>
+      <pubDate>Wed, 31 Dec 2008 01:49:00 +0900</pubDate>
+      
+      <guid>/post/2008-12-31-2652174834624844008/</guid>
+      <description>blog移転のお知らせ
+Blogをはてなダイアリーに移すことになりました。新しいBlogはこちらです。</description>
+    </item>
+    
+    <item>
+      <title>goshでreadline</title>
+      <link>/post/2008-12-30-3075395620059887245/</link>
+      <pubDate>Tue, 30 Dec 2008 20:42:00 +0900</pubDate>
+      
+      <guid>/post/2008-12-30-3075395620059887245/</guid>
+      <description>&lt;p&gt;最近、ほとんどのプログラムをGaucheで作成している。&lt;/p&gt;
+
+&lt;p&gt;Gaucheがなにかについては、以下のサイトに詳しい。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>/post/2008-11-25-6911510360483322003/</link>
+      <pubDate>Tue, 25 Nov 2008 00:30:00 +0900</pubDate>
+      
+      <guid>/post/2008-11-25-6911510360483322003/</guid>
+      <description>sorry this is test.</description>
+    </item>
+    
+    <item>
+      <title>つくばチャレンジ2008</title>
+      <link>/post/2008-11-20-5848707101852472849/</link>
+      <pubDate>Thu, 20 Nov 2008 23:31:00 +0900</pubDate>
+      
+      <guid>/post/2008-11-20-5848707101852472849/</guid>
+      <description>&lt;p&gt;今日、明日の2日間、つくばチャレンジの本戦が開催されている。&lt;/p&gt;
+
+&lt;p&gt;つくばチャレンジは、筑波駅周辺の市街地を利用した、自律走行ロボットの合同走行会である。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>機密文書</title>
+      <link>/post/2008-11-16-1161820189788755413/</link>
+      <pubDate>Sun, 16 Nov 2008 20:47:00 +0900</pubDate>
+      
+      <guid>/post/2008-11-16-1161820189788755413/</guid>
+      <description>&lt;p&gt;大学の研究員という職業は、職業上の機密が意外に多い。&lt;/p&gt;
+
+&lt;p&gt;特許関連や未投稿の論文、学生の住所に関する情報など職業上の機密と言われるものに属する情報は作業対象のほとんどを占めている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Public Media 2.0</title>
+      <link>/post/2008-11-05-685641326463628510/</link>
+      <pubDate>Wed, 05 Nov 2008 18:46:00 +0900</pubDate>
+      
+      <guid>/post/2008-11-05-685641326463628510/</guid>
+      <description>&lt;p&gt;オバマ氏が次期大統領に就任することとなった。&lt;/p&gt;
+
+&lt;p&gt;現時点での報道では、民主党政権奪回、および初の黒人大統領という2つの点に注目されているが、今後政策面に話題は移ることになるだろう。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Macosx上のVirtualBoxのゲストOSへのssh接続</title>
+      <link>/post/2008-10-22-120382101486075940/</link>
+      <pubDate>Wed, 22 Oct 2008 10:20:00 +0900</pubDate>
+      
+      <guid>/post/2008-10-22-120382101486075940/</guid>
+      <description>&lt;p&gt;ちょっとてこづったので、記録を残しておく。&lt;/p&gt;
+
+&lt;p&gt;接続のための手順は、実はVirtualBoxのマニュアルに記載されているのだが、意外と見つけるまでに時間がかかった。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Google Docからのテスト</title>
+      <link>/post/2008-10-20-4141397128708483408/</link>
+      <pubDate>Mon, 20 Oct 2008 02:33:00 +0900</pubDate>
+      
+      <guid>/post/2008-10-20-4141397128708483408/</guid>
+      <description>Google Docからのテスト</description>
+    </item>
+    
+    <item>
+      <title>結婚式</title>
+      <link>/post/2008-10-20-7211997960301498954/</link>
+      <pubDate>Mon, 20 Oct 2008 02:15:00 +0900</pubDate>
+      
+      <guid>/post/2008-10-20-7211997960301498954/</guid>
+      <description>&lt;p&gt;友人(女子)の結婚パーティーが今日あった。&lt;/p&gt;
+
+&lt;p&gt;旧**大使館を改装した会場は、実に華やいだ雰囲気で、明るい談笑がいたるところで繰り広げられていた。新郎新婦の人望の高さを感じさせた。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Softbankモバイル</title>
+      <link>/post/2008-10-20-5360537994582028751/</link>
+      <pubDate>Mon, 20 Oct 2008 02:06:00 +0900</pubDate>
+      
+      <guid>/post/2008-10-20-5360537994582028751/</guid>
+      <description>&lt;p&gt;少し前だが、iPhnoeを購入し自宅で携帯電話として利用しようとしたときに、自宅の電波の状態が非常に悪い状態であることに気づいた。&lt;/p&gt;
+
+&lt;p&gt;僕は携帯電話を利用するときはほとんど家内(自宅)に電話をするためだったので、自宅にいると携帯電話を利用することはまずなかった。(なぜならば、奥さんは家にいるのだから)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>携帯からの投稿のテスト</title>
+      <link>/post/2008-09-28-24067395936682857/</link>
+      <pubDate>Sun, 28 Sep 2008 10:50:00 +0900</pubDate>
+      
+      <guid>/post/2008-09-28-24067395936682857/</guid>
+      <description>試しています。</description>
+    </item>
+    
+    <item>
+      <title>iPhone(解釈編)</title>
+      <link>/post/2008-09-15-7114951513853575033/</link>
+      <pubDate>Mon, 15 Sep 2008 23:30:00 +0900</pubDate>
+      
+      <guid>/post/2008-09-15-7114951513853575033/</guid>
+      <description>&lt;p&gt;昨日iPhoneを購入した理由と顛末については一つ前の日記に書いた。今日はその続きをまとめる。&lt;/p&gt;
+
+&lt;p&gt;iPhoneがいったいどういうものなのかについては、すでに多くのレビューなりなんなりで述べられているので割愛するが、かいつまんで説明すると、センサ(マルチタッチ、加速度、カメラ、GPS)の搭載された小型のインターネット端末である。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iPhone(購入編)</title>
+      <link>/post/2008-09-15-915042939883523135/</link>
+      <pubDate>Mon, 15 Sep 2008 12:27:00 +0900</pubDate>
+      
+      <guid>/post/2008-09-15-915042939883523135/</guid>
+      <description>&lt;p&gt;僕は通勤時間が片道2時間程度あるため、通勤電車の中が作業スペースの一つとなっている。座席に座ることができる場合は、ノートPCを広げて、原稿を書けばいいのだが、立っている場合、そういうわけにもいかない。そのため、立っている場合は、携帯電話をつかって、GmailとGoogle ReaderでメールやRSSを確認し、後で読む記事にチェックマークをつけている。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>skk</title>
+      <link>/post/2008-09-13-3617664017656858366/</link>
+      <pubDate>Sat, 13 Sep 2008 09:38:00 +0900</pubDate>
+      
+      <guid>/post/2008-09-13-3617664017656858366/</guid>
+      <description>&lt;p&gt;僕は普段skkという漢字変換システムを使用している。 skkは非常にシンプルな仮名ー漢字変換システムで、連文節変換やそれに類する仕組みを持たない。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>つくばチャレンジ(その1)</title>
+      <link>/post/2008-09-07-4298546351553494187/</link>
+      <pubDate>Sun, 07 Sep 2008 23:55:00 +0900</pubDate>
+      
+      <guid>/post/2008-09-07-4298546351553494187/</guid>
+      <description>&lt;p&gt;今日、ニュー・テクノロジー財団主催の、「つくばチャレンジ」というイベントを見学させてもらった。&lt;/p&gt;
+
+&lt;p&gt;このイベントは、一般の人が行き来する公道で、自律型ロボット(車両型)を実際に走らせ、課題(約1kmの規定コースの往復)に挑戦するというユニークなイベントである。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2008-09-07-2797012326953188300/</link>
+      <pubDate>Sun, 07 Sep 2008 23:54:00 +0900</pubDate>
+      
+      <guid>/post/2008-09-07-2797012326953188300/</guid>
+      <description>久し振りにblogを更新することにした。</description>
+    </item>
+    
+    <item>
+      <title>Open ID</title>
+      <link>/post/2008-01-23-3611000512590128496/</link>
+      <pubDate>Wed, 23 Jan 2008 13:40:00 +0900</pubDate>
+      
+      <guid>/post/2008-01-23-3611000512590128496/</guid>
+      <description>bloggerがOpen IDに対応したので，早速設定．TypeKeyサービスも使っているで，どちらをメインにするのかは検討が必要だが，全部Googleのアカウントで解決できるというメリットはすごく魅力的だ．悩む．</description>
+    </item>
+    
+  </channel>
+</rss>

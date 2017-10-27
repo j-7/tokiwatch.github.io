@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homebrew on 博物誌</title>
+    <link>/categories/homebrew/</link>
+    <description>Recent content in Homebrew on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sat, 12 Feb 2011 21:11:00 +0900</lastBuildDate>
+    
+	<atom:link href="/categories/homebrew/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>homebrewのgnuplotでAquatermを使う</title>
+      <link>/post/2011-02-12-8542365196640098223/</link>
+      <pubDate>Sat, 12 Feb 2011 21:11:00 +0900</pubDate>
+      
+      <guid>/post/2011-02-12-8542365196640098223/</guid>
+      <description>&lt;p&gt;内容はいつものとおり、表題のまま。&lt;/p&gt;
+
+&lt;p&gt;とあるデータ解析で、色々面倒なので、gnuplotをHomebrewでインストールしようとしたのだが、入るには入るのだがいろいろ面倒なことがあったので、まとめておく。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

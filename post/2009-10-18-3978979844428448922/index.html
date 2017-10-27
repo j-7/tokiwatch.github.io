@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MovableType5(beta)のMAMPへのインストール</title>
+<meta name="description" content="研究マネジメントについてのあれこれ">
+<meta name="generator" content="Hugo 0.30.2" />
+<meta property="og:title" content="MovableType5(beta)のMAMPへのインストール" />
+<meta property="og:description" content="#周囲から読み難いからなんとかしろ、とかいろいろ指摘を頂戴したので、修正します。ごめんなさい。
+
+
+
+Mac上でMT5betaのテスト環境を構築する必要が生じたので、構築するついでに手順をまとめておく。めずらしく丁寧めに書くので、長い。
+
+なお、この手順通りやって失敗しても責任は持ちません。ご自身の責任でお願いしたい。
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/2009-10-18-3978979844428448922/" />
+
+
+
+<meta property="article:published_time" content="2009-10-18T07:55:00&#43;09:00"/>
+
+<meta property="article:modified_time" content="2009-10-18T07:55:00&#43;09:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="/js/scripts.js"></script>
+<link rel="shortcut icon" href="/favicon.ico">
+
+</head>
+<body class="body body-right-sidebar mobile" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="container container-outer">
+		<header class="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="container container-inner clearfix">
+				<div class="logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+					<a class="logo__link" href="/" title="博物誌" rel="home">
+						<h1 class="logo__title">博物誌</h1>
+						<h2 class="logo__tagline">研究マネジメントなど</h2>
+					</a>
+				</div>
+			</div>
+			
+<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<ul class="menu__list">
+		<li class="menu__item "><a class="menu__link" href="/profile/">PROFILE</a></li>
+	</ul>
+</nav>
+
+		</header>
+		<div class="wrapper clearfix">
+
+<main class="main-content content" role="main" itemprop="mainContentOfPage">
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">MovableType5(beta)のMAMPへのインストール</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2009-10-18T07:55:00">October 18, 2009</time>
+				<span class="post__meta-categories meta-categories">
+					<svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+					<a class="meta-categories__link" href="/categories/mamp" rel="category">MAMP</a>, <a class="meta-categories__link" href="/categories/mac" rel="category">Mac</a>, <a class="meta-categories__link" href="/categories/mt5" rel="category">MT5</a>, <a class="meta-categories__link" href="/categories/unix" rel="category">unix</a>, <a class="meta-categories__link" href="/categories/movabletype5" rel="category">MovableType5</a></span>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<p>#周囲から読み難いからなんとかしろ、とかいろいろ指摘を頂戴したので、修正します。ごめんなさい。</p>
+
+<hr />
+
+<p>Mac上でMT5betaのテスト環境を構築する必要が生じたので、構築するついでに手順をまとめておく。めずらしく丁寧めに書くので、長い。</p>
+
+<p>なお、この手順通りやって失敗しても責任は持ちません。ご自身の責任でお願いしたい。</p>
+
+<p></p>
+
+<hr />
+
+<p><strong>構築するMT5betaテスト環境のコンセプト</strong></p>
+
+<ul>
+<li><p>データベースはmysql</p></li>
+
+<li><p>ウェブサーバ等はMANP</p></li>
+</ul>
+
+<p><strong>理由：</strong></p>
+
+<ul>
+<li><p>SQLiteだと後々めんどうくさい。</p></li>
+
+<li><p>Apatchとか一生懸命設定するのは面倒。</p></li>
+
+<li><p>テストが終ったらさっくりまとめて消去したい。</p></li>
+</ul>
+
+<p><strong>構築に必要なもの（今回の構築に使用したもの）</strong></p>
+
+<ul>
+<li><p>Mac（MacOS10.5以上）</p></li>
+
+<li><p>Xcode （最新のもの）</p></li>
+
+<li><p>MAMP 1.4.1</p></li>
+
+<li><p>MacPorts 1.8.1</p></li>
+
+<li><p>MovableType5 beta3</p></li>
+</ul>
+
+<p><strong>必要なスキル</strong></p>
+
+<ul>
+<li>Terminalでのunixコマンドによるファイルの操作</li>
+</ul>
+
+<p><strong>その他</strong></p>
+
+<ul>
+<li>アドミンの権限</li>
+</ul>
+
+<p><strong>下準備</strong></p>
+
+<ol>
+<li><p>XCODEをインストール</p></li>
+
+<li><p>MacPortsをインストール</p></li>
+
+<li><p>Terminalから以下のコマンドを入力し、MacPortsのPortsの情報を最新にする。</p>
+
+<p>`</p>
+
+<p>sudo port selfupdate</p>
+
+<p>sudo port sync</p>
+
+<p>sudo port upgrade outdated</p>
+
+<p>`</p></li>
+
+<li><p>MT5が必要とするperl moduleをインストールする。</p>
+
+<p>`</p>
+
+<p>sudo port install imagemagick +perl</p>
+
+<p>sudo port install p5-dbd-mysql</p>
+
+<p>sudo port install p5-dbd-sqlite</p>
+
+<p>sudo port install p5-dbd-sqlite2</p>
+
+<p>sudo port install p5-gd</p>
+
+<p>sudo port install p5-crypt-dsa</p>
+
+<p>sudo port install p5-archive-zip</p>
+
+<p>sudo port install p5-xml-atom</p>
+
+<p>sudo port install p5-mail-sendmail</p>
+
+<p>sudo port install p5-xml-parser</p>
+
+<p>sudo port install p5-ipc-run</p>
+
+<p>`</p>
+
+<p>注：MacPortsをすでに利用している人向けの話</p>
+
+<p>imagemagickが先にインストールされているとうまくmakeが通らない場合があるので、+perlではないimagemagickは、uninstallしてください。</p></li>
+
+<li><p>MAMPのインストール</p></li>
+</ol>
+
+<p>ダウンロードは<a href="http://www.mamp.info/en/downloads/index.html">こちらから</a></p>
+
+<p>（下のほうに無償版へのリンクがある。）</p>
+
+<ol>
+<li>MT5の設置・設定</li>
+</ol>
+
+<p>ダウンロードは<a href="http://www.movabletype.jp/beta/50/">こちらから</a></p>
+
+<pre><code>`
+
+ダウンロードしたファイルを解凍。
+
+フォルダ名をMT5-***から、mt5betaへ変更。
+
+mt5beta/mt-staticを、/Application/MAMP/htdocs/mt5beta/mt-staticへ移動
+
+mt5betaを、/Application/MAMP/cgi-bin/mt5betaへ移動
+
+`
+</code></pre>
+
+<ol>
+<li><p>perlのパスをごにょごにょする</p>
+
+<p>`</p>
+
+<p>sudo mv /usr/bin/perl /usr/bin/perl.orginal</p>
+
+<p>sudo ln -s /opt/local/bin/perl /usr/bin/perl</p>
+
+<p>`</p>
+
+<p>注意：mt*.cgiの冒頭のprelへのパスに対応する措置。</p>
+
+<p>あまりエレガントな方法ではないが、今回は、MacOSX10.6の一部としてすでに入っているperl(/usr/bin/perl)を、MacPortsでインストールされたperl (/opt/local/bin/perl)で置き換えるために、/usr/bin/perlの名前を変更し、/opt/local/bin/perlへのシンボリックリンク/usr/bin/perlを作成した。</p>
+
+<p>もう一つの方法としては、mt5beta/の中のcgiファイルの冒頭の&rdquo;#!/usr/bin/perl -w&rdquo;を、全部&rdquo;#!/opt/local/bin/perl -w&rdquo;に書き換えるという方法がある。このあたりはお好みで。</p></li>
+
+<li><p>MAMPを起動</p></li>
+</ol>
+
+<p>ブラウザが起動し、MAMPのスタートページが表示される。</p>
+
+<p>次の設定に必要なのでこのページは閉じないこと。</p>
+
+<ol>
+<li><p>データベースの作成</p>
+
+<p>スタートページの「phpMyAdmin」タブを選択する。</p>
+
+<p>「新規データベースを作成する」の下のボックスに作成したいデータベース名を入力し「作成」ボタンを選択する。</p>
+
+<p>#パスワード変更などはお好みで。</p></li>
+</ol>
+
+<hr />
+
+<p><strong>MT5betaの設定</strong></p>
+
+<ol>
+<li><p>MT5betaのパスの設定</p>
+
+<ol>
+<li><p><a href="http://localhost:8888/cgi-bin/mt5beta/mt-wizard.cgi">http://localhost:8888/cgi-bin/mt5beta/mt-wizard.cgi</a> を開く。</p></li>
+
+<li><p>以下のように設定し、「開始」ボタンを選択する。</p></li>
+</ol>
+
+<p>`</p>
+
+<p>スタティックウェブパス：<a href="http://localhost:8888/mt5beta/mt-static/">http://localhost:8888/mt5beta/mt-static/</a></p>
+
+<p>スタティックファイルパス：/Applications/MAMP/htdocs/mt5beta/mt-static</p>
+
+<p>`</p></li>
+
+<li><p>モジュールを確認する。</p>
+
+<p>下準備が正しければ、特にアラートは出ないはずなのであっさり「次へ」ボタンを選択する。</p></li>
+</ol>
+
+<ul>
+<li><p>データベースの設定</p>
+
+<ol>
+<li><p>今回のコンセプトに沿って「MySQLデータベース（推奨）」をプルダウンメニューから選択する。</p></li>
+
+<li><p>以下の情報を入力する。</p></li>
+</ol>
+
+<p>`</p>
+
+<p>データベースサーバ：localhost</p>
+
+<p>データベース名：（phpMyAdminで作成したデータベース名）</p>
+
+<p>ユーザ名：root</p>
+
+<p>パスワード：root</p>
+
+<p>`</p>
+
+<ol>
+<li><p>「高度な設定」ボタンをクリックし以下を設定し、「接続テスト」を選択する。</p></li>
+
+<li><p>以下の情報を入力する。</p></li>
+</ol>
+
+<p>`</p>
+
+<p>データベースポート：8889</p>
+
+<p>データベースソケット：/Applications/MAMP/tmp/mysql/mysql.sock</p>
+
+<p>`</p>
+
+<ol>
+<li><p>「接続テスト」を選択する。</p></li>
+
+<li><p>データベースに無事接続できたことを確認し、「次へ」を選択する。</p></li>
+</ol></li>
+
+<li><p>メール設定</p>
+
+<p>お好みで。</p>
+
+<p>特に設定をしなくても設定は続けられる。</p>
+
+<p>「次へ」を選択する。</p></li>
+
+<li><p>設定の完了</p>
+
+<p>特に変なことがなければ、これにて設定は完了。</p>
+
+<p>あとはアカウント等の設定をしましょう。</p></li>
+</ul>
+		</div>
+		
+
+	</article>
+	
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/post/2009-10-13-3403768399308568496/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">wikimediaへの提言の続き</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="/post/2009-10-24-1407540347283808873/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Snow LeopardでGaucheがやっと使えるように(using MacPorts) - Ehrenの日記</p></a>
+	</div>
+</nav>
+
+	
+</main>
+
+<aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+<div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="//google.com/search">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q">
+		</label>
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="/" />
+	</form>
+</div>
+	
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/2017-06-21-backpack/">リュックサックを買い直しました。</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2017-05-09-move-to-github-page/">github pageに再度移行</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-12-30-management-is-creative/">マネジメントはクリエイティブな仕事か？</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-12-29-save-ssh-keyphrase-on-macosx/">SSHパスフレーズがKeychainに保存されなくなったら</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-12-15-design-method/">私達の理論的アプローチ（再掲）</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-12-04-rucksack/">リュックサック選びの基準</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-12-03-publish-via-sftp/">Octopressでサイトをsftpで公開</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-12-03-the-insiders-guide-to-grantmaking/">「助成という仕事」を読んで</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-11-16-mtddc-cms-zadankai/">MTDDC2016 CMS座談会のモデレータをしました</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2016-10-15-book-review/">「科学の発見」を読んで</a></li>
+		</ul>
+	</div>
+</div>
+
+	
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/categories/design">Design</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/gauche">Gauche</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/homebrew">Homebrew</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/iphone">Iphone</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/mac">Mac</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/macports">Macports</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/mamp">Mamp</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/management">Management</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/movabletype5">Movabletype5</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/mt5">Mt5</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/omni">Omni</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/omni-graffle">Omni-Graffle</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/python">Python</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/stencil">Stencil</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/twitter">Twitter</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/unix">Unix</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/vaio-type-x">Vaio-Type-X</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/wikimedia">Wikimedia</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/wikipedia">Wikipedia</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%81%97%e3%81%a4%e3%81%91">しつけ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%81%a4%e3%81%8f%e3%81%b0%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8">つくばチャレンジ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%82%82%e3%81%ae%e3%81%a5%e3%81%8f%e3%82%8a">ものづくり</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%82%aa%e3%83%aa%e3%83%b3%e3%83%94%e3%83%83%e3%82%af">オリンピック</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%83%96%e3%83%a9%e3%82%a6%e3%82%b6">ブラウザ</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%83%97%e3%83%ad%e3%82%b0%e3%83%a9%e3%83%9f%e3%83%b3%e3%82%b0">プログラミング</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88">ロボット</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e4%b8%87%e5%b9%b4%e7%ad%86">万年筆</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e5%a0%b1%e5%91%8a">報告</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e5%ad%90%e8%82%b2%e3%81%a6">子育て</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e5%b0%8f%e6%b1%a0%e9%87%8c%e5%a5%88">小池里奈</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e5%b9%bc%e7%a8%9a%e5%9c%92">幼稚園</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e6%8f%90%e6%a1%88">提案</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e6%9d%b1%e4%ba%ac%e3%82%aa%e3%83%aa%e3%83%b3%e3%83%94%e3%83%83%e3%82%af">東京オリンピック</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e6%9d%b1%e4%ba%ac%e5%bf%9c%e6%8f%b4%e5%b0%91%e5%a5%b3">東京応援少女</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e7%a0%94%e7%a9%b6%e7%94%9f%e6%b4%bb">研究生活</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e7%a7%91%e5%ad%a6%e6%8a%80%e8%a1%93">科学技術</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e7%ad%91%e6%b3%a2">筑波</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e8%87%aa%e5%be%8b%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88">自律ロボット</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e8%aa%ad%e6%9b%b8">読書</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e9%9b%91%e6%84%9f">雑感</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e9%9b%bb%e5%ad%90%e5%8c%96">電子化</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/%e9%a3%9f%e3%81%b9%e7%89%a9">食べ物</a></li>
+		</ul>
+	</div>
+</div>
+	
+
+	
+</aside>
+
+	</div>
+		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<div class="container container-inner">
+				<p class="footer__copyright">&copy; 2017 博物誌. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
+			</div>
+		</footer>
+	</div>
+
+<script>
+	var navigation = responsiveNav(".menu", {
+		navClass: "menu--collapse",
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wikimedia on 博物誌</title>
+    <link>/categories/wikimedia/</link>
+    <description>Recent content in Wikimedia on 博物誌</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Tue, 13 Oct 2009 08:33:00 +0900</lastBuildDate>
+    
+	<atom:link href="/categories/wikimedia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>wikimediaへの提言の続き</title>
+      <link>/post/2009-10-13-3403768399308568496/</link>
+      <pubDate>Tue, 13 Oct 2009 08:33:00 +0900</pubDate>
+      
+      <guid>/post/2009-10-13-3403768399308568496/</guid>
+      <description>&lt;p&gt;以前に書いた&lt;a href=&#34;http://tokiwatch.com/blog/2009/09/a-proposal-for-wikimedia.html&#34;&gt;wikimediaへの提言&lt;/a&gt;について加筆というか補足をする。&lt;/p&gt;
+
+&lt;p&gt;提言の骨子は、wikimediaが研究ノートから論文の発行までをサポートし、投稿→査読→再録→発行という流れではなく、発行→検証というシンプルな流れにすることで知的財産のインセンティブと情報の出力までの手戻りを最短にするということだ。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wikimediaへの提案</title>
+      <link>/post/2009-09-24-7058929899132025281/</link>
+      <pubDate>Thu, 24 Sep 2009 06:59:00 +0900</pubDate>
+      
+      <guid>/post/2009-09-24-7058929899132025281/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://volunteer.wikimedia.org/&#34;&gt;Wikimedia財団が新しい取り組みの提案や新たなボランティアシップの募集をしている。&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;wikipediaのタイトルバナーに各国語に翻訳されたそれが表示されているそれはおそらく世界で最も多く読まれているボランティア募集の広告だろう。WHOやWWFなんて目じゃない。&lt;/p&gt;
+
+&lt;p&gt;ここではその広告効果を分析することもできるのだが、そういう無粋なことはここではやめて、何か提案をしてみようと思う。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
