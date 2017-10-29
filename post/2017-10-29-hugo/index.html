@@ -3,16 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>404 Page not found</title>
+<title>Hugoに移行</title>
 <meta name="description" content="このブログでは大学での研究開発マネジメントに取り組む中で考えたことや、日常で感じたことなどをまとめています。">
 <meta name="generator" content="Hugo 0.30.2" />
-<meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="このブログでは大学での研究開発マネジメントに取り組む中で考えたことや、日常で感じたことなどをまとめています。" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="" />
+<meta property="og:title" content="Hugoに移行" />
+<meta property="og:description" content="# blogのエンジンをHUGOに変更た。
+HUGOは動作する静的サイトジェネレータで、Go言語で実装されている。
+以前は、Octopressで運用をしていたのだが、2年くらい前から開発が止まっていて、セキュリティイシューが出ることはないだろうけど、rubyの最新バージョンに追随していない等々で、使うのをやめることにして、一旦jekyllに移行したのだが、使い勝手があまり良くないことから、再度、今度はHUGOに移行することになった。
+HUGOに移行したのは、Macだとインストールが簡単なためで、アップデートも定常的に行われているからだ。
+$ brew install hugo  コンテンツの移行では、Octopressとはコンテンツ（markdownファイル）に組み込むyamlのパラメータが違うので、編集作業が必要になった。
+しばらくはこれでやってる。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://tokiwatch.github.io/post/2017-10-29-hugo/" />
 
 
 
+<meta property="article:published_time" content="2017-10-29T05:34:57&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-10-29T05:34:57&#43;00:00"/>
 
 
 
@@ -26,7 +34,7 @@
 
 <link rel="dns-prefetch" href="//fonts.googleapis.com" />
 <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-<link rel="alternate" type="application/rss+xml" title="月曜朝一雨模様 Feed" href="https://tokiwatch.github.io/index.xml">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700" type="text/css" media="all" />
 <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 <script type="text/javascript" src="/js/scripts.js"></script>
@@ -55,10 +63,44 @@
 		<div class="wrapper clearfix">
 
 <main class="main-content content" role="main" itemprop="mainContentOfPage">
-	<div class="warning">
-		<h1 class="warning__headline">404. Page not found</h1>
-		<p class="warning__text">The page you were looking for appears to have been moved, deleted or does not exist. Please, use search or go to <a href="/">main page</a>.</p>
+	<article class="post">
+		<header class="post__header clearfix">
+			<h1 class="post__title">Hugoに移行</h1>
+			<p class="post__meta meta">
+				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+				<time class="post__meta-date" datetime="2017-10-29T05:34:57">October 29, 2017</time>
+			</p>
+		</header>
+		<div class="post__content clearfix">
+			<p>#
+blogのエンジンをHUGOに変更た。</p>
+
+<p>HUGOは動作する静的サイトジェネレータで、Go言語で実装されている。</p>
+
+<p>以前は、Octopressで運用をしていたのだが、2年くらい前から開発が止まっていて、セキュリティイシューが出ることはないだろうけど、rubyの最新バージョンに追随していない等々で、使うのをやめることにして、一旦jekyllに移行したのだが、使い勝手があまり良くないことから、再度、今度はHUGOに移行することになった。</p>
+
+<p>HUGOに移行したのは、Macだとインストールが簡単なためで、アップデートも定常的に行われているからだ。</p>
+
+<pre><code>$ brew install hugo
+</code></pre>
+
+<p>コンテンツの移行では、Octopressとはコンテンツ（markdownファイル）に組み込むyamlのパラメータが違うので、編集作業が必要になった。</p>
+
+<p>しばらくはこれでやってる。</p>
+
+		</div>
+		
+
+	</article>
+	
+	
+<nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="post-nav__item post-nav__item--prev col-1-2">
+		<a class="post-nav__link" href="/post/2017-06-21-backpack/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">リュックサックを買い直しました。</p></a>
 	</div>
+</nav>
+
+	
 </main>
 
 <aside class="sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">

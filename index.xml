@@ -6,10 +6,24 @@
     <description>Recent content on 月曜朝一雨模様</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 21 Jun 2017 16:57:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 05:34:57 +0000</lastBuildDate>
     
 	<atom:link href="https://tokiwatch.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoに移行</title>
+      <link>https://tokiwatch.github.io/post/2017-10-29-hugo/</link>
+      <pubDate>Sun, 29 Oct 2017 05:34:57 +0000</pubDate>
+      
+      <guid>https://tokiwatch.github.io/post/2017-10-29-hugo/</guid>
+      <description># blogのエンジンをHUGOに変更た。
+HUGOは動作する静的サイトジェネレータで、Go言語で実装されている。
+以前は、Octopressで運用をしていたのだが、2年くらい前から開発が止まっていて、セキュリティイシューが出ることはないだろうけど、rubyの最新バージョンに追随していない等々で、使うのをやめることにして、一旦jekyllに移行したのだが、使い勝手があまり良くないことから、再度、今度はHUGOに移行することになった。
+HUGOに移行したのは、Macだとインストールが簡単なためで、アップデートも定常的に行われているからだ。
+$ brew install hugo  コンテンツの移行では、Octopressとはコンテンツ（markdownファイル）に組み込むyamlのパラメータが違うので、編集作業が必要になった。
+しばらくはこれでやってる。</description>
+    </item>
     
     <item>
       <title>リュックサックを買い直しました。</title>
