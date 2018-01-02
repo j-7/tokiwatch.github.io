@@ -5,14 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hugoに移行</title>
 <meta name="description" content="このブログでは大学での研究開発マネジメントに取り組む中で考えたことや、日常で感じたことなどをまとめています。">
-<meta name="generator" content="Hugo 0.30.2" />
+<meta name="generator" content="Hugo 0.31.1" />
 <meta property="og:title" content="Hugoに移行" />
-<meta property="og:description" content="# blogのエンジンをHUGOに変更た。
-HUGOは動作する静的サイトジェネレータで、Go言語で実装されている。
-以前は、Octopressで運用をしていたのだが、2年くらい前から開発が止まっていて、セキュリティイシューが出ることはないだろうけど、rubyの最新バージョンに追随していない等々で、使うのをやめることにして、一旦jekyllに移行したのだが、使い勝手があまり良くないことから、再度、今度はHUGOに移行することになった。
-HUGOに移行したのは、Macだとインストールが簡単なためで、アップデートも定常的に行われているからだ。
-$ brew install hugo  コンテンツの移行では、Octopressとはコンテンツ（markdownファイル）に組み込むyamlのパラメータが違うので、編集作業が必要になった。
-しばらくはこれでやってる。" />
+<meta property="og:description" content="#
+blogのエンジンをHUGOに変更した。
+
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tokiwatch.github.io/post/2017-10-29-hugo/" />
 
@@ -73,7 +71,9 @@ $ brew install hugo  コンテンツの移行では、Octopressとはコンテ�
 		</header>
 		<div class="post__content clearfix">
 			<p>#
-blogのエンジンをHUGOに変更た。</p>
+blogのエンジンをHUGOに変更した。</p>
+
+<p></p>
 
 <p>HUGOは動作する静的サイトジェネレータで、Go言語で実装されている。</p>
 
@@ -87,7 +87,6 @@ blogのエンジンをHUGOに変更た。</p>
 <p>コンテンツの移行では、Octopressとはコンテンツ（markdownファイル）に組み込むyamlのパラメータが違うので、編集作業が必要になった。</p>
 
 <p>しばらくはこれでやってる。</p>
-
 		</div>
 		
 
@@ -97,6 +96,9 @@ blogのエンジンをHUGOに変更た。</p>
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
 		<a class="post-nav__link" href="/post/2017-06-21-backpack/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">リュックサックを買い直しました。</p></a>
+	</div>
+	<div class="post-nav__item post-nav__item--next col-1-2">
+		<a class="post-nav__link" href="/post/degrade-hugo/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">Hugo のバージョンを下げる（homebrewで）</p></a>
 	</div>
 </nav>
 
@@ -120,6 +122,7 @@ blogのエンジンをHUGOに変更た。</p>
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/degrade-hugo/">Hugo のバージョンを下げる（homebrewで）</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/2017-10-29-hugo/">Hugoに移行</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/2017-06-21-backpack/">リュックサックを買い直しました。</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/2017-05-09-move-to-github-page/">github pageに再度移行</a></li>
@@ -129,7 +132,6 @@ blogのエンジンをHUGOに変更た。</p>
 			<li class="widget__item"><a class="widget__link" href="/post/2016-12-04-rucksack/">リュックサック選びの基準</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/2016-12-03-publish-via-sftp/">Octopressでサイトをsftpで公開</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/2016-12-03-the-insiders-guide-to-grantmaking/">「助成という仕事」を読んで</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/2016-11-16-mtddc-cms-zadankai/">MTDDC2016 CMS座談会のモデレータをしました</a></li>
 		</ul>
 	</div>
 </div>
@@ -192,7 +194,7 @@ blogのエンジンをHUGOに変更た。</p>
 	</div>
 		<footer class="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
 			<div class="container container-inner">
-				<p class="footer__copyright">&copy; 2017 月曜朝一雨模様. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
+				<p class="footer__copyright">&copy; 2018 月曜朝一雨模様. <span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad theme</a>.</span></p>
 			</div>
 		</footer>
 	</div>

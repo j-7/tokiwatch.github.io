@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tokiwatch.github.io/post/degrade-hugo/</loc>
+    <lastmod>2018-01-02T09:15:12+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tokiwatch.github.io/post/2017-10-29-hugo/</loc>
     <lastmod>2017-10-29T05:34:57+00:00</lastmod>
   </url>
@@ -761,7 +766,7 @@
   
   <url>
     <loc>https://tokiwatch.github.io/post/</loc>
-    <lastmod>2017-10-29T05:34:57+00:00</lastmod>
+    <lastmod>2018-01-02T09:15:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -896,7 +901,7 @@
   
   <url>
     <loc>https://tokiwatch.github.io/</loc>
-    <lastmod>2017-10-29T05:34:57+00:00</lastmod>
+    <lastmod>2018-01-02T09:15:12+00:00</lastmod>
     <priority>0</priority>
   </url>
   

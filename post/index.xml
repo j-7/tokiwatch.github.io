@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 月曜朝一雨模様</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sun, 29 Oct 2017 05:34:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2018 09:15:12 +0000</lastBuildDate>
     
 	<atom:link href="https://tokiwatch.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo のバージョンを下げる（homebrewで）</title>
+      <link>https://tokiwatch.github.io/post/degrade-hugo/</link>
+      <pubDate>Tue, 02 Jan 2018 09:15:12 +0000</pubDate>
+      
+      <guid>https://tokiwatch.github.io/post/degrade-hugo/</guid>
+      <description>&lt;p&gt;Hugoが0.32にアップデートされたら動かなくなったので、とりあえず、0.31.1に戻した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugoに移行</title>
@@ -17,12 +28,10 @@
       <pubDate>Sun, 29 Oct 2017 05:34:57 +0000</pubDate>
       
       <guid>https://tokiwatch.github.io/post/2017-10-29-hugo/</guid>
-      <description># blogのエンジンをHUGOに変更た。
-HUGOは動作する静的サイトジェネレータで、Go言語で実装されている。
-以前は、Octopressで運用をしていたのだが、2年くらい前から開発が止まっていて、セキュリティイシューが出ることはないだろうけど、rubyの最新バージョンに追随していない等々で、使うのをやめることにして、一旦jekyllに移行したのだが、使い勝手があまり良くないことから、再度、今度はHUGOに移行することになった。
-HUGOに移行したのは、Macだとインストールが簡単なためで、アップデートも定常的に行われているからだ。
-$ brew install hugo  コンテンツの移行では、Octopressとはコンテンツ（markdownファイル）に組み込むyamlのパラメータが違うので、編集作業が必要になった。
-しばらくはこれでやってる。</description>
+      <description>&lt;p&gt;#
+blogのエンジンをHUGOに変更した。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -31,13 +40,9 @@ $ brew install hugo  コンテンツの移行では、Octopressとはコンテ�
       <pubDate>Wed, 21 Jun 2017 16:57:00 +0900</pubDate>
       
       <guid>https://tokiwatch.github.io/post/2017-06-21-backpack/</guid>
-      <description>以前のポストで、僕のバックパックを購入するときの基準をまとめたのだが、結局２週くらい回って、The North FaceのBigshot CLに戻ることになった。
-もともと2003年ごろにPowerBookの17inchを使っていた頃、このリュックサックくらいしか17inchのノートパソコンが入らないということで、購入して使い始めたのだが、その後、デザインが大幅に変わったりしたので、長く離れていた。
-このリュックサックは、1気室のもので、その１気室が32リットルほどある。簡単に言えば、肩紐と背中側にパッドのついた、大きな袋である。 雨蓋のついた登山用のリュックサックだとそれほど大きなものではないのだが、雨蓋のない水滴型のリュックサックでこのサイズに匹敵するものはそれほど多くはない。
-このリュックサックの良いところは、ウエストベルトは使わないときには収納できるとか、色々細かくはあるのだが、結局は、一番昔から使ってきたので、なんとなく、背中に馴染むということなのかもしれない。
-ところで、大型のリュックサックを使うとき、中に収容するものが少ないと、リュックサックの中で荷物があちらこちらと動いて、また、変なところに荷重がかかって、荷物が少ないはずなのになんだか重く感じるということがある。
-僕は、こういう場合は、袋を活用する。小袋に入ったにもつを中くらいの袋でまとめて、リュックサックに入れるのだ。ものを取り出す際に手間がかかるのではないかと思われるかもしれないが、あちらこちらに勝手に移動しないので、結局は探しやすい。目的別でまとめておくと、サッと取り出して、準備ができるなど、メリットはそれはそれであるように思っている。
-こういうノウハウは意外とどこにも載っていないのだが、何故なのだろう。</description>
+      <description>&lt;p&gt;以前のポストで、僕のバックパックを購入するときの基準をまとめたのだが、結局２週くらい回って、The North FaceのBigshot CLに戻ることになった。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,12 +51,9 @@ $ brew install hugo  コンテンツの移行では、Octopressとはコンテ�
       <pubDate>Tue, 09 May 2017 00:42:00 +0900</pubDate>
       
       <guid>https://tokiwatch.github.io/post/2017-05-09-move-to-github-page/</guid>
-      <description>タイトルだけなのですが、github pagesに再度ブログを戻しました。
-戻すにあたって、これまで使っていた静的サイトジェネレータをOctopressからjekyllに移行しました。
-Octopressは結構便利だったのですが、長い間メンテナンスされておらず、最新のRuby2.4では動作しないため、長期的にあまり良くないだろうと判断したためです。
-また、HUGOなども候補にはしたのですが、正直Rubyの方が慣れているし、Github Pagesの標準に合わせておく方が良いだろうという判断もありました。
-追記：
-あと、プロフィールをちゃんと書きました。</description>
+      <description>&lt;p&gt;タイトルだけなのですが、github pagesに再度ブログを戻しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

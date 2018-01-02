@@ -3,19 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>免責事項等</title>
+<title>Hugo のバージョンを下げる（homebrewで）</title>
 <meta name="description" content="このブログでは大学での研究開発マネジメントに取り組む中で考えたことや、日常で感じたことなどをまとめています。">
 <meta name="generator" content="Hugo 0.31.1" />
-<meta property="og:title" content="免責事項等" />
-<meta property="og:description" content=" このblogの記事の著作権の一切を放棄しません。 このblogの記事を引用する場合は、出典のわかる形式で実施されるものについては全て許諾します。 このblogの記事は、特に記載の無い限り、管理者である常盤の個人的な見解に基いています。 このblogの記事のうち、特に技術的な項目に関して、その内容によっていかなる問題が生じても、一切責任を負いません。全て自己責任でご利用ください。  " />
+<meta property="og:title" content="Hugo のバージョンを下げる（homebrewで）" />
+<meta property="og:description" content="Hugoが0.32にアップデートされたら動かなくなったので、とりあえず、0.31.1に戻した。
+
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://tokiwatch.github.io/post/2009-08-31-9206843753116483547/" />
+<meta property="og:url" content="https://tokiwatch.github.io/post/degrade-hugo/" />
 
 
 
-<meta property="article:published_time" content="2009-08-31T09:32:00&#43;09:00"/>
+<meta property="article:published_time" content="2018-01-02T09:15:12&#43;00:00"/>
 
-<meta property="article:modified_time" content="2009-08-31T09:32:00&#43;09:00"/>
+<meta property="article:modified_time" content="2018-01-02T09:15:12&#43;00:00"/>
 
 
 
@@ -60,20 +62,61 @@
 <main class="main-content content" role="main" itemprop="mainContentOfPage">
 	<article class="post">
 		<header class="post__header clearfix">
-			<h1 class="post__title">免責事項等</h1>
+			<h1 class="post__title">Hugo のバージョンを下げる（homebrewで）</h1>
 			<p class="post__meta meta">
 				<svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-				<time class="post__meta-date" datetime="2009-08-31T09:32:00">August 31, 2009</time>
+				<time class="post__meta-date" datetime="2018-01-02T09:15:12">January 02, 2018</time>
 			</p>
 		</header>
 		<div class="post__content clearfix">
-			<ol>
-<li>このblogの記事の著作権の一切を放棄しません。</li>
-<li>このblogの記事を引用する場合は、出典のわかる形式で実施されるものについては全て許諾します。</li>
-<li>このblogの記事は、特に記載の無い限り、管理者である常盤の個人的な見解に基いています。</li>
-<li>このblogの記事のうち、特に技術的な項目に関して、その内容によっていかなる問題が生じても、一切責任を負いません。全て自己責任でご利用ください。</li>
-</ol>
+			<p>Hugoが0.32にアップデートされたら動かなくなったので、とりあえず、0.31.1に戻した。</p>
 
+<p></p>
+
+<p>以下は手順のメモ</p>
+
+<pre><code># homebrewのFormulaがインストールされているディレクトリに移動
+$ cd /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/
+
+# 全コミット取得（full clone、時間がかかるのでそのつもりで）
+$ git fetch --unshallow
+
+# hugo.rbのコミットIDを確認
+$ git log hugo.rb
+
+# 0.31.1のformulaを取得
+$ git checkout （0.31.1のコミットID） hugo.rb
+
+# hugoを一旦アンインストール
+$ brew uninstall hugo
+
+# 自動アップデートを無効にする（しないと最新のがインストールされてしまう）
+$ export HOMEBREW_NO_AUTO_UPDATE=1
+
+# hugoをインストール
+$ brew install hugo
+
+# インストールしたhugoでバージョンを固定
+$ brew pin hugo
+
+# リポジトリを元に戻す（古くなっているので）
+$ git reset HEAD
+$ git checkout .
+
+# full cloneでリポジトリが重くなっているのでlogを減らす
+$ cd /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
+$ git fetch --depth=1
+$ git gc
+$ git prune
+
+# 自動アップデートを再度有効にする（ターミナルを閉じるのでも良い）
+$ unset HOMEBREW_NO_AUTO_UPDATE
+
+# hugo が0.31.1にpinされているかを確認
+$ cd
+$ brew update
+$ brew outdated # hugo (0.31.1) &lt; 0.32 [pinned at 0.31.1]
+</code></pre>
 		</div>
 		
 
@@ -82,10 +125,7 @@
 	
 <nav class="post-nav row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
 	<div class="post-nav__item post-nav__item--prev col-1-2">
-		<a class="post-nav__link" href="/post/2009-08-31-3951034907383151794/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">はてな日記インポート完了</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next col-1-2">
-		<a class="post-nav__link" href="/post/2009-09-01-4091789062435774760/" rel="next"><span class="post-nav__caption">Next»</span><p class="post-nav__post-title">民主党政権下における科学技術政策についての予備知識</p></a>
+		<a class="post-nav__link" href="/post/2017-10-29-hugo/" rel="prev"><span class="post-nav__caption">«Previous</span><p class="post-nav__post-title">Hugoに移行</p></a>
 	</div>
 </nav>
 
