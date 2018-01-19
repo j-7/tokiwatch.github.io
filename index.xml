@@ -5,11 +5,22 @@
     <link>https://tokiwatch.github.io/</link>
     <description>Recent content on 月曜朝一雨模様</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language>
-    <lastBuildDate>Tue, 02 Jan 2018 09:15:12 +0000</lastBuildDate>
+    <language>ja</language>
+    <lastBuildDate>Fri, 19 Jan 2018 05:36:13 +0000</lastBuildDate>
     
 	<atom:link href="https://tokiwatch.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugoのバージョンを最新にした</title>
+      <link>https://tokiwatch.github.io/post/2018-01-19-hugo_update/</link>
+      <pubDate>Fri, 19 Jan 2018 05:36:13 +0000</pubDate>
+      
+      <guid>https://tokiwatch.github.io/post/2018-01-19-hugo_update/</guid>
+      <description>&lt;p&gt;先日、hugoを0.31に戻したという記事を書いたのだが、なんだかんだと考えて、最新版にアップデートした。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hugo のバージョンを下げる（homebrewで）</title>
